@@ -43,3 +43,7 @@ Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2022 | A [Punderthin
 May include externally developed code licensed under MIT, BSD, or other
 similar licenses compatible with the Apache License v2.0.
 
+## Historical Note
+
+Code historians may note this site was manually created by copying files from my /slides repository in November 2022.
+This is because the DNS verification and publishing of that repo seemed to be totally borked, so this is the voodoo attempt to get the publishing working!

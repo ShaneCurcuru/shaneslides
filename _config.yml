@@ -1,0 +1,104 @@
+# Shane's Slides repo, 2022-forward version
+title: Shane's Slides
+description: Open Source Community And Trademark Slides
+#url: https://shaneslides.com
+author:
+  name: Shane Curcuru
+  twitter: shanecurcuru
+
+remote_theme: benbalter/retlab
+repository: ShaneCurcuru/shaneslides
+logo: "/assets/img/headshot.jpg"
+
+# TODO Leave some slide decks alone, TBD
+exclude: 
+
+timezone: America/New_York
+encoding: UTF-8
+lang: en-US
+branch: main
+ga_username: UA-77233462-3
+
+# Pages to include in header navigation
+nav_pages:
+  - index.html
+  - about.md
+  - contact.md
+
+# Disqus login information, for comments
+disqus:
+  shortname: shanecurcuru
+
+social:
+  name: Shane Curcuru
+  links:
+    - https://twitter.com/ShaneCurcuru
+    - https://www.linkedin.com/in/ShaneCurcuru
+    - https://github.com/ShaneCurcuru
+    - https://fosstodon.org/@shanecurcuru
+    
+# Links to include on the contact page
+contact_links:
+  - name: Twitter
+    url: https://twitter.com/ShaneCurcuru
+    icon: twitter
+  - name: Mastodon
+    url: https://fosstodon.org/@shanecurcuru
+    icon: mastodon
+  - name: GitHub
+    url: https://github.com/ShaneCurcuru
+    icon: github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/ShaneCurcuru
+    icon: linkedin
+  - name: Keybase
+    url: https://keybase.io/shanecurcuru
+    icon: key
+  - name: Slideshare
+    url: https://www.slideshare.net/shanecurcuru
+    icon: slideshare
+  - name: Medium
+    url: https://medium.com/@shanecurcuru
+    icon: medium
+
+# Build CFPs as well
+collections:
+  cfps:
+    output: true
+    excerpt: "Shane's other CFP submissions or ideas"
+    label: "Shane CFPs"
+    permalink: /:collection/:path
+
+# Front matter defaults
+permalink: "/:year/:month/:title/"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+  -
+    scope:
+      path: "cfp"
+      type: cfps
+    values:
+      layout: cfp
+      comments: true
+
+# Plugins
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-sitemap

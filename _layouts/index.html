@@ -1,7 +1,7 @@
 ---
 layout: default
 hero: true
-# Theme override: conference name L15
+# Theme override: conference name L15, featured L12
 ---
 
 {{ content }}
@@ -9,10 +9,10 @@ hero: true
 {% for page in site.posts %}
   <div class="row mb-2">
       <div class="col-sm-9">
-          <a href="{{ page.url | relative_url }}">{{ page.title | smartify }}</a>
+          <a href="{{ page.url | relative_url }}" {% if page.feature %}class="fw-bolder"{% endif %}>{{ page.title | smartify }}</a>
       </div>
       <div class="col-sm-3 text-muted text-md-end">
-          <small>{{ page.date | date: '%B %-d, %Y' }}<br/>{{ page.conference | smartify }}</small>
+        {{ page.conference | smartify }} | {{ page.date | date: '%B %-d, %Y' }}<br/>
       </div>
   </div>
 {% endfor %}

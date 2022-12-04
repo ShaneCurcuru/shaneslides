@@ -20,10 +20,14 @@ lang: en-US
 branch: main
 ga_username: UA-77233462-3
 
-# Pages to include in header navigation
+# Pages to include in header/footer navigation
 nav_pages:
   - index.html
   - about.md
+  - contact.md
+
+footer_pages:
+  - colophon.md
   - contact.md
 
 # Disqus login information, for comments

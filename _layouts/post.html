@@ -11,9 +11,9 @@ layout: default
 
       {% if page.description %}
       <div class="lead">
-        {{ page.description | markdownify | smartify }}
+        {{ page.description }}
         {% if page.conference %}
-        <small class="text-muted">
+        <small class="fw-lighter">
           | {{ page.conference }} 
           {% if page.slides %}
           | <a href="{{ page.slides }}"><i class="fa-solid fa-file"></i> Slides</a>

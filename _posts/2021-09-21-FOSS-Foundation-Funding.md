@@ -22,4 +22,4 @@ Most major software projects we all rely on are hosted at Foundations like Apach
 Come find out what companies are behind the popular open source foundations and major independent projects, and who's actually paying for all of the other support work that's done to keep the servers running, press releases coming, and license compliance work. Surprises are guaranteed; I know I was surprised when I realized how many different FOSS projects that Microsoft is an annual sponsor for, and what projects a few other companies supported with their cash.
 
 {: .lead }
-Discovering the basics of open source foundation finances.
+Understanding how Foundations get and use their funding.

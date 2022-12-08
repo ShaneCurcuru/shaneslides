@@ -3,6 +3,7 @@ title: Practical Trademark AMA
 description: Practical Trademark AMA For FOSS Projects
 conference: FOSS Backstage
 slides: "http://shaneslides.com/fossbackstage/PracticalTrademarkAMA-FOSSBackstage2022.html"
+video: "https://www.youtube.com/watch?v=7WzzlF0KmAg"
 feature: true
 ---
 

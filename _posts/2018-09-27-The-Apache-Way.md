@@ -4,7 +4,7 @@ description: The Apache Way - Effective Open Source Project Management
 conference: ApacheCon Montréal
 slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConNA2018.html"
 audio: "https://feathercast.apache.org/2018/09/29/the-apache-way-effective-open-source-project-management-shane-curcuru/"
-newer: "http://shaneslides.com/2019/10/The-Apache-Way/"
+newer: "https://shaneslides.com/2020/09/The-Apache-Way/"
 ---
 
 For ApacheCon Montréal 2018, I honed and updated my Apache Way slides to better focus on just the behaviors and techniques that attendees can take home with them to be more effective in their projects.

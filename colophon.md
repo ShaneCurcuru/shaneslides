@@ -20,16 +20,21 @@ Website structure ([fork the code](https://github.com/{{ site.repository }})), l
 - Slide deck content from [Pamela Chestek](http://chesteklegal.com/) _(CC-BY)_
 - Slide deck design from [SlidesCarnival](http://www.slidescarnival.com) _(CC-BY)_
 
+Thanks to the many ASF and open source volunteers who have provided so much inspiration and background information over the years.  Special thanks to Sharan Foga and Steve Blackmon for direct contributions or fixes here.
+
 #### Tools
 
 - Hosted by the convenient [GitHub Pages](https://pages.github.com/).
-- Written with the [Atom.io](https://atom.io/) editor on a Mac.
+- Written with the [VSCode](https://code.visualstudio.com/) editor on a Mac.
 - Powered by caffeine from [Peet's Coffee and Tea](http://www.whyilovepeets.com/).
 
 #### Trademarks
 
 Apache®, the feather logo, and the names of all Apache projects referenced are either [registered trademarks or trademarks](https://www.apache.org/foundation/marks/) of the [Apache Software Foundation](http://www.apache.org/) in the United States and/or other countries.
 
+#### Historical Note
+
+Content was previously hosted in the ShaneCurcuru/slides repository before 2022; that repo will be made read only and all future work occours here in ShaneCurcuru/shaneslides. 
 #### Privacy Policy
 
 Information about your use of this website is collected using [Google Analytics](https://www.google.com/analytics/). The collected information consists of the following:

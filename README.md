@@ -13,7 +13,7 @@ one of the modern browser-based JS slide tools.
 
 Using Remark, I usually run a slide deck **locally** (having seen far too 
 many conference wifi networks barf).  Open a command terminal, cd 
-to the /slides/ directory, and then do:
+to the /shaneslides/ directory, and then do:
 
 ```ruby -run -ehttpd . -p8000```
 or do:
@@ -25,20 +25,20 @@ and click on the .html file for the presentation to run.
 ## Conferences
 
 I speak regularly at [ApacheCon and
-Apache:BigData](http://apachecon.com/) on community and branding issues
+Community Over Code](https://communityovercode.org/) on community and branding issues
 around Apache projects. I've also spoken at All Things Open, OSCON, Ignite, Camel One, the Software Freedom Law Conference, and the PLI Law Education conference.
 
 ## About Shane
 
 Shane is founder of [Punderthings℠ LLC consultancy](http://punderthings.com/), helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and has [spoken at major technology conferences](https://ShaneSlides.com/) like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
 
-Shane is Vice Chair of the ASF (and past Director), providing governance oversight, community mentoring, and fiscal review for all Apache projects.  Previously, Shane served as VP Brand Management for the ASF for eight years, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negoitating agreements with various software vendors using Apache software brands.  
+Shane is many-term Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.  Previously, Shane served as VP Brand Management for the ASF for eight years, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negotiating agreements with various software vendors using Apache software brands.  
 
-Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/). Follow [@ShaneCurcuru](https://twitter.com/shanecurcuru) / [@ShaneCurcuru@fosstodon.org](https://fosstodon.org/@shanecurcuru) and read about [open source communities](https://CommunityOverCode.com) and see his [FOSS Foundation directory](http://ChooseAFoundation.com).
+Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/). Follow [@ShaneCurcuru](https://twitter.com/shanecurcuru) / [@ShaneCurcuru@fosstodon.org](https://fosstodon.org/@shanecurcuru) and read about [open source communities](https://CommunityOverCode.com) and see his [FOSS Foundation directory](https://ChooseAFoundation.com).
 
 ## License
 
-Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2022 | A [Punderthings℠ Production](http://punderthings.com/) | Licensed: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+Copyright © [Shane Curcuru](https://shanecurcuru.org/) 2017-2023 | A [Punderthings℠ Production](https://punderthings.com/) | Licensed: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 May include externally developed code licensed under MIT, BSD, or other
 similar licenses compatible with the Apache License v2.0.
@@ -46,4 +46,4 @@ similar licenses compatible with the Apache License v2.0.
 ## Historical Note
 
 Code historians may note this site was manually created by copying files from my /slides repository in November 2022.
-This is because the DNS verification and publishing of that repo seemed to be totally borked, so this is the voodoo attempt to get the publishing working!
+This is because the DNS verification and publishing of that repo seemed to be totally borked, although I haven't figured out how to reproduce the bug to report to GitHub Pages.

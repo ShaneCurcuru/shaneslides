@@ -1,44 +1,35 @@
 layout: true
 name: fullheader
-background-image: url(img/david-lezcano-120708-smf.jpg)
+background-image: url(../client/img/david-lezcano-120708-169.jpg)
 background-size: cover
 
 ---
 layout: true
 name: pineapple
-background-image: url(img/pineapple-supply-co-64690-169.jpg)
+background-image: url(../client/img/pineapple-supply-co-64690-169.jpg)
 background-size: cover
 
 ---
 layout: true
 name: logorb
 class: left
-background-image: url(img/FOSSBack_2021.png)
+background-image: url(img/ComCodeLogo.png)
 background-repeat: no-repeat
-background-position: 98% bottom
-background-size: 20%
-background-origin: padding-box
+background-position: bottom .8rem right 5rem
+background-size: 10%
 
 ---
 template: fullheader
 # Coming Up Next
-
-.left-column[
-## Shane Curcuru
-]
 .right-column[
-## Practical Trademark AMA 
+## Practical Trademark AMA
 ## What trademarks mean in open source
 ]
 
 ---
 template: fullheader
-# Practical Trademark AMA 
-# What trademarks mean in open source
-
-.left-column[
-]
-
+# Practical Trademark AMA
+## What trademarks mean in open source
 .right-column[
 ### Punderthings Consulting
 ### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
@@ -48,13 +39,9 @@ template: fullheader
 template: fullheader
 name: intro
 # Topics
-
-.left-column[
-]
-
 .right-column[
-## **2.** Trademark _law_ topics
-## **1.** _Practical_ advice
+## **2.** Trademark *law* topics
+## **1.** *Practical* trademark advice
 ]
 
 ???
@@ -63,7 +50,7 @@ While trademark law is important, what's most important for open source projects
 ---
 template: logorb
 name: practical
-# _Practical_ Advice
+# *Practical* Advice
 
 - Consistent Marks
 - Organizational Reputation
@@ -77,17 +64,13 @@ There are a lot of practical factors that affect how trademarks work - or don't 
 ---
 template: logorb
 name: practical1
+# *Practical* Advice
+
 .left-column[
-  ## Practical Advice
-  ### Consistent Use Of Trademarks
+### Consistent Marks
 ]
 .right-column[
-
-<br/>
-<br/>
-<br/>
-
-Treat your project names as trademarks **consistently**, and mark™ them®
+Treat your project names as trademarks **consistently**, and mark™ them® properly.
 ]
 
 ???
@@ -104,17 +87,14 @@ Open source means freely giving away the code - but it does **not** mean sharing
 ---
 template: logorb
 name: practical2
+# *Practical* Advice
+
 .left-column[
-  ## Practical Advice
-  ### Consistent
-  ### Reputation
+### *Consistent*
+### Organizational Reputation
 ]
 .right-column[
-
 <br/>
-<br/>
-<br/>
-
 How strong is your organization's **reputation** in the ecosystem?
 ]
 
@@ -131,18 +111,16 @@ Apache has a huge reputation - I don't worry about going to court; we have other
 ---
 template: logorb
 name: practical3
+# *Practical* Advice
+
 .left-column[
-  ## Practical Advice
-  ### Consistent
-  ### Reputation
-  ### Community Policing
+### *Consistent*
+### *Reputation*
+### Community Policing
 ]
 .right-column[
-
 <br/>
 <br/>
-<br/>
-
 How **organized** is your community at reporting infringements?
 ]
 
@@ -158,27 +136,26 @@ Does your organization have a consistent and documented way to report issues?  I
 ---
 template: logorb
 name: practical4
+# *Practical* Advice
+
 .left-column[
-  ## Practical Advice
-  ### Consistent
-  ### Reputation
-  ### Community
-  ### Registration Insurance
+### *Consistent*
+### *Reputation*
+### *Community*
+### Registration Insurance
 ]
 .right-column[
-
 <br/>
 <br/>
 <br/>
-
-Registrations are like **insurance**: you don't need one - until you do _(and then it's too late)_.
+Registrations are like **insurance**: you don't need one - until you do *(and then it's too late)*.
 ]
 
 ???
 
 Registrations are like an insurance policy that takes a while to put in force.  The main issue is that once you find an infringement, it's too late to start the registration process.
 
-Registrations - _once granted!_ - are a very strong defense of your mark... **in the country they're registered**.  Once you have a granted registration, it's _very_ hard for anyone else to take it away from you, meaning you can at least preserve your use of the mark in those countries.  However it's not a complete shield: agressive attackers in another country can still try to co-opt your brand.  As an exaemple, China as a first-to-file country has a growing market for trademark squatters and scams; you might buy an iWatch in China, but it's not from Apple, because a squatter filed there first.
+Registrations - *once granted!* - are a very strong defense of your mark... **in the country they're registered**.  Once you have a granted registration, it's *very* hard for anyone else to take it away from you, meaning you can at least preserve your use of the mark in those countries.  However it's not a complete shield: agressive attackers in another country can still try to co-opt your brand.  As an exaemple, China as a first-to-file country has a growing market for trademark squatters and scams; you might buy an iWatch in China, but it's not from Apple, because a squatter filed there first.
 
 If you're serious about defending your trademarks, planning budget and organizational effort to get at least one or two or three registrations in key markets is a very worthwhile effort.  An important focus is the countries where your project is likely to find future contributors to the project.  
 
@@ -187,20 +164,20 @@ But don't stress too much about registrations if you're not big enough / don't h
 ---
 template: logorb
 name: practical4
+# *Practical* Advice
+
 .left-column[
-  ## Practical Advice
-  ### Consistent
-  ### Reputation
-  ### Community
-  ### Registration
-  ### Don't Go To Court
+### *Consistent*
+### *Reputation*
+### *Community*
+### *Registration*
+### Don't Go To Court
 ]
 .right-column[
-
 <br/>
 <br/>
 <br/>
-
+<br/>
 If you end up in court, you've **already lost** too much volunteer energy and money.
 ]
 
@@ -212,9 +189,9 @@ For most of us, if a trademark infringement has gone to court, it's too late.  T
 
 The real point here is re-setting your mindset for effective ways to fix infringements:
 
-- Early detection (your community)
+- Early detection (by your community)
 - Private negotiation - always contact infringers in private first - this allows them to fix the issue while saving face. Many infringements are not intentional, really.
-- Public shaming, based on reputational strength.  If you're an Apache or an Eclipse, you have the reputation to put out a press release calling an infringer a bad actor in the FOSS space - and that will really hurt any software-making company.  Also consider how you can influence developer communities (as we've seen recently with some high-power license change fails in the court of developer opinion)
+- Public shaming, based on reputation.  If you're an Apache or an Eclipse, you have the reputation to put out a press release calling an infringer a bad actor in the FOSS space - and that will really hurt any software-making company.  Also consider how you can influence developer communities (as we've seen recently with some high-power license change fails in the court of developer opinion)
 - Cease and Desist letters, and other simple threats from your lawyers are also useful, especially in conjunction with public shaming.  Corporate legal departments don't like getting these.
 
 ---
@@ -270,14 +247,14 @@ template: logorb
 # What Are Trademarks?
 
 - A trademark is the **legal instantiation** of your brand
-- It is the **specific** name or logo a consumer (user of software) associates with a **specific** software offering or program (goods)
+- The **specific** name or logo associated with a software product
 - Trademarks legally describe the goods as an adjective
   - I buy Kleenex® brand tissues
   - The jQuery® Javascript® Library is faster than the TeeScript™ framework
 - But we often skip proper usage of trademarks
   - We’re running Hadoop jobs in Docker/Moby
 
-.footnote.code[https://www.apache.org/foundation/marks/guide]
+.bottomnote[apache.org/foundation/marks/guide]
 
 ???
 While this may seem obvious, it’s important to understand that legally, trademarks are the specific and consistent name of the goods you’re providing. While the overall effect of your brand has some bearing on how consumers perceive your products, only the actual trademarks are protectable by law, and only within the limits of trademark law in each country you work in.
@@ -288,9 +265,10 @@ If you want others to take your trademarks seriously, you need to use them prope
 template: logorb
 # Trademarks Protect Consumers
 
-- Trademarks work by **preventing consumer confusion** as to the producer or **source of goods**
-- Trademarks protect consumers by giving them consistency in quality and functionality from a single brand
-- Imagine your trademarks through the eyes of a new customer or contributor
+- Trademarks work by **preventing consumer confusion** about the **source of goods**
+- Trademarks protect consumers by giving them consistency from a single brand
+
+> Imagine your trademarks through the eyes of a new user
 
 ???
 While we may see trademarks as protecting our reputation as producers of high quality products, the real purpose of trademarks is protecting consumers. Consistent trademarks allow consumers a simpler decision process by ensuring that they get the the type, quality, and kind of product they expect when shopping for a brand, because they know it’s from a consistent vendor.
@@ -304,7 +282,7 @@ template: logorb
 # Projects versus Products
 
 - Trademarks vs. Brands
-- Brands include many elements – names, logos, look and feel, marketing – some of which may be **specific trademarks** that signify your product or service
+- Brands include many elements – names, logos, look and feel, marketing – some of which may be **specific trademarks**
 - Software stacks are complicated assemblies of multiple **products** from various vendors or **projects**
 
 ???
@@ -312,7 +290,7 @@ As software becomes more modular and componentized, **it’s not always clear wh
 
 Open source projects use less formal development plans than typical vendors do, and rarely have marketing plans. So the branding and trademarks in open source projects often aren’t as clear as in the commercial world.
 
-Consider the way we talk about “open source projects” in every day life, but that really means two separate things:
+We talk about “open source projects” which really means two separate things:
 
 - The community that builds the code and the project
 - The actual software product that comes from the project
@@ -334,12 +312,12 @@ template: logorb
 
 - Use your trademarks **as marks**:
   - Download Apache® CouchDB® software here
-- Be **consistent** with the **exact marks**
+- Be **consistent** with the **Exact Marks**
 - Use proper ™ and ® symbols
 
 ???
 Trademark law is a very messy compiler - however there are a bunch of things you can do to improve the strength of your trademarks.
-Treat your product name and logo as a trademark - with respect.  Be consistetn calling it "CouchDB software", use the **exact** name the **exact** same way in major places on your website.  Annotate the first and most prominent uses of your trademarks with ™ or ® symbols - definitely on homepages and landing pages, and preferably in all marketing materials.
+Treat your product name and logo as a trademark - with respect.  Be consistent calling it "CouchDB software", use the **exact** name the **exact** same way in major places on your website.  Annotate the first and most prominent uses of your trademarks with ™ or ® symbols - definitely on homepages and landing pages, and preferably in all marketing materials.
 
 The same things all apply to logos, but trademark law tends to treat an **exact** graphic as a trademark - so variations may be technically different trademarks, even though you see them as similar.
 
@@ -347,16 +325,16 @@ The same things all apply to logos, but trademark law tends to treat an **exact*
 template: logorb
 # Use In Commerce
 
-- You must provide actual product/services **using the trademark in commerce** to be defensible
+- You must provide actual product/services **using the trademark in commerce** to be defended
   - Download Apache® CouchDB® software here
 - Actual use of your mark in commerce with consumers starts establishing rights to the trademark (in US/Canada)
 - Common law rights belong to the producer of goods - just start using ™ on the trademark consistently
-- **NOTE:** US/Canadian law is first-to-use. First-to-file countries (most others) are different when ownership begins.
+- **NOTE:** US/Canadian law is first-to-use. First-to-file countries (most others) are different
 
 ???
 As trademarks protect consumers, trademarks only have meaning in commerce, when actually doing business or providing software products publicly. Commerce does include products licensed for free, like open source software.
 
-There is no required “claim” for trademarks, other than having a consistent mark for a consistent product, and using the ™ symbol on the trademark you are using. You can (try to) defend your name as soon as you start using it by using your common law rights. Registration is not required (at least in US).
+There is no required claim for trademarks, other than having a consistent mark for a consistent product, and using the ™ symbol on the trademark you are using. You can (try to) defend your name as soon as you start using it by using your common law rights. Registration is not required (at least in US).
 
 **IMPORTANT**: Note that many other countries besides the US are strictly first-to-file: there are no real common law rights from unregistered trademarks.
 
@@ -365,11 +343,11 @@ template: logorb
 # Have A Trademark Use Policy
 
 - Post a policy for use of your trademarks
-  - Even if it’s legal boilerplate, having a clear policy helps to show your intention
+  - Having a clear policy shows your intention
   - Apache projects are covered by the ASF policy
-- Have a policy of how you will use FOSS trademarks - just like developer contributor policy!
+- Define policy for use of *other* trademarks
 
-.footnote.code[http://modeltrademarkguidelines.org/]
+.bottomnote[modeltrademarkguidelines.org]
 
 ???
 In the proprietary world, trademarks are strictly assets to be protected. In the open source world, where sharing and collaborating regularly is the watchword, a more nuanced approach to sharing or policing your marks is needed. MAybe a company wants to promote a community-friendly brand for themselves - you need to let people know that!
@@ -393,9 +371,10 @@ name: users
 
 ---
 template: logorb
-# Liklelihood Of Confusion
+# Likelihood Of Confusion
 
-- When someone else is using our trademarks, how do we know if it’s OK or not?
+> When someone else is using our trademarks, how do we know if it’s OK or not?
+
 - **Likelihood of Confusion** test evaluates:
   - Similarity of marks
   - Relatedness of goods or services
@@ -414,7 +393,7 @@ Are there any ways we know it's OK to use a trademark?
 template: logorb
 # Nominative Use
 
-- The world is allowed to use **your** trademark to refer to **your** product or service
+- Others can to use **your** trademark to refer to **your** product or service
   - Cannot imply sponsorship, affiliation, endorsement
   - Can post negative reviews, benchmarks, tests
   - Can do parody or free non-commercial speech
@@ -433,11 +412,11 @@ So what's the opposite of Nominative Use?
 template: logorb
 # Infringement
 
-- Unauthorized use of a trademark that is likely to cause consumers to be confused about which vendor is providing the product
-- Other parties providing their products/services using a similar sounding or looking name/logo to yours
+- Unauthorized use of a trademark that is likely to cause consumers to be confused about *which vendor is providing the product*
+- Other parties providing a products/services with similar name or logo
 - Infringement is a legal tort, and can be stopped
 
-.footnote.code[https://www.apache.org/foundation/marks/reporting]
+.bottomnote[apache.org/foundation/marks/reporting]
 
 ???
 **USPTO:** “Trademark infringement is the unauthorized use of a trademark or service mark on or in connection with goods and/or services in a manner that is likely to cause confusion, deception, or mistake about the source of the goods and/or services.”
@@ -445,17 +424,19 @@ template: logorb
 If you see an Apache project brand being infringed - REPORT IT! link above, and see also https://www.apache.org/foundation/marks/templates/
 
 “To prevail on a claim of trademark infringement, a plaintiff must establish that it has a valid mark entitled to protection; and that the defendant used the same or a similar mark in commerce in connection with the sale or advertising of goods or services without the plaintiff's consent. The plaintiff must also show that defendant's use of the mark is likely to cause confusion as to the affiliation, connection or association of defendant with plaintiff, or as to the origin, sponsorship, or approval of defendant's goods, services or commercial activities by plaintiff. See 1-800 Contacts, Inc. v. WhenU.com, Inc., 414 F.3d 400 (2d Cir. 2005). Thus, "use," "in commerce," and "likelihood of confusion" are three distinct elements necessary to establish a trademark infringement claim.”
-.bqcite[- https://www.law.cornell.edu/wex/trademark_infringement]
+
+https://www.law.cornell.edu/wex/trademark_infringement
 
 ---
 template: logorb
 # Telling The Difference
 
-- The line between infringement and non-infringement is rarely obvious
-- Requires careful evaluation when:
-  - Software comes in components
-  - Software integrates with other software
-  - Software is used as part of a service
+> The line between infringement and non-infringement is rarely obvious.
+
+- Software comes in components
+- Software integrates with other software
+- Software is used as part of a service
+- ...
 
 ???
 Deciding if someone else’s use of your trademark is a problem is a tricky one - both with software made of components, and when working with open source projects with their wide variety of drivers and personalities
@@ -479,7 +460,6 @@ template: fullheader
 
 [Back To Topic List](#menu) | Continue Onward: Registrations
 
-
 ---
 template: pineapple
 name: registration
@@ -496,7 +476,7 @@ template: logorb
 - Trademark search is **different** than registration
 - Registration process takes many months
 
-.footnote.code[https://www.apache.org/foundation/marks/register]
+.bottomnote[apache.org/foundation/marks/register]
 
 ???
 Registering trademarks is a way to strengthen your ability to defend your trademark. You apply to register your trademark in any country’s trademark registrar. The registration process includes an examination to see if your mark conflicts with any pre-existing marks, as well as a public notice period that allows others to object to your registration.
@@ -515,15 +495,13 @@ template: logorb
   - **12**: vehicles
   - **32**: beer, fruit juice, mineral water
   - **33**: alcoholic beverages (except beer)
-  - **42**: services related to **computers**...
-- Trademarks only apply when a consumer might be confused between the products - similar **functionality**
+  - **42**: services related to **computers**
+- Trademarks only apply when a consumer might be confused between the products
 
 ???
 Except for “famous” trademarks, trademarks only apply within similar or related goods - in our cases, either class 9 for software products, or class 42 for services related to computers. While classes aren’t strictly used in the likelihood of confusion test, they do often hint at differences in functionality or user segments.
 
 The key question is: would a new consumer be confused when looking for your SuperThing software product if they saw advertisements for a bit of SuperThing office furniture? Similarly, it’s less likely a consumer looking for a dining room chair would be confused by a similar trademark for a television stand - they have different functionality.
-
-**So why would we want to register our trademarks?**
 
 International Nice class 9, which we use for software products, technically includes:“Scientific, nautical, surveying, photographic, cinematographic, optical, weighing, measuring, signalling, checking (supervision), life-saving and teaching apparatus and instruments; apparatus and instruments for conducting, switching, transforming, accumulating, regulating or controlling electricity; apparatus for recording, transmission or reproduction of sound or images; magnetic data carriers, recording discs; compact discs, DVDs and other digital recording media; mechanisms for coin-operated apparatus; cash registers, calculating machines, data processing equipment, computers; computer software; fire-extinguishing apparatus.”
 
@@ -531,12 +509,12 @@ International Nice class 9, which we use for software products, technically incl
 template: logorb
 # Registration Prevents Many Problems
 
-- **After** your registration is **granted**, switch ™ to ® 
-- In open source, ® is often enough to deter infringers - both before, and after problems arise
-- Many vendors do trademark searches of registrations _before_ rolling out a new brand - ensures they don’t start conflicting
+- **After** your registration is **granted**, switch ™ to ®
+- ® is often enough to deter infringers - both *before*, and after problems arise
+- Vendors do trademark searches of registrations *before* rolling out a new brands
 - Vendors also respect ® when an open source project complains about misuse & respond quickly
 
-.footnote.code[https://www.apache.org/foundation/marks/register]
+.bottomnote[apache.org/foundation/marks/register]
 
 ???
 Simply having the ® means that business leaders will often back off from misuses of a mark without a conflict. Even if it does get to the lawyers, they usually will advise that contesting a registered mark that you hold is very difficult, and is not worth the money, time, and cost to fight you.
@@ -544,8 +522,6 @@ Simply having the ® means that business leaders will often back off from misuse
 Registration is the cheapest insurance for being able to keep your brand you can get, at least in the US (only $250 fee if you file directly - plus any of your own lawyer’s costs)
 
 There are some other legal benefits of registration - most of which you’ll never care about. What’s important, especially for open source projects, is that it makes policing use of your mark much simpler.
-
-**But if we register, don't we have to do more work?**
 
 ---
 template: fullheader
@@ -581,11 +557,11 @@ template: logorb
 
 “...trademark is a property right that an owner has a duty to police.”
 
-- There’s no _specific_ law or process
+- There’s no *specific* law or process
 - In real life: not a big issue for open source
 - Using your own trademarks consistently is just as important as policing activities
 
-.footnote.code[https://www.apache.org/foundation/marks/pmcs]
+.bottomnote[apache.org/foundation/marks/pmcs]
 
 ???
 If you talk to your lawyers, they’ll warn you in dire tones about all the risks you take of abandonment unless you vigorously shoot down any and all infringers of your marks.
@@ -698,6 +674,7 @@ template: logorb
 - [SOFTWARE FREEDOM * trademarks](https://communityovercode.com/2017/11/legal-issues-software-freedom/) - a pointless legal action (2017)
 - [Twitch streamers and OBS fight StreamLabs](https://techcrunch.com/2021/11/17/streamlabs-obs-name-controversy-pokimane/) - a community of users helps open source project win (2021)
 - [Elasticsearch and AWS](https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit) - Elastic win (2022)
+- OpenTofu fork from HashiCorp's Terraform
 
 ???
 Listing just a few of the major trademark conflicts that have reached the news.
@@ -713,9 +690,6 @@ name: otherquestions
 - Who owns JQUERY or Tux the penguin?
 - What trademark rights do FOSS licenses grant?
 
-???
-Trademarks can be about more than just the software download - services, certifications, tests, benchmarks - they can all have trademark issues around them.
-
 ---
 template: fullheader
 # Continue?
@@ -727,14 +701,14 @@ template: logorb
 name: resources
 # Practical Trademark Resources
 
-- Key resources for understanding trademarks and FOSS 
+- Key resources for understanding trademarks and FOSS
   - https://opensourcebranding.org/
 - Example trademark policy for open source projects
-  - http://modeltrademarkguidelines.org/
+  - https://modeltrademarkguidelines.org/
 - Legal overview of trademarks and open source
-  - http://fossmarks.org/
+  - https://fossmarks.org/
 - Laundry list of other useful FOSS trademark sites
-  - http://www.apache.org/foundation/marks/resources#other
+  - https://www.apache.org/foundation/marks/resources#other
 
 ---
 template: logorb
@@ -756,9 +730,9 @@ name: last-page
 ## Thank You &amp; Questions!
 
 .right-column[
-[@ShaneCurcuru](https://twitter.com/shanecurcuru)
+By: [@ShaneCurcuru](https://twitter.com/shanecurcuru)
 
 <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache v2.0</a>
 
-https://shaneslides.com/
+<a href="https://shaneslides.com/">shaneslides.com</a>
 ]

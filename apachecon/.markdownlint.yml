@@ -1,0 +1,8 @@
+# Suppress linter things that don't make sense for slides
+MD013:
+  strict: false
+  stern: false
+MD022: false
+MD024: false
+MD028: false
+MD041: false

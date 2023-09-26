@@ -10,13 +10,11 @@ seo:
   type: person
 ---
 
-<div class="alignright">{% avatar shanecurcuru size=250 %}</div>
-
-Shane is founder of [Punderthings℠ LLC consultancy](http://punderthings.com/), helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and has [spoken at major technology conferences](http://ShaneSlides.com/) like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
+Shane is founder of [Punderthings℠ LLC consultancy](http://punderthings.com/), helping organizations find better ways to engage with the critical open source projects that power modern technology and business.  He blogs and tweets about open source governance and trademark issues, and speaks at open source conferences like ApacheCon, OSCON, All Things Open, Community Leadership Summit, and Ignite.
 
 Shane is serving a tenth term as an elected Director of the ASF, providing governance oversight, community mentoring, and fiscal review for all Apache projects.  Previously, Shane served as VP Brand Management for the ASF for eight years, and wrote the trademark and branding policies that cover all 200+ Apache® projects, including assisting projects with defining and policing their trademarks, as well as negotiating agreements with various software vendors using Apache software brands.  
 
-Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/). Follow [@ShaneCurcuru](https://twitter.com/shanecurcuru) and read about [open source communities](http://CommunityOverCode.com) and see his [FOSS Foundation directory](https://ChooseAFoundation.com).
+Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [we have cats](https://www.instagram.com/shanecurcuru/). Follow [@ShaneCurcuru](https://twitter.com/shanecurcuru), read about [open source communities](http://CommunityOverCode.com), and see the [FOSS Foundation directory](https://ChooseAFoundation.com).
 
 This website showcases some of the open source presentations I've made at major conferences, including ApacheCon / Apache:BigData, OSCON, All Things Open, Community Leadership Summit, Ignite, the PLI Law Education conference, and selected consulting engagements.
 

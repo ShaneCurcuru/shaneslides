@@ -48,12 +48,18 @@ template: fullheader
 
 ---
 template: logorb
-# FOSS SUSTAINABILITY
-## Sustainability means many things!
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## What does this have to do with Sustainability?
 
 ---
 template: logorb
-# FOSS SUSTAINABILITY
+# SUSTAINABILITY ASPECTS
 
 .left-column-equal[
 **Who**
@@ -72,6 +78,31 @@ template: logorb
 - Grants
 ]
 
+???
+This talk is just one small part of sustainability for FOSS in general - it's important to realize that **EACH** of these areas has their own entire glossary and ways of thinking about sustainability, and they are all important.
+
+**SPACEBAR**
+
+---
+template: logorb
+# SUSTAINABILITY ASPECTS
+
+.left-column-equal[
+**Who**
+- Maintainers
+- Contributors
+- **Foundations**
+- Corporations
+- Governments
+]
+.right-column-equal[
+**What**
+- Direct Funding
+- Indirect Funding
+- Engagement
+- Policies
+- Grants
+]
 ---
 template: logorb
 # Who pays for FOSS Foundations?

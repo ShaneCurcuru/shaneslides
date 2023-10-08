@@ -1,11 +1,10 @@
 ---
 title: Practical Trademark AMA
 description: Practical Trademark AMA For FOSS Projects
-conference: FOSS Backstage
-slides: "http://shaneslides.com/fossbackstage/PracticalTrademarkAMA-FOSSBackstage2022.html"
-video: "https://www.youtube.com/watch?v=7WzzlF0KmAg"
-feature: false
-newer: https://shaneslides.com/2023/10/2023-10-08-Practical-Trademark-AMA.html
+conference: Community Over Code - Halifax
+slides: "https://shaneslides.com/apachecon/PracticalTrademarkAMA-ComCode2023.html"
+video: 
+feature: true
 ---
 
 There's a lot of misunderstanding about how trademarks work with open source software - or, indeed, how trademarks work in technology.  The best way to learn is to bring your questions and Ask Me Anything!
@@ -19,6 +18,8 @@ This AMA is here to help answer basic trademark law questions in practical, ever
 Bring your simple community questions about how trademarks work, and we'll try to get you some practical advice on what to do. Similarly, corporate questions are welcome - for how you can effectively partner with a Foundation or community-led project without stepping on toes.
 
 Key resource links included, to get you started with actionable and practical information for FOSS.
+
+Reminder: branding and trademarks are just one [aspect of open source project sustainability](https://fosssustainability.com/aspects/), but one that crosses many different areas.
 
 {: .lead }
 Trademark education for engineers and community members.

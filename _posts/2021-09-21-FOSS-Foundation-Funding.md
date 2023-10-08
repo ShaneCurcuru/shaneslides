@@ -2,10 +2,10 @@
 title: Who pays for FOSS foundations?
 description: Exploring funding sources around FOSS Foundations
 conference: ApacheCon @Home
-slides: "http://shaneslides.com/apachecon/WhoPaysForFoundations-ApacheConAtHome2021.html"
+slides: "https://shaneslides.com/apachecon/WhoPaysForFoundations-ApacheConAtHome2021.html"
 video: "https://www.youtube.com/watch?v=BlSqVMzdj6w&list=PLU2OcwpQkYCwZfTRhACzyM6QT1qPijPFw&index=167"
 feature: false
-newer: "http://shaneslides.com/2023/10/FOSS-Foundation-Funding/"
+newer: "https://shaneslides.com/2023/10/FOSS-Foundation-Funding/"
 ---
 
 Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source at the Foundation scale?  For more financial research, see my [FOSS Funding listings](https://fossfunding.com/).

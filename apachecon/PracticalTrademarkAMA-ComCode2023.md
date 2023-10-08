@@ -36,6 +36,45 @@ template: fullheader
 ]
 
 ---
+template: logorb
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## What does this have to do with Sustainability?
+
+.bottomnote[fosssustainability.com/aspects]
+
+---
+template: logorb
+# SUSTAINABILITY ASPECTS
+
+.left-column-equal[
+**Who**
+- Maintainers
+- Contributors
+- Foundations
+- Corporations
+- Governments
+]
+.right-column-equal[
+**What**
+- Direct Funding
+- Indirect Funding
+- Engagement
+- Policies
+- Grants
+]
+
+.bottomnote[fosssustainability.com/aspects]
+
+???
+This talk is just one small part of sustainability for FOSS in general - it's important to realize that **EACH** of these areas has their own entire glossary and ways of thinking about sustainability, and they are all important.
+
+---
 template: fullheader
 name: intro
 # Topics

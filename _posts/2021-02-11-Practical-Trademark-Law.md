@@ -2,7 +2,7 @@
 title: Practical Trademark Law
 description: Practical Trademark Law For FOSS Projects
 conference: FOSS Backstage
-slides: "http://shaneslides.com/fossbackstage/PracticalTrademarkLaw-FOSSBackstage2021.html"
+slides: "https://shaneslides.com/fossbackstage/PracticalTrademarkLaw-FOSSBackstage2021.html"
 feature: true
 ---
 

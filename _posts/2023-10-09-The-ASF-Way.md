@@ -1,17 +1,14 @@
 ---
-title: The Apache Way
-description: The Apache Way - Effective Open Source Project Management
-conference: ApacheCon @Home
-slides: "http://shaneslides.com/apachecon/TheApacheWay-ApacheConAtHome.html"
-video: "https://www.youtube.com/watch?v=rI-4CpV6lP4"
-feature: false
-newer: https://shaneslides.com/2023/10/2023-10-09-The-ASF-Way.html
+title: The ASF Way
+description: The ASF Way - Effective Open Source Project Management
+conference: Community Over Code - Halifax
+slides: "https://shaneslides.com/apachecon/TheASFWay-ComCode2023.html"
+video: 
+feature: true
 ---
 
-The great thing about giving an Apache Way talk - [this year online](https://app.hopin.to/events/apachecon-home/reception) with [ApacheCon @Home](https://apachecon.com/acah2020/) - is that there are always great new ideas from the community to add.
-
 <div class="lead bg-info well">
-The Apache Way - Effective Open Source Project Management
+The ASF Way - Effective Open Source Project Management
 </div>
 
 ### Abstract
@@ -29,6 +26,8 @@ A key reminder: open source works best when you're working with softare
 that you actually use.  Taking the time to choose which teams or 
 projects that you open up or participate is well worth the investment to
 keep your team's efforts focused.
+
+A key addition this year is a section on Charity - fundamental to the ASF's non-profit mission, plus a pragmatic part of our method in ensuring maximum inbound contributions.
 
 {: .lead }
 The behaviors you can use to succeed at Apache.

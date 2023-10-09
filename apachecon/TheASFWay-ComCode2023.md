@@ -81,6 +81,9 @@ template: fullheader
 
 .footnote-right[Tip: Press '?' for help]
 
+???
+TODO: Fix styles for accessibility - per suehle
+
 ---
 template: fullheader
 # The *Practical* Apache Way
@@ -149,6 +152,7 @@ name: menu
 - **[Open Development](#open)** - for **everything**
 - **[Decision Making](#decision)** - consensus & votes
 - **[Communication](#communication)** - how we write
+- **[Charity](#charity)** - our mission
 - [Questions To Answer](#closingslide)
 
 .footnote[The Apache Way is participatory! **You** are part of the community!]

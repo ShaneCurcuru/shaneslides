@@ -26,24 +26,12 @@ background-size: 10%
 
 ---
 template: fullheader
-# Coming Up Next
-
-.left-column[
-]
-.right-column[
-## Who Pays For FOSS Foundations?
-**[@ShaneCurcuru](https://twitter.com/shanecurcuru)**
-]
-
-.footnote-right[Tip: Press '?' for slide help]
-
----
-template: fullheader
 # Who Pays For FOSS Foundations?
 ## The Funding Behind Open Source Organizations
 
 .left-column-equal[
-**[@ShaneCurcuru](https://twitter.com/shanecurcuru)**
+### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+### [Slides with Speaker notes](https://shaneslides.com/2023/10/FOSS-Foundation-Funding/)
 ]
 
 ---

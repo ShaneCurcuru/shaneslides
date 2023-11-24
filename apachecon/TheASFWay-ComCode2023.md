@@ -70,22 +70,6 @@ background-size: 10%
 
 ---
 template: fullheader
-# Coming Up Next
-
-.left-column[
-]
-.right-column[
-## The *Practical* Apache Way
-### Effective Open Source Project Management
-]
-
-.footnote-right[Tip: Press '?' for help]
-
-???
-TODO: Fix styles for accessibility - per suehle
-
----
-template: fullheader
 # The *Practical* Apache Way
 ## Effective Open Source Project Management
 
@@ -93,7 +77,8 @@ template: fullheader
 ]
 
 .right-column[
-### By: [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+### [Slides with Speaker Notes](https://shaneslides.com/2023/10/The-ASF-Way/) 
 ]
 
 ---

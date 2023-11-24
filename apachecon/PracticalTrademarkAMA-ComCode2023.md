@@ -20,19 +20,12 @@ background-size: 10%
 
 ---
 template: fullheader
-# Coming Up Next
-.right-column[
-## Practical Trademark AMA
-## What trademarks mean in open source
-]
-
----
-template: fullheader
 # Practical Trademark AMA
 ## What trademarks mean in open source
 .right-column[
 ### Punderthings Consulting
 ### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+### [Slides with Speaker notes](https://shaneslides.com/2023/10/Practical-Trademark-AMA/)
 ]
 
 ---

@@ -17,9 +17,15 @@ background-size: cover
 
 ---
 layout: true
+name: fosdem
+background-image: url(img/KaraSowles-FOSDEM2024-Slide6.png)
+background-size: cover
+
+---
+layout: true
 name: logorb
 class: left
-background-image: url(../apachecon/img/ComCodeLogo.png)
+background-image: url(img/23_FOSSBack_Logo_standard_colour_300px.png)
 background-repeat: no-repeat
 background-position: bottom .8rem right 5rem
 background-size: 10%
@@ -36,31 +42,40 @@ template: fullheader
 
 ---
 template: logorb
-
-# Data And Resources
+# Resources
 
 ## [FOSSSustainability.com/FOSSBack](https://fosssustainability.com/fossback)
 
 ???
-
 Please follow along at fosssustainability.com/fossback for links to slides
 and all the data and code associated with this project!
 
 ---
 template: logorb
-
 # Topics
 
-## Aspects of Sustainability
-## Modeling Foundation Sponsorships
-## Financial Data of Key Foundations
+- Aspects of Sustainability
+- Modeling Foundation Sponsorships
+- Financial Data of Key Foundations
+
+???
+Topics for today...
+**SPACEBAR**
+
+--
+
+- *Finding better questions to ask*
+
+???
+I hope to leave everyone with enough information and ideas, so that you can start asking better questions when you're working on sustainability.
 
 ---
 template: logorb
-# SUSTAINABILITY ASPECTS
+# Aspects of Sustainability
 
 .left-column-equal[
 **Who**
+
 - Users
 - Contributors
 - Maintainers
@@ -72,33 +87,101 @@ template: logorb
 - Non-Software Companies
 - Educational Institutions
 - Governments
+- Standards Bodies
 ]
 
 ???
-When we talk to people, it's different aspects...
-
-**SPACEBAR**
+Listening to people talk about sustainability, I'm often struck by how siloed the conversations are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.
 
 ---
 template: logorb
-# SUSTAINABILITY ASPECTS
+# Aspects of Sustainability
 
 .left-column-equal[
 **Who**
-- Maintainers
+
+- Users
 - Contributors
-- **Foundations**
-- Corporations
-- Governments
+- Maintainers
+- PMC / TSC
 ]
 .right-column-equal[
 **What**
-- Direct Funding
-- Indirect Funding
-- Engagement
-- Policies
-- Grants
+- Software Companies
+- Non-Software Companies
+- Educational Institutions
+- Governments
+- Standards Bodies
 ]
+
+???
+TODO: story showing example of two groups talking past each other.
+
+---
+template: logorb
+# Aspects of Sustainability
+
+> TODO: Wrapup sustainability sidebar.
+
+???
+
+---
+template: logorb
+# TODO: Introduce c3/c6
+
+> TODO: IRS 990 and c3/c6 distinctions
+
+???
+
+---
+template: fosdem
+
+???
+TODO: Define where/how to show Kara's slide
+
+This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) this year.
+
+---
+template: logorb
+# TODO: bridge slide
+
+> TODO: define the story behind the different kinds of data here
+
+???
+
+---
+template: logorb
+# Sponsorship Program Modeling
+
+## TODO: sponsorship model
+
+- Intro and model
+- Data captured so far
+- Observations
+
+???
+
+---
+template: logorb
+# FOSS Financials
+
+## TODO: story of finances as told by 990s
+
+- Intro and model
+- Data captured so far
+- Graphs
+- Observations
+
+???
+
+---
+template: logorb
+# TODO: bridge slides
+
+> TODO: define the story beind the different kinds of data here
+
+???
+
 ---
 template: logorb
 # Who pays for FOSS Foundations?
@@ -137,12 +220,14 @@ The Linux Kernel Report tracks which companies are sponsoring kernel development
 ???
 The Linux Kernel Report does a thorough analysis of both who's contributing all the code, as well as who they're working for or being paid by.
 
-_SPACEBAR_
+**SPACEBAR**
 
 --
+
 - In 2020, at least **83%** of code was *paid corporate work*
 
 --
+
 - 2018 it was 85%
 - 2016 it was 80%
 - 2015 it was 80%
@@ -225,7 +310,7 @@ template: logorb
 
 .left-column-equal[
 **Project Overview**
-- 43 projects
+- 42 projects
 - Independent governance
 - Independent branding
 - Focus on software freedom
@@ -234,7 +319,7 @@ template: logorb
 **Scalable Services**
 - Legal
 - IP stewardship
-- Pass-thru fundraising
+- Fiscal fundraising host
 - GPL compliance
 ]
 
@@ -391,7 +476,7 @@ template: logorb
 
 .left-column-equal[
 **Project Overview**
-- 59 hosted projects
+- 60 hosted projects
 - 60+ affiliated projects
 - Independent brands & governance
 - Focus on science & Python
@@ -402,7 +487,7 @@ template: logorb
 - IP stewardship
 - Conferences
 - Community mentoring
-- Pass-thru fundraising
+- Fiscal fundraising host
 ]
 
 .bottomnote[NumFocus is a **501C3** Public Charity]
@@ -450,82 +535,11 @@ NumFocus shows a roughly similar funding picture as the previous foundations.  T
 
 ---
 template: logorb
-# Eclipse Foundation
-
-.left-column-equal[
-**Project Overview**
-- 350+ projects
-- Independent governance
-- Various branding
-- Shared releases
-]
-.right-column-equal[
-**Scalable Services**
-- Legal
-- IP stewardship
-- Infrastructure
-- Development process support
-- Ecosystem development
-]
-
-.bottomnote[Eclipse is a **501C6** Business League]
-
-???
-Eclipse's model is partly focused on their IDE and developer tools, so along with the usual services, they provide strong development process and integration support.  Many projects also follow a shared release schedule, as their projects work together.
-
----
-template: logorb
-# Eclipse - Sponsors
-
-The Strategic Members of Eclipse are:
-
-.left-column-equal[
-- CEA List 
-- DLR
-- ESA
-- Fraunhofer FOKUS
-- Fujitsu
-- Huawei
-- IBM
-]
-.right-column-equal[
-- Mercedes-Benz Tech
-- Microsoft
-- OBEO
-- Oracle
-- Red Hat
-- Bosch
-- SAP
-]
-
-.bottomnote[Eclipse is a **501C6** Business League]
-
-???
-Eclipse has a mixed model, where there are corporate sponsors just contributing cash, but far more strategic members who contribute both funds as well as designated contributions and employee work.  
-
----
-template: logorb
-# Eclipse - Funding
-
-.left-column-equal[
-<img src="img/eclipse-income-2023.png" style="width: 95%" />
-]
-.right-column-equal[
-<img src="img/eclipse-assets-2023.png" style="width: 95%" />
-]
-
-???
-Here we can see the Eclipse's income and assets - averaging well about $5million or more in annual income.  Since much of their income is tied to corporations that are also major sponsors, their income may tend to be more even than donation-focused organizations.
-
-Note that Eclipse has moved their governance to Belgium, meaning that we can't necessarily compare all of their numbers to other fully US-based organizations.
-
----
-template: logorb
 # Linux Foundation
 
 .left-column-equal[
 **Project Overview**
-- Hundreds of projects
+- LOTS of foundations
 - Industry/Community mixed governance
 - Independent branding
 - Multiple project scales
@@ -667,31 +681,16 @@ Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers 
 Anyone surprised at these numbers?  Remember: these figures are from 2018, the most year IRS 990 forms are available for.  As a Business League, the LF doesn't otherwise provide public budget figures, so we don't know what their 2019 income was, or what the blip in their net assets over 2017 was.
 
 ---
-template: logorb
-# Governance, Funding, And Community All Matter
-
-Community and governance matters too, beyond funding or license.
-
-???
-Wow - I bet those funding numbers are giving you something to think about going forward, huh?  These four foundations - along with several others - provide valuable fiscal and community hosting to a large percentage of interesting open source projects in the world today.  And remember: actual contributions and community governance are often more important long-term than just cash funding.
-
-When you bring a new project to the ASF or to another foundation, you're making a fundamental choice about more than the license.  You're setting the stage for how the project is going to grow, who's going to want to contribute to it, and where it's long-term direction can end up.  Funding and governance are more important than the license choice.
-
-In particular, funding is not required to get FOSS Foundation services - but in some cases, more funding does get you more concentrated help from open source experts.  The large cash differences in the charts earlier are definitely related to the amount of services different foundations can directly provide to their flagship projects.
-
----
 template: thanks
 name: closingslide
 class: inverse-header
-# Who Pays For Open Source?
+# Foundations Data
 
-# The Data Is Out There
+FOSS Foundations metadata and models
 
-FOSS funding data for Foundations
+.code[https://fossfoundation.info/]
 
-.code[https://fossfunding.com/]
-
-Do your own funding research
+Do your own US funding research
 
 .code[https://projects.propublica.org/nonprofits/]
 
@@ -717,9 +716,10 @@ template: logorb
 - RedisLabs and the Commons Clause
   - Source-Available or Cloud Licenses
 - Open Source Sustainability
-  - How do **I** get paid for open source?
-  - Project sustainability from a **community** point of view
-- New work funding models
+  - [Aspects of sustainability](https://fosssustainability.com/aspects/)
+  - [FOSS Sustainability Zotero library](https://www.zotero.org/groups/5030713/foss-sustainability/library)
+  - [Defining FOSS Project Health](https://fosssustainability.com/health)
+- [Reviewing funding models](https://fossfunding.com/#how-are-individual-projects-or-maintainers-funded)
   - Patreon and crowdfunding
   - Bountysource pays for specific work
   - Tidelift, Liberapay, Open Collective and subscriptions
@@ -730,22 +730,6 @@ There's a lot more to talk about out there - I look forward to your ideas!
 
 ---
 template: logorb
-# What Ways Do Companies Contribute?
-
-- Obvious: employees contributing code
-- Obvious: sponsoring events
-- Not obvious: infrastructure, tooling
-
-There's a lot of talk about how much - or how little - money various companies and vendors pay into the open source arena.  But the discussions about money are missing a huge factor: what are all the **different ways** that Companies contribute work back to FOSS projects?
-
-It's often not obvious to quantify some of the supporting ways that companies contribute, but they're certainly there.  Managing a full open source project needs source control, web space, continuous integration and testing, and often requires access to cloud services.  Either directly or indirectly many software vendors like github, amazon, google and more all effectively donate these kinds of services to projects.  Sometimes it's explicit and called out, often it's simply free accounts for any open source contributor
-
-But the real value is in how much corporate employees contribute work to FOSS projects - code, documentation, tests, and more.  
-
-While many individual developers may feel unappreciated for their volunteer work, that's only a small part of the overall patches and code that is put into open source projects.  It depends on the kind and size of project, but in some areas the majority of work is done by employees at software vendors writing open source code as their dayjob.
-
----
-template: logorb
 # Open Source is a ________________
 
 - Sustainable contribution model.
@@ -753,3 +737,7 @@ template: logorb
 - **NOT** a Business model.
 
 ## What does "Open Source Sustainability" mean to you?
+
+???
+Yes, this is a trick question.
+https://medium.com/@stephenrwalli/there-is-still-no-open-source-business-model-8748738faa43

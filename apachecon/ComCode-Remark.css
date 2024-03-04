@@ -141,6 +141,21 @@ div.left-column-equal-sm ul li {
 div.right-column-equal-sm ul li {
   font-size: 28px !important;
 }
+/* Hack for columns with LOTS of entries */
+.left-column-equal-vsm {
+  width: 49%; 
+  float: left;
+}
+.right-column-equal-vsm {
+  width: 49%; 
+  float: right; 
+}
+div.left-column-equal-vsm ul li {
+  font-size: 16px !important;
+}
+div.right-column-equal-vsm ul li {
+  font-size: 16px !important;
+}
 /* Improve PDF print export https://github.com/gnab/remark/issues/50#issuecomment-223887379 */
 @page {
   size: 1210px 681px;

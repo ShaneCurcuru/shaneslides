@@ -32,13 +32,19 @@ background-size: 10%
 
 ---
 template: fullheader
-# Who Funds FOSS Foundations?
-## Modeling Open Source Foundation Sponsorships
+# *Coming up next*
 
-.left-column-equal[
+# Who Funds FOSS Foundations?
+# Shane Curcuru
+
+---
+template: fullheader
+name: start
+# Who Funds FOSS Foundations?
+## Modeling Open Source Foundation Finances
+
 ### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
 ### [FOSSSustainability.com/FOSSBack](https://fosssustainability.com/fossback)
-]
 
 ---
 template: logorb
@@ -52,6 +58,7 @@ and all the data and code associated with this project!
 
 ---
 template: logorb
+name: topics
 # Topics
 
 - Aspects of Sustainability
@@ -63,11 +70,15 @@ Topics for today...
 **SPACEBAR**
 
 --
-
 - *Finding better questions to ask*
 
 ???
 I hope to leave everyone with enough information and ideas, so that you can start asking better questions when you're working on sustainability.
+
+---
+template: fullheader
+name: aspects
+# Aspects of Sustainability
 
 ---
 template: logorb
@@ -102,7 +113,7 @@ template: logorb
 
 - Users
 - Contributors
-- Maintainers
+- **Maintainers**
 - PMC / TSC
 ]
 .right-column-equal[
@@ -110,350 +121,359 @@ template: logorb
 - Software Companies
 - Non-Software Companies
 - Educational Institutions
-- Governments
+- **Governments**
 - Standards Bodies
 ]
 
 ???
-TODO: story showing example of two groups talking past each other.
+TODO: story about policy bodies working on sustainability - but maintainers simply asking how do they get paid?
 
 ---
 template: logorb
 # Aspects of Sustainability
 
-> TODO: Wrapup sustainability sidebar.
+.left-column-equal[
+**Who**
+
+- Users
+- **Contributors**
+- Maintainers
+- PMC / TSC
+]
+.right-column-equal[
+**What**
+- **Software Companies**
+- Non-Software Companies
+- Educational Institutions
+- Governments
+- Standards Bodies
+]
 
 ???
+TODO: software companies that still have good OSPOs or FOSS Funds are doing great! But a new contributor asks: how can I make a living off that if maintainers aren't doing it?  You're only funding your specific dependencies, not open source in general.
 
 ---
-template: logorb
-# TODO: Introduce c3/c6
-
-> TODO: IRS 990 and c3/c6 distinctions
-
-???
-
----
-template: fosdem
-
-???
-TODO: Define where/how to show Kara's slide
-
-This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) this year.
-
----
-template: logorb
-# TODO: bridge slide
-
-> TODO: define the story behind the different kinds of data here
-
-???
+template: fullheader
+name: sponsorship
+# Sponsorship Program Modeling
 
 ---
 template: logorb
 # Sponsorship Program Modeling
 
-## TODO: sponsorship model
+> How do foundations define their sponsorship programs?
 
-- Intro and model
-- Data captured so far
-- Observations
+> How can we model these programs to gain insight?
 
 ???
+In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, versus individual or one-off contributions, or program services income, like event tickets or similar.
+
+So I built a model and analyzed 30+ foundations or sub-foundations to see
 
 ---
 template: logorb
-# FOSS Financials
+# Sponsorship Program Criteria
 
-## TODO: story of finances as told by 990s
-
-- Intro and model
-- Data captured so far
-- Graphs
-- Observations
+- Only publicly posted programs
+- Not tracking event sponsorships
+- Level amounts are approximate
+- Tracking 35 foundations so far
 
 ???
+
+I'm focusing on quantifying how traditional foundation corporate sponsorships are modeled.  All data is drawn from publicly posted sponsorship programs in the past month.  This is not including event sponsorships, because those have a different typical structure, and aren't expected to be continuing.
+
+**IMPORTANT:** Numbers are approximate! A number of programs offer sliding scales by numbers of employees or revenue; we track the top end of each level's cost.  Also, we don't know the actual details of sponsorships; some may pay more or less depending on discounts or other factors.
+
+Model schema explainer: https://fossfoundation.info/sponsorships#sponsorship-model-structure
 
 ---
 template: logorb
-# TODO: bridge slides
+# Sponsorship Program Schema
 
-> TODO: define the story beind the different kinds of data here
+- Map program levels to *first, second,...*
+- Track funding amount per level
+- Model the benefits for levels
+  - Governance / Advisory roles
+  - Services or Events discounts
+  - Marketing partnerships
+- Scrape live CSS or landscape.yml
 
 ???
+Most organizations include scraping definitions to automatically parse listings of sponsorship pages; some are manually drawn maps as of a specific date.  Future ideas include using the wayback machine to see historical sponsorship trends, both of foundations, and of sponsors.
+
+Model schema explainer: https://fossfoundation.info/sponsorships#sponsorship-model-structure
 
 ---
 template: logorb
-# Who pays for FOSS Foundations?
+# Sponsorship Program Dataset
 
-What does that actually mean?
-
-- What is **open source**?
-- **How do you pay** for it?
-- What **things or activities** are paid for?
-- How do **Foundations** get funded?
-
-???
-Talking with 5 people about "FOSS Funding" gives you 10 different topics to cover, so let's define what we're covering here today.
-
-First off, some brief definitions:
-
-The important question: what are the **different ways to contribute** to open source - code, services, activities, events, sponsorships
-
-Then we'll talk money - how key FOSS Foundations get funded
-
-I expect many of you will end up with more questions to ask after this talk - there are many other areas of "funding" to cover out there, and I'm hoping this overview will make you think a little more about how open source works at scale, especially with larger projects or the many foundations that provide a home to so many important projects out there.
-
----
-template: contributions
-# Most major open source is from companies
-
-???
-Here's my belief: most of the major open source projects used today are now primarily built and maintained by companies directly paying their employees to contribute.  Let's see what data from some major projects show.
-
----
-template: logorb
-# Linux kernel development
-
-The Linux Kernel Report tracks which companies are sponsoring kernel development.
-
-???
-The Linux Kernel Report does a thorough analysis of both who's contributing all the code, as well as who they're working for or being paid by.
-
-**SPACEBAR**
-
---
-
-- In 2020, at least **83%** of code was *paid corporate work*
-
---
-
-- 2018 it was 85%
-- 2016 it was 80%
-- 2015 it was 80%
-- 2013 it was 80%
-- 2012 it was 75%
-- 2010 it was 70%
+.left-column-equal-vsm[
+- Adélie Linux
+- Arch Linux
+- ArduPilot
+- Apache Software Foundation
+- Academy Software Foundation
+- CD Foundation
+- Cloud Native Computing Foundation
+- Debian
+- Drupal
+- FINOS Foundation
+- FreeBSD
+- Free Software Foundation Europe
+- Gentoo
+- Gnome
+- GraphQL Foundation
+- Haskell
+- Hyperledger
+- JS Foundation
+]
+.right-column-equal-vsm[
+- Linux Foundation
+- LF AI Foundation
+- LF Energy Foundation
+- LLVM Foundation
+- NumFOCUS
+- Open Mainframe Foundation
+- Open SSF Foundation
+- Open Stack Foundation
+- OSGEO
+- Open Source Initiative
+- OWASP
+- Plone
+- PostgreSQL
+- Python
+- Rails Foundation
+- Raspberry Pi NA
+- Software Freedom Conservancy
+- Software in the Public Interest
+]
 
 ???
-The great majority of work done in the Linux kernel is done directly by corporations (having their employees make the fixes), and this number is only going up over time.
+**IMPORTANT:** this is only a subset of foundations, mostly depending on which foundations fit the criteria and were easiest to write scrapers for - or had a small enough sponsor list I could manually hardcode it.  This does not  represent the whole ecosystem.
 
 ---
 template: logorb
-# Apache software committers
+# Sponsorships - Apache
 
-Survey: how Apache committers contribute to their projects.
+.left-column-equal[
+**Funding Sponsors**
+- First: **8** *Platinum*
+- Second: **10** *Gold*
+- Third: **8** *Silver*
+- Fourth: **13** *Bronze*
+]
+.right-column-equal[
+**In-Kind Sponsors**
+- First: **13**
+- Second: **5**
+- Third: **2**
+- Fourth: **10**
+]
 
-- ~**50%** replied it was as an *Employee (as their job)*
-- ~40% replied as an *Individual (outside regular job)*
-- ~10% were *Retired, students, other*
-
-.code[https://s.apache.org/2016dsurvey]
+.bottomnote[book values (USD): Cash 1.8M, In-Kind: 2M]
 
 ???
-Let's look at the ASF - which has hundreds of Apache project communities.  In 2016 we ran a survey.
+These calculations are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus.
 
-The ASF ran a similar survey this year, which also shows a high percentage of work on our projects is directly paid.
+We can see a good mix of sponsor levels; we also see the ASF has more in-kind donations overall than cash ones.
+---
+template: logorb
+# Sponsorships - NumFOCUS
+
+.left-column-equal[
+**Funding Sponsors**
+- First: **6** *Principal*
+- Second: **7** *Sustaining*
+- Third: **3** *Contributing*
+]
+.right-column-equal[
+**Other Sponsors**
+- Community: **8**
+- *Grants:* **3**
+- Startups: **1**
+]
+
+.bottomnote[book values (USD): Cash 1M]
+
+???
+NumFOCUS has a smaller set of projects and a different focus, but otherwise is a c3 like the ASF that provides various project services.  Here we see a notably smaller number of sponsoring organizations.  Note the actual 1M value there is likely off, because their grant programs aren't assigned specific values.  Anyone know if they publicly disclose those levels of finances?
 
 ---
 template: logorb
-# Drupal commits and sponsors
+# Sponsorships - CNCF
 
-Drupal regularly updates their contribution reports - in 2021:
+.left-column-equal[
+**Funding Sponsors**
+- First: **22** *Platinum*
+- Second: **27** *Gold*
+- Third: **614** *Silver*
+]
+.right-column-equal[
+**Other Sponsors**
+- Academic: **4**
+- Community: **18**
+- End User: **92**
+]
 
-- **68%** of code was *Wholly sponsored work*
-- 16% was *Work that's a mix or not credited*
-- 16% was *Purely volunteer work*
-
-.code[https://dri.es/who-sponsors-drupal-development-2021]
+.bottomnote[book value? (USD) 42M]
 
 ???
-Drupals' credit system uses commit logs to show not just who wrote the code, but if the contributor was sponsored or paid to do make that commit by a company or other entity.  That counts either software vendor employees, or consultants or integrators working for end users.
-
-The ratio of sponsored to not sponsored is increasing over time, and my bet is a similar ratio is in most of the widely-used software products in business today.  See details of the program: https://www.drupal.org/drupalorg/contribution-credit
+CNCF, which is a division of the Linux Foundation shows a couple of interesting differences.  First, the sheer number of organizations listed as sponsoring: over 700 total.  Plus, the presumed book value of those sponsorships: 42M.  Note that various funding sponsors may well have different agreements, and also that other sponsors here likely have very little financial expectations vs. corporate sponsors.
 
 ---
 template: logorb
-# Services Foundations provide
+# Sponsorships - Linux Foundation
 
-Foundations provide:
+.left-column-equal[
+**Funding Sponsors**
+- First: **12** *Platinum*
+- Second: **11** *Gold*
+- Third: **1158** *Silver*
+- Fourth: **383** *Associate*
+]
 
-- Governance
-- Mentoring
-- Legal shield
-- Fundraising
-- Hosting, build pipelines, clouds
-- Respectability / brand management
-- Events
-- Community education / management
-- Marketing / ecosystem development
+.bottomnote[book value? (USD) 30M]
 
 ???
-We still rely on many volunteers to help, but when it comes to reviewing contracts or doing the accounting on donations, we need hired help.  Accounting volunteers are rare to find in the coding world, and few coders want to carry a beeper for 24x7 support when the server goes down.  All these services we need money for.
+The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.
+Also note that the total book value is an approximation: it's clear that there are sponsorship discounts when companies sponsor multiple LF subfoundations.  It's also clear that many software companies sponsor multiple LF subfoundations.
 
-All of these services are hard to provide at scale with volunteers - so Foundations are needed to provide the fiscal organization to pay someone to provide them.
 
 ---
 template: fullheader
-# Comparative Review: Foundation Services & Funding
+# Sponsorship Program Questions
 
 ???
-Non-profit foundations attract some donations - from individuals or small businesses who want to say thanks for the software we provide.  But the bulk of funding for most software non-profits comes from corporate grants or recurring sponsors.
+So - what do people think about those numbers?  Remember, this data and more is checked into FOSS Foundations.
 
-How do these foundations get their money?  Primarily recurring corporate sponsorships.
-
-Let's review some key FOSS Foundations, and how they're funded.
+I plan to add more LF subfoundations, as well as showing some listings of which companies sponsor which kinds of foundations.  It would also be interesting to track this data over time with the wayback machine.
 
 ---
 template: logorb
-# Software Freedom Conservancy
+name: finance
+# Foundation Finances
 
-.left-column-equal[
-**Project Overview**
-- 42 projects
-- Independent governance
-- Independent branding
-- Focus on software freedom
-]
-.right-column-equal[
-**Scalable Services**
-- Legal
-- IP stewardship
-- Fiscal fundraising host
-- GPL compliance
-]
-
-.bottomnote[Conservancy is a **501C3** Public Charity]
+---
+template: fosdem
 
 ???
-Conservancy offers basic fiscal sponsorship services, along with some legal and IP support.  Additional services may be available resources permitting when projects make requests.
+Reminder: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) varies widely.
+
+This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) this year.
 
 ---
 template: logorb
-# Conservancy - Sponsors
-
-Conservancy's current major sponsors are:
+# US Nonprofit Tax Law
 
 .left-column-equal[
-- Amateur Radio Digital Communications
-- Code Weavers
-- Google
-- iFixit
-- Indeed
+**501(c)(3)**
+- Charitable Organization
+- Tax-deductible for donors
+- Restrictions on activities
+- Files IRS form 990 yearly
 ]
 .right-column-equal[
-- JMP
-- Mozilla
-- Mark Wielaard
-- David Turner
-- Danielle Sucher
+**501(c)(6)**
+- Business Leagues
+- Not tax-deductible
+- For "common business interest"
+- Files IRS form 990 yearly
 ]
 
-.bottomnote[Conservancy is a **501C3** Public Charity]
-
+.bottomnote[How do we map EU charities to this?]
 ???
-Conservancy lists their major sponsors, along with a number of smaller, individual sponsors.  Conservancy doesn't list sponsorship amounts, but my bet is that the above sponsors provide the bulk of Conservancy's annual income.
+
+- [IRS 501(c)(3) definition](https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations): Charitable organizations
+- [IRS 501(c)(6) definition](https://www.irs.gov/charities-non-profits/other-non-profits/requirements-for-exemption-business-league): Business leagues
 
 ---
 template: logorb
-# Conservancy - Funding
+# Foundation Finances 990s
 
-.left-column-equal[
-<img src="img/conservancy-income-2023.png" style="width: 95%" />
-]
-.right-column-equal[
-<img src="img/conservancy-assets-2023.png" style="width: 95%" />
-]
+US IRS 990 tax forms capture:
 
+- Contributions
+- Program Service Revenue
+- Total Revenue
+- Total Expenses
+- Some details of compensation
+- Some details of board & officers
+
+.bottomnote[How do we capture EU charity finances?]
 ???
-On the left, we see Conservancy's annual gross income for the past few years, primarily from donations.  Conservancy's income is on a steady upward trend, surpassing $4M in 2021, the last year that official IRS 990 forms are available for.
 
-On the right, we can see Conservancy's Net Assets - cash in the bank or investments for their continuing operations, which also has a solid upwards trend surpassing $6M in 2021.
+With apologies for the US focus here - I haven't had time to figure out how to get EU finance data at scale.  In the US, with many thanks to the [Nonprofit Explorer by ProPublica](https://projects.propublica.org/nonprofits/api).
 
 ---
 template: logorb
-# Apache Software Foundation
+# Foundation Dataset - 501(c)(3)
 
-.left-column-equal[
-**Project Overview**
-- 200+ projects
-- Apache Way governance
-- Apache *Project* branding
-- Focus on community over code
+.left-column-equal-vsm[
+- Electronic Frontier Foundation Inc
+- Signal Technology Foundation
+- Creative Commons Corporation
+- Numfocus Inc
+- The Freebsd Foundation
+- Software Freedom Conservancy Inc
+- Opencollective Foundation
+- Python Software Foundation
+- Beneficent Technology Inc
+- Apache Software Foundation
+- Plone Foundation
+- Software In The Public Interest Inc
+- Kuali Foundation Inc
+- Open Source Robotics Foundation Inc
+- Open Education Global Incorporated
+- Free Software Foundation Inc
+- Drupalcon Inc
+- United States Postgresql Association
+- Wikimedia Foundation
+- Mozilla Foundation
+- Oasis Open
 ]
-.right-column-equal[
-**Scalable Services**
-- Legal
-- IP stewardship
-- Infrastructure
-- Conferences
-- Community mentoring
-- Lifecycle support
+.right-column-equal-vsm[
+- Internet Systems Consortium Inc
+- Gnome Foundation Inc
+- Open Information Security Foundation Inc
+- Llvm Foundation
+- Wordpress Foundation
+- Participatory Culture Foundation
+- Open Molecular Software Foundation
+- Open Source Election Technology Institute
+- Ruby Central Inc
+- Linux Expo Of Southern California
+- Yet Another Society
+- Open Source Initiative
+- Haskell Org Inc
+- Biobricks Foundation Incorporated
+- Netbsd Foundation
+- Django Events Foundation North America
+- Tex Users Group
+- Software Freedom Law Center Inc
+- Sahana Software Foundation
+- Raspberry Pi Foundation North America Inc
 ]
-
-.bottomnote[ASF is a **501C3** Public Charity]
-
-???
-The ASF hosts well over 200 Apache project communities.  While each project is managed independently, the board provides oversight to ensure they are following the Apache Way.  The ASF also provides hosting and infra, and especially community mentorship, as well as lifecycle support in the Apache Incubator and Apache Attic.
 
 ---
 template: logorb
-# Apache - Sponsors
-
-Apache's Platinum sponsors are:
+# Foundation Dataset - 501(c)(6)
 
 .left-column-equal[
-- Amazon Web Services
-- Apple
-- Microsoft
-- Huawei
-- Pineapple Fund
+- **Linux Foundation**
+- Net Foundation
+- Open Compute Project Foundation
+- Open Connectivity Foundation Inc
 ]
 .right-column-equal[
-- yahoo!
-- Facebook
-- Google
-- VMWare
+- Open Source Collective
+- Open Source Geospatial Foundation
+- Openid Foundation
+- Openstack Foundation
 ]
-
-.bottomnote[ASF is a **501C3** Public Charity]
 
 ???
-Those are just the platinum sponsors, but they represent about $800K in annual donations, or about half the financial income for the entire ASF.  These sponsors get a thank you and a listing on our webpage, but otherwise have no influence over how the ASF or Apache projects are run.
-
-Thank you to all the ASF sponsors, Gold, Silver, Bronze, and in-kind sponsors too as well as all our ApacheCon event sponsors!
-
----
-template: logorb
-# Apache - In-Kind Sponsors
-
-Apache's Targeted *(In-Kind/Services)* Platinum sponsors are:
-
-.left-column-equal[
-- GitHub
-- DLAPiper
-- leaseweb
-- Microsoft
-- yahoo!
-- Sonatype
-- CloudBees
-]
-.right-column-equal[
-- OSU Open Source Lab
-- JetBrains
-- fastly
-- JFrog
-- AWS
-- Gradle
-]
-
-.bottomnote[ASF is a **501C3** Public Charity]
-
-???
-There are more ways to organizationally support Apache than just donating cash.  Each of these organizations is a Targeted Platinum sponsor, meaning they donate the equivalent of a Platinum sponsorship of hosting services, bandwidth, cloud credits, and CI pipelines or testing resources to Apache projects.
-
-Importantly, these are all services that Apache projects directly need and are actually using.
-
+Recall that the Linux Foundation is the parent to a couple of hundred foundations, like the CNCF.
 ---
 template: logorb
 # Apache - Funding
@@ -466,219 +486,6 @@ template: logorb
 ]
 
 ???
-Here we can see the ASF's income and assets - an average of about $1million annual income, with the singular blip of the Pineapple fund one-time donation in 2017.  More projects and more services that Conservancy, but slightly smaller funding numbers.
-
-Note that all numbers here are taken directly from the 990 tax forms that all US charities file with the IRS.
-
----
-template: logorb
-# NumFocus
-
-.left-column-equal[
-**Project Overview**
-- 60 hosted projects
-- 60+ affiliated projects
-- Independent brands & governance
-- Focus on science & Python
-]
-.right-column-equal[
-**Scalable Services**
-- Legal
-- IP stewardship
-- Conferences
-- Community mentoring
-- Fiscal fundraising host
-]
-
-.bottomnote[NumFocus is a **501C3** Public Charity]
-
-???
-NumFocus is another typical FOSS project host, with a wide variety of scientific projects.  Hosted projects are offerred a full variety of services, and some affilated projects choose just some of the services they need.
-
----
-template: logorb
-# NumFocus - Sponsors
-
-NumFocus' Principal Corporate Sponsors are:
-
-.left-column-equal[
-- Bloomberg
-- IBM
-- posit
-- AWS
-]
-.right-column-equal[
-- Anaconda
-- bodo.ai
-- T.Rowe Price
-- Google
-]
-
-.bottomnote[NumFocus is a **501C3** Public Charity]
-
-???
-NumFocus has a similar set of corporate or major sponsors much like other foundations here, and also has support from some scientific grantmaking and similar organizations.
-
----
-template: logorb
-# NumFocus - Funding
-
-.left-column-equal[
-<img src="img/numfocus-income-2023.png" style="width: 95%" />
-]
-.right-column-equal[
-<img src="img/numfocus-assets-2023.png" style="width: 95%" />
-]
-
-???
-NumFocus shows a roughly similar funding picture as the previous foundations.  There are likely differences in the ways NumFocus is funded given their strong focus on scientific and research projects - meaning both different types of corporations interested, as well as much more of an opportunity for grants.
-
----
-template: logorb
-# Linux Foundation
-
-.left-column-equal[
-**Project Overview**
-- LOTS of foundations
-- Industry/Community mixed governance
-- Independent branding
-- Multiple project scales
-]
-.right-column-equal[
-**Scalable Services**
-- Legal / IP stewardship
-- Infrastructure
-- Development process support
-- Community management
-- Ecosystem development
-- Marketing
-- Conferences
-]
-
-.bottomnote[Linux Foundation is a **501C6** Business League]
-
-???
-The Linux Foundation has a large number projects, several of them giant factors in today's software world.  They also operate with an agency model, where Linux Foundation employees provide a wide variety of services to projects - some employees are directly assigned to specific projects.
-
----
-template: logorb
-# Linux Foundation - Sponsors
-
-That's a complicated question.
-
-Many Linux Foundation projects have their **own funding models**.
-
-???
-
----
-template: logorb
-# Linux Foundation - Sponsors
-
-The Platinum Corporate Members of the Linux Foundation:
-
-.left-column-equal[
-- Ericsson
-- Fujitsu
-- Hitachi
-- Huawei
-- Intel
-- Meta
-- Microsoft
-]
-.right-column-equal[
-- NEC
-- Oracle
-- Qualcomm
-- Red Hat
-- Samsung
-- Tencent
-- VMWare
-]
-
-???
-Each platinum member/sponsor of the Linux Foundation as a whole reportedly pays about 500K annually, and provides representatives both on the board of the foundation as well as in various technical bodies of collaborative projects.
-
-This list represents **over 7M of annual income** for the Linux Foundation.
-
----
-template: logorb
-# CNCF - Sponsors
-
-The eighteen Platinum member sponsors of the CNCF are:
-
-.left-column-equal[
-- Alibaba Cloud
-- AWS
-- Apple
-- ARM Holdings
-- Cisco
-- Fujitsu
-- Google Cloud
-- Huawei
-- IBM Cloud
-]
-.right-column-equal[
-- Intel
-- JD.Com
-- Microsoft Azure
-- Net App
-- Oracle
-- Paloalto Networks
-- RedHat
-- SAP
-- VMWare
-]
-
-???
-
-The Cloud Native Computing Foundation is a subsidiary of the Linux Foundation, and just for the CNCF, they have this list of platinum sponsors, each of which are donating in the range of 250K or more annually to the CNCF.
-
-These are just sponsoring the CNCF, and likely represents at least **4M in annual income**, if not more, for the CNCF and Linux Foundation.
-
----
-template: logorb
-# Hyperledger Foundation - Sponsors
-
-The Premiere Members of Hyperledger are:
-
-- Accenture
-- DTCC
-- Fujitsu
-- Hitachi
-- IBM
-
-???
-Each of these premier members for Hyperledger likely provides at least 250K annual donation, as well as employees working on the project.
-
----
-template: logorb
-# Who Sponsors The Linux Foundation?
-
-... and the 200+ Collaborative Projects at the LF?
-
-**Answer:** A lot of companies, many repeatedly.
-
-???
-There are probably a dozen **major** collaborative projects, each with their own sponsors (and products), and another hundred plus or so smaller projects - still interesting, but with fewer or little direct funding.
-
-In particular, you'll note there are many software vendors - and non-software companies! - who are sponsoring multiple projects at the LF with cash as well as contributions.
-
----
-template: logorb
-# Linux Foundation - Funding
-
-.left-column-equal[
-<img src="img/linux-income-2023.png" style="width: 95%" />
-]
-
-.right-column-equal[
-<img src="img/linux-assets-2023.png" style="width: 95%" />
-]
-
-???
-Here we can see the LF's income and assets.  Huh.  Those are pretty big numbers - these charts are an order of magnitude higher than the earlier charts.  In 2021, LF made $140 million in income, and listed net assets of $89 million.
-
-Anyone surprised at these numbers?  Remember: these figures are from 2018, the most year IRS 990 forms are available for.  As a Business League, the LF doesn't otherwise provide public budget figures, so we don't know what their 2019 income was, or what the blip in their net assets over 2017 was.
 
 ---
 template: thanks
@@ -714,7 +521,7 @@ template: logorb
 # Other topics to investigate
 
 - RedisLabs and the Commons Clause
-  - Source-Available or Cloud Licenses
+  - Source-Available or Cloud Licenses or [Software Commons](https://openpath.chadwhitacre.com/2024/towards-software-commons/)
 - Open Source Sustainability
   - [Aspects of sustainability](https://fosssustainability.com/aspects/)
   - [FOSS Sustainability Zotero library](https://www.zotero.org/groups/5030713/foss-sustainability/library)

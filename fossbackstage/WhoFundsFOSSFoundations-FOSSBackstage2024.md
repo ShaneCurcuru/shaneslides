@@ -50,7 +50,14 @@ name: start
 template: logorb
 # Resources
 
+All data and resources are my open source projects!
+
 ## [FOSSSustainability.com/FOSSBack](https://fosssustainability.com/fossback)
+## [FOSSFoundation.info](https://fossfoundation.info/)
+
+*I expect to see PRs this week!*
+
+.bottomnote[license: Apache-2.0]
 
 ???
 Please follow along at fosssustainability.com/fossback for links to slides
@@ -157,10 +164,6 @@ template: fullheader
 name: sponsorship
 # Sponsorship Program Modeling
 
----
-template: logorb
-# Sponsorship Program Modeling
-
 > How do foundations define their sponsorship programs?
 
 > How can we model these programs to gain insight?
@@ -168,7 +171,7 @@ template: logorb
 ???
 In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, versus individual or one-off contributions, or program services income, like event tickets or similar.
 
-So I built a model and analyzed 30+ foundations or sub-foundations to see
+So I built a model and analyzed 30+ foundations or sub-foundations to see the data.  More to come!
 
 ---
 template: logorb
@@ -311,7 +314,7 @@ template: logorb
 
 ???
 
-
+Here's **who** sponsors the ASF.  I have data files on who sponsors all the foundations tracked in the model online at FOSSFoundation.info, showing which companies like sponsoring only at the top level, for example.
 
 ---
 template: logorb
@@ -326,8 +329,8 @@ template: logorb
 .right-column-equal[
 **Other Sponsors**
 - Community: **8**
-- *Grants:* **3**
 - Startups: **1**
+- *Grants:* **3**
 ]
 
 .bottomnote[book values (USD): Cash 1M]
@@ -375,18 +378,8 @@ template: logorb
 The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.
 Also note that the total book value is an approximation: it's clear that there are sponsorship discounts when companies sponsor multiple LF subfoundations.  It's also clear that many software companies sponsor multiple LF subfoundations.
 
-
 ---
 template: fullheader
-# Sponsorship Program Questions
-
-???
-So - what do people think about those numbers?  Remember, this data and more is checked into FOSS Foundations.
-
-I plan to add more LF subfoundations, as well as showing some listings of which companies sponsor which kinds of foundations.  It would also be interesting to track this data over time with the wayback machine.
-
----
-template: logorb
 name: finance
 # Foundation Finances
 
@@ -446,7 +439,7 @@ template: logorb
 # Foundation Dataset - 501(c)(3)
 
 .left-column-equal-vsm[
-- *Electronic Frontier Foundation*
+- **Electronic Frontier Foundation**
 - Signal Technology Foundation
 - Creative Commons Corporation
 - Numfocus Inc
@@ -464,8 +457,8 @@ template: logorb
 - Free Software Foundation Inc
 - Drupalcon Inc
 - United States Postgresql Association
-- *Wikimedia Foundation*
-- *Mozilla Foundation*
+- **Wikimedia Foundation**
+- **Mozilla Foundation**
 - Oasis Open
 ]
 .right-column-equal-vsm[
@@ -512,7 +505,7 @@ template: logorb
 Recall that the Linux Foundation is the parent to a couple of hundred foundations, like the CNCF.
 
 ---
-template: logorb
+template: fullheader
 # Foundation Finances
 
 Let's explore some 501(c)(3) finances!
@@ -576,7 +569,7 @@ template: logorb
 More work to be done for sure, but comparing the impacts vs. funding is something to explore.
 
 ---
-template: logorb
+template: fullheader
 # Foundation Finances
 
 Let's explore some 501(c)(6) finances!
@@ -615,7 +608,7 @@ template: logorb
 <img src="img/c6-assets-outliers.png" style="width: 95%" />
 
 ---
-template: logorb
+template: fullheader
 # Foundation Finances
 
 Let's compare c3s versus c6's!
@@ -624,13 +617,17 @@ Let's compare c3s versus c6's!
 template: logorb
 # Foundation Net Asset Sums
 
-Total **Assets** in 2022 of 38 c3 foundations *(excluding Wikimedia, Mozilla, EFF)*:
+Total **Assets** of 38 c3 foundations
+  *(excluding Wikimedia, Mozilla, EFF)*
 
 ## **90M USD**
 
 Total Assets of the Linux Foundation in 2022:
 
 ## **114M USD**
+
+???
+Figures are rounded, from US 990 forms in 2022.
 
 ---
 template: thanks

@@ -277,6 +277,42 @@ template: logorb
 These calculations are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus.
 
 We can see a good mix of sponsor levels; we also see the ASF has more in-kind donations overall than cash ones.
+
+---
+template: logorb
+# Sponsorships - Apache
+
+.left-column-equal-sm[
+**First Level Cash Sponsors**
+- Apple
+- Amazon + *In-Kind*
+- Facebook
+- Google
+- Huawei
+- Microsoft + *In-Kind*
+- Pineapple Fund
+- Yahoo + *In-Kind*
+]
+.right-column-equal-sm[
+**First Level In-Kind Sponsors**
+- Cloudbees
+- DLAPiper
+- Gradle
+- Leaseweb
+- jFrog
+- OSUOSL
+- Sonatype
+- JetBrains
+- Fastly
+- GitHub
+]
+
+.bottomnote[see FOSSFoundation.info/sponsorships]
+
+???
+
+
+
 ---
 template: logorb
 # Sponsorships - NumFOCUS
@@ -410,7 +446,7 @@ template: logorb
 # Foundation Dataset - 501(c)(3)
 
 .left-column-equal-vsm[
-- Electronic Frontier Foundation Inc
+- *Electronic Frontier Foundation*
 - Signal Technology Foundation
 - Creative Commons Corporation
 - Numfocus Inc
@@ -428,8 +464,8 @@ template: logorb
 - Free Software Foundation Inc
 - Drupalcon Inc
 - United States Postgresql Association
-- Wikimedia Foundation
-- Mozilla Foundation
+- *Wikimedia Foundation*
+- *Mozilla Foundation*
 - Oasis Open
 ]
 .right-column-equal-vsm[
@@ -474,18 +510,127 @@ template: logorb
 
 ???
 Recall that the Linux Foundation is the parent to a couple of hundred foundations, like the CNCF.
+
 ---
 template: logorb
-# Apache - Funding
+# Foundation Finances
+
+Let's explore some 501(c)(3) finances!
+
+---
+template: logorb
+# C3 - Revenues
+
+<img src="img/c3-revenue.png" style="width: 95%" />
+
+???
+Here are four comparable US c3 foundations that host multiple projects.
+
+---
+template: logorb
+# C3 - Net Assets
+
+<img src="img/c3-assets.png" style="width: 95%" />
+
+???
+Now we're looking at the net assets at end of year for those four foundations.
+
+---
+template: logorb
+# C3 - Revenues - Outliers
+
+<img src="img/c3-revenue-outliers.png" style="width: 95%" />
+
+???
+Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia and Mozilla.
+
+---
+template: logorb
+# C3 - Net Assets - Outliers
+
+<img src="img/c3-assets-outliers.png" style="width: 95%" />
+
+???
+Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia and Mozilla.
+
+---
+template: logorb
+# C3 - Annual Average Finances
 
 .left-column-equal[
-<img src="img/apache-income-2023.png" style="width: 95%" />
+**Average Revenues**
+- All 42 tracked c3 orgs: 
+  - 4.9M USD
+- Not including Mozilla, Wikimedia, EFF:
+  - 2.7M USD
 ]
 .right-column-equal[
-<img src="img/apache-assets-2023.png" style="width: 95%" />
+**Average Net Assets**
+- All 42 tracked c3 orgs:
+  - 6.1M USD
+- Not including Mozilla, Wikimedia, EFF:
+  - 3.5M USD
 ]
 
 ???
+More work to be done for sure, but comparing the impacts vs. funding is something to explore.
+
+---
+template: logorb
+# Foundation Finances
+
+Let's explore some 501(c)(6) finances!
+
+---
+template: logorb
+# C6 - Revenues
+
+<img src="img/c6-revenue.png" style="width: 95%" />
+
+???
+Here are the majority of US C6 foundation revenues.
+
+---
+template: logorb
+# C6 - Net Assets
+
+<img src="img/c6-assets.png" style="width: 95%" />
+
+???
+Here are the majority of US C6 foundation net assets.
+
+---
+template: logorb
+# C6 - Revenues - Oh, Wait
+
+<img src="img/c6-revenue-outliers.png" style="width: 95%" />
+
+???
+Oh, I apologize, I forgot to include the Linux Foundation!
+
+---
+template: logorb
+# C6 - Net Assets - Oh, Wait
+
+<img src="img/c6-assets-outliers.png" style="width: 95%" />
+
+---
+template: logorb
+# Foundation Finances
+
+Let's compare c3s versus c6's!
+
+---
+template: logorb
+# Foundation Net Asset Sums
+
+Total **Assets** in 2022 of 38 c3 foundations *(excluding Wikimedia, Mozilla, EFF)*:
+
+## **90M USD**
+
+Total Assets of the Linux Foundation in 2022:
+
+## **114M USD**
 
 ---
 template: thanks

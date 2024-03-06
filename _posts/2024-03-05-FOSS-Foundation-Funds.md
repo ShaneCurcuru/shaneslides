@@ -1,20 +1,21 @@
 ---
-title: Who pays for FOSS foundations?
-description: Exploring funding sources around FOSS Foundations
-conference: Community Over Code - Halifax
-slides: "https://shaneslides.com/apachecon/WhoPaysForFoundations-ComCode2023.html"
+title: Who funds FOSS foundations?
+description: Detailed modeling of FOSS Sponsorship programs
+conference: FOSS Backstage - Berlin
+slides: "https://shaneslides.com/fossbackstage/WhoFundsFOSSFoundations-FOSSBackstage2024.html"
 video:
+feature: true
 ---
 
 Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source at the Foundation scale?  For more financial research, see my [FOSS Funding listings](https://fossfunding.com/).
 
 <div class="lead bg-info well">
-Who Pays For FOSS Foundations?
+Who Funds FOSS Foundations?
 </div>
 
 ### Abstract
 
-Have you ever wondered who actually pays for open source? Not just developers, but the whole ecosystem around major open source projects, either at a FOSS Foundation, independent projects, or an open core project at a company?
+Have you ever wondered who actually pays for open source? Not just developers, but the whole ecosystem around major open source projects, either at a FOSS Foundation, independent projects, or an open core project at a company?  This is a completely updated version of my talk with sponsorship models, sustainability notes, and top line finance numbers for dozens of foundations.
 
 Most major software projects we all rely on are hosted at Foundations like Apache, Eclipse, Linux, or Software Freedom Conservancy. Those foundations provide a wide variety of support to project communities, including legal and licensing assistance, trademark management, event support, and more. As non-profits, these foundations rely on donors and sponsors for all of their work. So who pays for all of this critical support for open source foundations?
 

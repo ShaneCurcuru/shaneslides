@@ -125,10 +125,10 @@ template: logorb
 ]
 .right-column-equal[
 **What**
-- Software Companies
+- **Software Companies**
 - Non-Software Companies
 - Educational Institutions
-- **Governments**
+- Governments
 - Standards Bodies
 ]
 
@@ -149,15 +149,23 @@ template: logorb
 ]
 .right-column-equal[
 **What**
-- **Software Companies**
+- Software Companies
 - Non-Software Companies
-- Educational Institutions
+- **Educational Institutions**
 - Governments
 - Standards Bodies
 ]
 
 ???
 TODO: software companies that still have good OSPOs or FOSS Funds are doing great! But a new contributor asks: how can I make a living off that if maintainers aren't doing it?  You're only funding your specific dependencies, not open source in general.
+
+---
+template: fullheader
+# Aspects of Sustainability
+
+> How do we help translate between these groups?
+
+> How do we link key concepts?
 
 ---
 template: fullheader
@@ -194,9 +202,9 @@ Model schema explainer: https://fossfoundation.info/sponsorships#sponsorship-mod
 template: logorb
 # Sponsorship Program Schema
 
-- Map program levels to *first, second,...*
-- Track funding amount per level
-- Model the benefits for levels
+- Map program levels to *first, second,..., community, etc.*
+- Track funding **amount** per level
+- Model the **benefits** for levels
   - Governance / Advisory roles
   - Services or Events discounts
   - Marketing partnerships
@@ -333,7 +341,7 @@ template: logorb
 - *Grants:* **3**
 ]
 
-.bottomnote[book values (USD): Cash 1M]
+.bottomnote[book values (USD): Cash 1M; grants ?]
 
 ???
 NumFOCUS has a smaller set of projects and a different focus, but otherwise is a c3 like the ASF that provides various project services.  Here we see a notably smaller number of sponsoring organizations.  Note the actual 1M value there is likely off, because their grant programs aren't assigned specific values.  Anyone know if they publicly disclose those levels of finances?

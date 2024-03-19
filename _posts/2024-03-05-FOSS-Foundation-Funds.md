@@ -3,7 +3,7 @@ title: Who funds FOSS foundations?
 description: Detailed modeling of FOSS Sponsorship programs
 conference: FOSS Backstage - Berlin
 slides: "https://shaneslides.com/fossbackstage/WhoFundsFOSSFoundations-FOSSBackstage2024.html"
-video:
+video: https://www.youtube.com/watch?v=_ktdPszzwH8&list=PLq-odUc2x7i-ww77dGasjo-d54ohCAb8k&index=34
 feature: true
 ---
 

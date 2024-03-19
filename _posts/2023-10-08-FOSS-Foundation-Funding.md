@@ -4,6 +4,7 @@ description: Exploring funding sources around FOSS Foundations
 conference: Community Over Code - Halifax
 slides: "https://shaneslides.com/apachecon/WhoPaysForFoundations-ComCode2023.html"
 video:
+newer: "https://shaneslides.com/2024/03/FOSS-Foundation-Funds/"
 ---
 
 Open source sustainability is more than just individuals figuring out how to make a living off of open source. Have you ever wondered who actually pays for open source at the Foundation scale?  For more financial research, see my [FOSS Funding listings](https://fossfunding.com/).

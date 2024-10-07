@@ -18,7 +18,7 @@ background-size: cover
 ---
 layout: true
 name: fosdem
-background-image: url(img/KaraSowles-FOSDEM2024-Slide6.png)
+background-image: url(../fossbackstage/img/KaraSowles-FOSDEM2024-Slide6.png)
 background-size: cover
 
 ---
@@ -177,7 +177,7 @@ name: sponsorship
 > How can we model these programs to gain insight?
 
 ???
-In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, versus individual or one-off contributions, or program services income, like event tickets or similar.
+In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, and how those sponsorship models were structured and marketed.  What kinds of benefits do sponsors get, and how much does it cost?
 
 So I built a model and analyzed 30+ foundations or sub-foundations to see the data.  More to come!
 
@@ -188,11 +188,11 @@ template: logorb
 - Only publicly posted programs
 - Not tracking event sponsorships
 - Level amounts are approximate
-- Tracking 35 foundations so far
+- Tracking 30+ foundations so far
 
 ???
 
-I'm focusing on quantifying how traditional foundation corporate sponsorships are modeled.  All data is drawn from publicly posted sponsorship programs in the past month.  This is not including event sponsorships, because those have a different typical structure, and aren't expected to be continuing.
+I'm focusing on quantifying how traditional foundation corporate sponsorships are modeled.  All data is drawn from publicly posted sponsorship programs in the past year.  This is not including event sponsorships, because those have a different typical structure, and aren't expected to be continuing.
 
 **IMPORTANT:** Numbers are approximate! A number of programs offer sliding scales by numbers of employees or revenue; we track the top end of each level's cost.  Also, we don't know the actual details of sponsorships; some may pay more or less depending on discounts or other factors.
 
@@ -205,7 +205,7 @@ template: logorb
 - Map program levels to *first, second,..., community, etc.*
 - Track funding **amount** per level
 - Model the **benefits** for levels
-  - Governance / Advisory roles
+  - *Governance* /or/ *Advisory* roles
   - Services or Events discounts
   - Marketing partnerships
 - Scrape live CSS or landscape.yml
@@ -261,7 +261,7 @@ template: logorb
 ]
 
 ???
-**IMPORTANT:** this is only a subset of foundations, mostly depending on which foundations fit the criteria and were easiest to write scrapers for - or had a small enough sponsor list I could manually hardcode it.  This does not  represent the whole ecosystem.
+**IMPORTANT:** this is only a subset of foundations, mostly depending on which foundations fit the criteria and were easiest to write scrapers for - or had a small enough sponsor list I could manually hardcode it.  This does not represent the whole ecosystem.
 
 ---
 template: logorb
@@ -270,9 +270,9 @@ template: logorb
 .left-column-equal[
 **Funding Sponsors**
 - First: **8** *Platinum*
-- Second: **10** *Gold*
-- Third: **8** *Silver*
-- Fourth: **13** *Bronze*
+- Second: **11** *Gold*
+- Third: **7** *Silver*
+- Fourth: **12** *Bronze*
 ]
 .right-column-equal[
 **In-Kind Sponsors**
@@ -282,7 +282,7 @@ template: logorb
 - Fourth: **10**
 ]
 
-.bottomnote[book values (USD): Cash 1.8M, In-Kind: 2M]
+.bottomnote[book values (USD): Cash ~1.8M, In-Kind: 2M]
 
 ???
 These calculations are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus.
@@ -316,13 +316,15 @@ template: logorb
 - JetBrains
 - Fastly
 - GitHub
+- Yahoo!
+- JFrog
 ]
 
 .bottomnote[see FOSSFoundation.info/sponsorships]
 
 ???
 
-Here's **who** sponsors the ASF.  I have data files on who sponsors all the foundations tracked in the model online at FOSSFoundation.info, showing which companies like sponsoring only at the top level, for example.
+Here's **who** sponsors the ASF at the highest level.  I have data files on who sponsors all the foundations tracked in the model online at FOSSFoundation.info, showing which companies like sponsoring only at the top level, for example.
 
 ---
 template: logorb
@@ -336,12 +338,12 @@ template: logorb
 ]
 .right-column-equal[
 **Other Sponsors**
-- Community: **8**
+- Community: **5**
 - Startups: **1**
 - *Grants:* **3**
 ]
 
-.bottomnote[book values (USD): Cash 1M; grants ?]
+.bottomnote[book values (USD): Cash ~1M; grants ?]
 
 ???
 NumFOCUS has a smaller set of projects and a different focus, but otherwise is a c3 like the ASF that provides various project services.  Here we see a notably smaller number of sponsoring organizations.  Note the actual 1M value there is likely off, because their grant programs aren't assigned specific values.  Anyone know if they publicly disclose those levels of finances?
@@ -352,21 +354,21 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
-- First: **22** *Platinum*
+- First: **18** *Platinum*
 - Second: **27** *Gold*
-- Third: **614** *Silver*
+- Third: **590** *Silver*
 ]
 .right-column-equal[
 **Other Sponsors**
-- Academic: **4**
-- Community: **18**
+- Academic: **5**
+- Community: **20**
 - End User: **92**
 ]
 
-.bottomnote[book value? (USD) 42M]
+.bottomnote[book value? (USD) 39M]
 
 ???
-CNCF, which is a division of the Linux Foundation shows a couple of interesting differences.  First, the sheer number of organizations listed as sponsoring: over 700 total.  Plus, the presumed book value of those sponsorships: 42M.  Note that various funding sponsors may well have different agreements, and also that other sponsors here likely have very little financial expectations vs. corporate sponsors.
+CNCF, which is a division of the Linux Foundation shows a couple of interesting differences.  First, the sheer number of organizations listed as sponsoring: over 700 total.  Plus, the presumed book value of those sponsorships: 39M (down from 42M just about a year ago).  Note that various funding sponsors may well have different agreements, and also that other sponsors here likely have very little financial expectations vs. corporate sponsors.
 
 ---
 template: logorb
@@ -374,16 +376,16 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
-- First: **12** *Platinum*
+- First: **13** *Platinum*
 - Second: **11** *Gold*
-- Third: **1158** *Silver*
-- Fourth: **383** *Associate*
+- Third: **1303** *Silver*
+- Fourth: **469** *Associate*
 ]
 
-.bottomnote[book value? (USD) 30M]
+.bottomnote[book value? (USD) 33M]
 
 ???
-The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.
+The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.  Overall LF sponsor numbers and funding numbers have gone roughly up in the past year.
 Also note that the total book value is an approximation: it's clear that there are sponsorship discounts when companies sponsor multiple LF subfoundations.  It's also clear that many software companies sponsor multiple LF subfoundations.
 
 ---

@@ -210,22 +210,17 @@ template: logorb
 
 ???
 There are many ways to say this - No Jerks Allowed, Avoid Poisonous
-People, be decent, whatever.  The point is, where everyone volunteers
-and many people are doing this as a side task or second effort, ensuring
+People, be decent, follow the code of conduct, whatever.  When everyone volunteers
+and people do this as a side task or second effort, ensuring
 that everyone is welcome is the most important factor for a long-lived
 healthy project.  Our communities rely on many volunteers; ensuring
 it's a welcoming project for newcomers should be your goal.
 
 ---
 template: logorb
-# Community - No Jerks Allowed
 
-- "No jerks allowed" - a key early message
-  - Apache communities value group contributors, not lone wolves
-  - Diverse communities attract more **new contributors** over time
-  - BDFL not allowed in Apache PMCs
+<img src="img/beexcellent.jpg" style="width: 80%" />
 
-## Be Excellent To Each Other
 
 .bottomnote[https://www.apache.org/foundation/policies/conduct]
 
@@ -238,7 +233,7 @@ of conduct - not because we want to use it, but because we don't want
 to have to use it, since the great majority of our communities keep
 discussion polite to start with.
 
-Plus, when everyone is a volunteer, raising your concerns politely
+**Plus**, when everyone is a volunteer, raising your concerns politely
 and concisely is more likely to get people to help **you**.
 
 ---
@@ -741,6 +736,7 @@ template: logorb
 
 - Free of cost forever
 - Free of restrictions
+- Apache license means no surprises
 
 > https://www.apache.org/free/
 
@@ -748,7 +744,10 @@ template: logorb
 
 ???
 The ASF is a public charity, and our mission is explicitly to produce software that
-is useful, and always free of cost or restrictions for people to use.
+is useful, and always free of cost or restrictions for people to use.  
+Alongside the permissive Apache license itself, the ASF's policies around 
+acceptable software that our projects can contain is focused on ensuring that 
+users don't find any surprising restrictions in any of our products.
 
 While our pragmatic licensing focuses on the legal enablement of open source, so
 that everyone can contribute, many ASF committers also have some form of

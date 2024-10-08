@@ -85,11 +85,13 @@ template: fullheader
 template: logorb
 # The Apache Way Introduction
 
-> The Apache Way are behaviors and practices the ASF
-designed to promote **long-lived** projects by
-focusing on **community-led governance**, 
-welcoming **new contributors**,
-and maintaining **vendor neutrality**.
+> The Apache Way are practices designed to promote:
+
+- **long-lived** projects
+- serving the **public good**, by focusing on
+- **community-led governance**, 
+- welcoming **new contributors**,
+- maintaining **vendor neutrality**
 
 > These behaviors are required of all Apache projects.
 
@@ -171,6 +173,8 @@ template: logorb
   - We don't know each other
 - Except *through this project*
 
+.topnote[new contributors]
+
 ???
 What does community mean here?  Working on an independent open source
 project is very different than most other human activities.  There are
@@ -199,7 +203,7 @@ projects as well, many participants will only know you from a single project.
 
 ---
 template: logorb
-# Community - No Jerks Allowed
+# No Jerks Allowed
 
 - "No jerks allowed" - a key early message
   - Apache communities value group contributors, not lone wolves
@@ -207,6 +211,7 @@ template: logorb
   - BDFL not allowed in Apache PMCs
 
 .bottomnote[https://www.apache.org/foundation/policies/conduct]
+.topnote[new contributors]
 
 ???
 There are many ways to say this - No Jerks Allowed, Avoid Poisonous
@@ -238,15 +243,16 @@ and concisely is more likely to get people to help **you**.
 
 ---
 template: logorb
-# Community - Wear Your Hats
+# Wear Your Hats
 
-- You are an individual - not an employee
-- No corporate participation at Apache: vendor-neutral
+- You are an individual here - not an employee
+- All participation is by individuals - not companies
 - **Individuals** get recognition
   - Side effect for corporate teams: each employee participates separately
   - Side effect for **you**: your merit stays with **you** across jobs
 
 .bottomnote[https://theapacheway.com/hats/]
+.topnote[vendor neutral]
 
 ???
 The ASF does not allow direct corporate participation in projects.  
@@ -266,7 +272,7 @@ their contribution over time.
 
 ---
 template: logorb
-# Community - Check Job Titles At The Door
+# Check Job Titles At The Door
 
 - Job titles don't apply in projects
 - Not talking about hierarchy
@@ -277,6 +283,7 @@ template: logorb
 > "It's not a hierarchy, it's a community"
 
 .bottomnote[https://theapacheway.com/individuals/]
+.topnote[community-led governance]
 
 ???
 Wearing your project hat means you're acting on behalf of the project as
@@ -295,14 +302,15 @@ giving you time to contribute back to ASF projects!
 
 ---
 template: logorb
-# Community - Independent Governance
+# Independent Governance
 
+- PMCs are community-led governance
+  - ASF projects are **vendor-neutral**
 - ASF owns the trademarks
   - ASF board ensures neutrality
-- PMCs govern independently
-  - ASF projects are **vendor-neutral**
 
 .bottomnote[https://community.apache.org/projectIndependence.html]
+.topnote[long-lived projects]
 
 ???
 The net effect of all the above is that projects are governed for the
@@ -331,7 +339,7 @@ name: merit
 
 ---
 template: logorb
-# Merit - What YOU Have Done
+# What YOU Have Done
 
 The contributions **you** have brought to the specific project, as defined
 in the **context of that project** by its community.
@@ -339,6 +347,7 @@ in the **context of that project** by its community.
 > "You gain merit by doing things that specific community values"
 
 .bottomnote[https://theapacheway.com/merit/]
+.topnote[community-led governance]
 
 ???
 Merit at the ASF is often misunderstood, and perhaps (in retrospect)
@@ -355,7 +364,7 @@ after being away, you'll still be a committer.
 
 ---
 template: logorb
-# Merit - Growth
+# Growing Your Scope
 
 The more you do, the more power *you may be granted* to take actions:
 
@@ -368,6 +377,7 @@ The more you do, the more power *you may be granted* to take actions:
 - **Director**
 
 .bottomnote[https://community.apache.org/contributor-ladder.html]
+.topnote[long-lived projects]
 
 ???
 Each step is defined by the merit you are recognized for by that
@@ -384,13 +394,15 @@ any board questions get addressed by the PMC as a whole.
 
 ---
 template: logorb
-# Merit - Not Authority
+# Merit is Not Authority
 
 ## Leaders or managers?
 
 > "Merit gets you **privileges** - commit access, voting on committers"
 
 > "Merit does not buy you **authority** - community must still agree"
+
+.topnote[community-led governance]
 
 ???
 You are still part of the community - it's not a hierarchy; everyone
@@ -408,9 +420,7 @@ not because you have authority in the project.
 
 ---
 template: logorb
-# Merit - Umbrella Projects
-
-## Problem area: Umbrella projects
+# Caution: Umbrella projects
 
 Apache Jakarta *was* an umbrella project - with many different sub-projects and
 components and communities - each *slightly different*.
@@ -440,7 +450,7 @@ name: open
 
 ---
 template: logorb
-# Open Development - Time Shifting
+# Time Shifting Communications
 
 - Asynchronous communication enables:
   - ...a dispersed community
@@ -449,6 +459,8 @@ template: logorb
   - ...dispersed in motivation
   - ...dispersed in **time**
 - Only know each other *through* the project
+
+.topnote[new contributors]
 
 ???
 Remember: we are a dispersed community, each with our own lives and jobs.
@@ -463,7 +475,7 @@ getting finalized.
 
 ---
 template: logorb
-# Open Development - Archiving Everything
+# Archiving Everything
 
 > If It Didn't Happen On-List It Didn't Happen
 
@@ -475,6 +487,7 @@ template: logorb
 - Must be public list unless there's a reason for private list
 
 .bottomnote[https://theapacheway.com/on-list/]
+.topnote[long-lived projects]
 
 ???
 Note: while the ASF currently relies on mailing lists, this is changing: 
@@ -496,7 +509,7 @@ Archiving things is just another way to enable long-term time-shifting.
 
 ---
 template: logorb
-# Open Development - Transparent Decisions
+# Make Transparent Decisions
 
 - Your motives aren't transparent to the community!
   - Motivated by boss, by outside technical need, by just being a geek
@@ -508,6 +521,7 @@ template: logorb
   - Welcome feedback along the way
 
 .bottomnote[https://theapacheway.com/open/]
+.topnote[new contributors]
 
 ???
 Ensuring decisions are made openly - when everyone has the same information
@@ -520,7 +534,7 @@ and time to read it - is required of Apache projects.'s required.
 
 ---
 template: logorb
-# Open Development - Pragmatic License
+# Apache The Pragmatic License
 
 - Apache License v2.0
 - Maximum user freedom
@@ -531,6 +545,7 @@ template: logorb
 > Apache Attic - where quiet projects slumber *forever*
 
 .bottomnote[https://theapacheway.com/pragmatic/]
+.topnote[long-lived projects]
 
 ???
 A goal of the ASF is to encourage maximum inbound contributions.
@@ -553,7 +568,7 @@ name: decision
 
 ---
 template: logorb
-# Decision Making - Consensus Preferred
+# Consensus Preferred
 
 - Consensus within each community
 - Choose best path forward
@@ -561,6 +576,7 @@ template: logorb
   - Your perfection may be someone else's "meh"
 
 .bottomnote[https://theapacheway.com/consensus/]
+.topnote[community-led governance]
 
 ???
 **There is no perfection** - just getting better step by step.  Our goal is
@@ -576,13 +592,14 @@ an opportunity for people to object; if no one does, go ahead.
 
 ---
 template: logorb
-# Decision Making - Votes When Needed
+# Votes When Needed
 
 > "Voting is a way to record an **official** consensus"
 
 > "Voting is a shortcut to move consensus forward quickly when required"
 
 .bottomnote[https://community.apache.org/committers/decisionMaking.html]
+.topnote[community-led governance]
 
 ???
 **Here are two quotes about voting** - the +1/-1 you've all heard about.
@@ -601,10 +618,12 @@ have their input, the use of votes or full consensus is up to the project.
 
 ---
 template: logorb
-# Decision Making - Timeline
+# Timeline For Decisions
 
 - **Minimum** time to make a decision: 72 hours
 - Allows time-shifted input from community
+
+.topnote[community-led governance]
 
 ???
 Your project community is from around the world, and from all sorts of
@@ -619,10 +638,12 @@ be fixed as soon as possible, to help ensure our users aren't harmed.
 
 ---
 template: logorb
-# Decision Making - No Deadlines
+# No External Deadlines
 
 - Because **we** don't have any - besides those **we** agree on together
 - Because our deadlines are *earliest date* something could happen
+
+.topnote[long-lived projects]
 
 ???
 The ASF relies on volunteers (from the Apache perspective) to do our
@@ -642,11 +663,13 @@ name: communication
 
 ---
 template: logorb
-# Communication - Kindness
+# Be Kind
 
 **Be kind.**
 
 Everyone here is a human being, and a **volunteer**.
+
+.topnote[new contributors]
 
 ???
 Remember: everyone else in the community **here at Apache** is a
@@ -661,13 +684,14 @@ project participants to vote or help with your ideas.
 
 ---
 template: logorb
-# Communication - Netiquette
+# Netiquette
 
 **Ask smart questions**
 
 Remember: everyone else is a volunteer - make it easy for them to answer your question.
 
 .bottomnote[https://infra.apache.org/contributors]
+.topnote[new contributors]
 
 ???
 Netiquette.  Smart questions.  Reproduceable bug reports.  Clearly
@@ -680,7 +704,7 @@ what you wrote.
 
 ---
 template: logorb
-# Communication - Conduct
+# Codes of Conduct
 
 Don't be a jerk; avoid the poisonous people...
   and help the community do something about it.
@@ -688,6 +712,8 @@ Don't be a jerk; avoid the poisonous people...
 **ASF Code of Conduct**
 
 https://www.apache.org/foundation/policies/conduct
+
+.topnote[new contributors]
 
 ???
 The ASF has a Foundation-wide code of conduct that is required
@@ -702,13 +728,15 @@ https://www.youtube.com/watch?v=-F-3E8pyjFo
 
 ---
 template: logorb
-# Communication - Language
+# Language
 
 > "The core **development** activity must be in English."
 
 - Translation software isn't social
 - The whole community must be able to evaluate your work
 - The board provides oversight to **all** communities
+
+.topnote[community-led governance]
 
 ???
 At the current time, it's only practical for the ASF to provide
@@ -730,9 +758,7 @@ name: charity
 
 ---
 template: logorb
-# Charity - Free
-
-## Apache Software Is *Always* Free
+# Apache Software Is *Always* Free
 
 - Free of cost forever
 - Free of restrictions
@@ -741,6 +767,7 @@ template: logorb
 > https://www.apache.org/free/
 
 .bottomnote[https://theapacheway.com/charity/]
+.topnote[long-lived projects]
 
 ???
 The ASF is a public charity, and our mission is explicitly to produce software that

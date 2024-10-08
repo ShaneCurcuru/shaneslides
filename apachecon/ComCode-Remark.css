@@ -44,6 +44,14 @@ blockquote > p{
   opacity: .7;
   font-size: 1.5rem;
 }
+.topnote {
+  position: absolute;
+  top: .8rem;
+  right: 2rem;
+  opacity: .5;
+  font-style: italic;
+  font-size: 1.5rem;
+}
 /* Fix too small body fonts -sc */
 li, p { 
   line-height: 1.25em;

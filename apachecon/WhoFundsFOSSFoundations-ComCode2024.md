@@ -450,7 +450,7 @@ template: logorb
 
 .left-column-equal-vsm[
 - **Electronic Frontier Foundation**
-- Signal Technology Foundation
+- **Signal Technology Foundation**
 - Creative Commons Corporation
 - Numfocus Inc
 - The Freebsd Foundation
@@ -545,7 +545,7 @@ template: logorb
 <img src="img/c3-revenue-outliers.png" style="width: 95%" />
 
 ???
-Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia and Mozilla.
+Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia, Mozilla, EFF, and Signal.
 
 ---
 template: logorb
@@ -554,7 +554,7 @@ template: logorb
 <img src="img/c3-assets-outliers.png" style="width: 95%" />
 
 ???
-Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia and Mozilla.
+Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia, Mozilla, EFF, and Signal.
 
 ---
 template: logorb
@@ -563,16 +563,16 @@ template: logorb
 .left-column-equal[
 **Average Revenues**
 - All 42 tracked c3 orgs: 
-  - 4.9M USD
-- Not including Mozilla, Wikimedia, EFF:
-  - 2.7M USD
+  - 8.5M USD
+- Not including Mozilla, Wikimedia, EFF, Signal:
+  - 2.6M USD
 ]
 .right-column-equal[
 **Average Net Assets**
 - All 42 tracked c3 orgs:
-  - 6.1M USD
-- Not including Mozilla, Wikimedia, EFF:
-  - 3.5M USD
+  - 10.8M USD
+- Not including Mozilla, Wikimedia, EFF, Signal:
+  - 2.3M USD
 ]
 
 ???
@@ -630,11 +630,11 @@ template: logorb
 Total **Assets** of 38 c3 foundations
   *(excluding Wikimedia, Mozilla, EFF)*
 
-## **90M USD**
+## **94M USD**
 
 Total Assets of the Linux Foundation in 2022:
 
-## **114M USD**
+## **113M USD**
 
 ???
 Figures are rounded, from US 990 forms in 2022.

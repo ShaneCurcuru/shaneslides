@@ -25,5 +25,9 @@ starting points to work on.
 Key updates this year is a section on Charity - fundamental to the ASF's non-profit mission, plus a pragmatic part of our method in ensuring maximum inbound contributions, as 
 well as updated slide notes and more links between the behavior and the why.
 
+Remember: these slides are open source - I'd love your patches, as well as 
+questions or ideas of how to better explain the relationship between these 
+behaviors and how Apache projects document themselves in real life.
+
 {: .lead }
 The behaviors you can use to succeed at Apache.

@@ -4,7 +4,7 @@ description: The ASF Way - Effective Open Source Project Management
 conference: Community Over Code - Halifax
 slides: "https://shaneslides.com/apachecon/TheASFWay-ComCode2023.html"
 video: 
-feature: true
+newer: https://shaneslides.com/2024/10/2024-10-08-The-ASF-Way.html
 ---
 
 <div class="lead bg-info well">

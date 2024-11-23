@@ -6,6 +6,7 @@ dates: 13-14 November 2024
 location: Boston, MA
 conference: Open Forum Academy Symposium
 eventurl: https://symposium.openforumeurope.org/
+layout: trip
 ---
 
 I was fortunate to be invited to the Open Forum Academy Symposium, a curated event bringing together researchers and practitioners who work on open source software.  It was a chance to see a number of new research papers exploring open source code, communities, funding, impacts, and more.  Even better, it became a true collaboration with practitioners, working together to improve the impact of research, and collaborating on key tools and metrics.

@@ -102,6 +102,13 @@ defaults:
     values:
       layout: cfp
       comments: true
+  -
+    scope:
+      path: "trips"
+      type: trips
+    values:
+      layout: trip
+      comments: true
 
 # Plugins
 plugins:

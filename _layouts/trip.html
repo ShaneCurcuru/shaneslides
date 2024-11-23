@@ -1,0 +1,39 @@
+---
+layout: default
+# Custom page, similar to main posts
+---
+
+<div class="row">
+  <div class="col-md-10 offset-md-1">
+      <article id="post{{ page.id | replace:"/","-" }}" class="post post{{ page.id | replace:"/","-" }}">
+
+      <h2 class="display-4 text-primary">{{ page.title | smartify }}</h1>
+
+      {% if page.description %}
+      <div class="lead">
+        {{ page.description }}
+        {% if page.conference %}
+        <small class="fw-lighter">
+          | <a href="{{ page.eventurl }}">{{ page.conference }}</a>
+          {% if page.location %}
+          | {{ page.location }}
+          {% endif %}
+          {% if page.dates %}
+          | {{ page.dates }}
+          {% endif %}
+        </small>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="entrybody">
+        {{ content }}
+      </div>
+
+      {% if site.data.related_posts[page.relative_path] %}
+        {% include related_posts.html %}
+      {% endif %}
+     
+    </article>
+  </div>
+</div>

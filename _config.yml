@@ -72,6 +72,11 @@ collections:
     excerpt: "Shane's other CFP submissions or ideas"
     label: "Shane CFPs"
     permalink: /:collection/:path
+  trips:
+    output: true
+    excerpt: "Shane's conference trip notes"
+    label: "Conference Notes"
+    permalink: /:collection/:path
 
 # Front matter defaults
 permalink: "/:year/:month/:title/"

@@ -50,7 +50,7 @@ name: start
 template: logorb
 # Resources
 
-All data and resources are my open source projects!
+All data and resources are in these open source projects!
 
 ## [FOSSSustainability.com/ComCode](https://fosssustainability.com/comcode)
 ## [FOSSFoundation.info](https://fossfoundation.info/)
@@ -108,6 +108,8 @@ template: logorb
 - Standards Bodies
 ]
 
+.bottomnote[https://fosssustainability.com/aspects/]
+
 ???
 Listening to people talk about sustainability, I'm often struck by how siloed the conversations are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.
 
@@ -120,17 +122,19 @@ template: logorb
 
 - Users
 - Contributors
-- **Maintainers**
+- **[Maintainers](https://fosssustainability.com/aspects/maintainer?s=ss)**
 - PMC / TSC
 ]
 .right-column-equal[
 **What**
-- **Software Companies**
+- **[Software Companies](https://fosssustainability.com/aspects/software-company?s=ss)**
 - Non-Software Companies
 - Educational Institutions
 - Governments
 - Standards Bodies
 ]
+
+.bottomnote[https://fosssustainability.com/aspects/]
 
 ???
 TODO: story about policy bodies working on sustainability - but maintainers simply asking how do they get paid?
@@ -143,7 +147,7 @@ template: logorb
 **Who**
 
 - Users
-- **Contributors**
+- **[Contributors](https://fosssustainability.com/aspects/contributor?s=ss)**
 - Maintainers
 - PMC / TSC
 ]
@@ -151,10 +155,12 @@ template: logorb
 **What**
 - Software Companies
 - Non-Software Companies
-- **Educational Institutions**
+- **[Educational Institutions](https://fosssustainability.com/aspects/education?s=ss)**
 - Governments
 - Standards Bodies
 ]
+
+.bottomnote[https://fosssustainability.com/aspects/]
 
 ???
 TODO: software companies that still have good OSPOs or FOSS Funds are doing great! But a new contributor asks: how can I make a living off that if maintainers aren't doing it?  You're only funding your specific dependencies, not open source in general.
@@ -188,7 +194,9 @@ template: logorb
 - Only publicly posted programs
 - Not tracking event sponsorships
 - Level amounts are approximate
-- Tracking 30+ foundations so far
+- Tracking ~30 foundations so far
+
+.bottomnote[https://fossfoundation.info/sponsorships]
 
 ???
 
@@ -209,6 +217,8 @@ template: logorb
   - Services or Events discounts
   - Marketing partnerships
 - Scrape live CSS or landscape.yml
+
+.bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/sponsorships-schema.json]
 
 ???
 Most organizations include scraping definitions to automatically parse listings of sponsorship pages; some are manually drawn maps as of a specific date.  Future ideas include using the wayback machine to see historical sponsorship trends, both of foundations, and of sponsors.
@@ -259,6 +269,8 @@ template: logorb
 - Software Freedom Conservancy
 - Software in the Public Interest
 ]
+
+.bottomnote[https://fossfoundation.info/sponsorships]
 
 ???
 **IMPORTANT:** this is only a subset of foundations, mostly depending on which foundations fit the criteria and were easiest to write scrapers for - or had a small enough sponsor list I could manually hardcode it.  This does not represent the whole ecosystem.
@@ -319,8 +331,6 @@ template: logorb
 - Yahoo!
 - JFrog
 ]
-
-.bottomnote[see FOSSFoundation.info/sponsorships]
 
 ???
 
@@ -421,6 +431,7 @@ template: logorb
 ]
 
 .bottomnote[How do we map EU charities to this?]
+
 ???
 
 - [IRS 501(c)(3) definition](https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations): Charitable organizations
@@ -432,14 +443,15 @@ template: logorb
 
 US IRS 990 tax forms capture:
 
-- Contributions
-- Program Service Revenue
+- Contributions, Program Service Revenue, etc.
 - Total Revenue
 - Total Expenses
+- Net Assets
 - Some details of compensation
 - Some details of board & officers
 
-.bottomnote[How do we capture EU charity finances?]
+.bottomnote[https://fossfoundation.info/taxes]
+
 ???
 
 With apologies for the US focus here - I haven't had time to figure out how to get EU finance data at scale.  In the US, with many thanks to the [Nonprofit Explorer by ProPublica](https://projects.propublica.org/nonprofits/api).
@@ -512,7 +524,7 @@ template: logorb
 ]
 
 ???
-Recall that the Linux Foundation is the parent to a couple of hundred foundations, like the CNCF.
+Recall that the Linux Foundation is the parent to two or three hundred foundations, like the CNCF.
 
 ---
 template: fullheader
@@ -575,6 +587,8 @@ template: logorb
   - 2.3M USD
 ]
 
+.bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/p990/foundations_990_common.csv]
+
 ???
 More work to be done for sure, but comparing the impacts vs. funding is something to explore.
 
@@ -628,13 +642,15 @@ template: logorb
 # Foundation Net Asset Sums
 
 Total **Assets** of 38 c3 foundations
-  *(excluding Wikimedia, Mozilla, EFF)*
+  *(excluding Wikimedia, Mozilla, EFF, Signal)*
 
 ## **94M USD**
 
 Total Assets of the Linux Foundation in 2022:
 
 ## **113M USD**
+
+.bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/p990/foundations_990_common.csv]
 
 ???
 Figures are rounded, from US 990 forms in 2022.
@@ -674,6 +690,7 @@ template: logorb
 
 - RedisLabs and the Commons Clause
   - Source-Available or Cloud Licenses or [Software Commons](https://openpath.chadwhitacre.com/2024/towards-software-commons/)
+  - [Fair Source movement](https://fair.io/licenses/) to codify BSL-like licenses
 - Open Source Sustainability
   - [Aspects of sustainability](https://fosssustainability.com/aspects/)
   - [FOSS Sustainability Zotero library](https://www.zotero.org/groups/5030713/foss-sustainability/library)
@@ -683,6 +700,7 @@ template: logorb
   - Bountysource pays for specific work
   - Tidelift, Liberapay, Open Collective and subscriptions
   - Building your own business model
+  - [Open Source Pledge](https://opensourcepledge.com/): pay $2K/engineer to maintainers
 
 ???
 There's a lot more to talk about out there - I look forward to your ideas!

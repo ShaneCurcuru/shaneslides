@@ -10,6 +10,14 @@ location: Berlin, DE
 ---
 
 
+## [FOSS Backstage 2025 CFP](https://25.foss-backstage.de/)
+### Bio
+
+Shane started volunteering at the ASF in 1999.  Since then he's worked on multiple projects and conferences, wrote the ASF's [trademark policy](https://apache.org/foundation/marks/) as the first VP, Brand Management, and now serves as Board Chair.  [Shane also speaks](https://shaneslides.com/) at Community Over Code, FOSSBackstage, All Things Open, and select academic conferences on FOSS governance, branding, and funding topics.
+
+Otherwise, Shane is a father, husband, and friend.  Oh, and we have [cats](https://www.instagram.com/shanecurcuru)!  Find me on socials at ShaneCurcuru.
+
+
 ## [FOSS Backstage 2024 CFP](https://24.foss-backstage.de/)
 
 ### Bio

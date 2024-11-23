@@ -22,6 +22,13 @@ or do:
 Then open your browser to http://localhost:8000/apachecon (for example)
 and click on the .html file for the presentation to run.
 
+### Ddbugging
+
+Even working locally, when changing slides/css/images, you may need to 
+force refresh in developer mode or otherwise explicitly clear caches.
+
+
+
 ## Conferences
 
 I speak regularly at [ApacheCon and

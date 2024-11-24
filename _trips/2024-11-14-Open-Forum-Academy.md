@@ -44,7 +44,12 @@ There are several different people/groups interested in creating ways at the ind
 - Julia Ferraioli (and others!) [work around open source community research](https://www.juliaferraioli.com/pub/). 
 - [Ecosyste.ms tools and roadmaps](https://github.com/ecosyste-ms/roadmap), especially [issue #19](https://github.com/ecosyste-ms/roadmap/issues/19).
 - [FOSS Foundations metadata directory](https://fossfoundation.info/), extending the [Foundation schema](https://github.com/Punderthings/fossfoundation/blob/main/_data/foundations-schema.json).
-- [Well-known resource identifiers](https://datatracker.ietf.org/doc/html/rfc8615) and RFC 8615 as a way for organizations to provide attestation hints.
+- [RFC 8615 Well-known resource identifiers](https://datatracker.ietf.org/doc/html/rfc8615) as a way for organizations to provide attestation hints.  Various RFCs or listed well-known URIs that have potentially similar mapping fields that could be used (either directly or as inspiration):
+  - [RFC 7072](https://www.rfc-editor.org/rfc/rfc7072.html) A Reputation Query Protocol
+  - [RFC 7033](https://www.rfc-editor.org/rfc/rfc7033.html) WebFinger
+  - [.well-known/openorg](https://opd.data.ac.uk/) Organization Profile Documents
+  - [.well-known/trust.txt](https://journallist.net/) "a system of helping the digital robots of the world know about groups that have formed to express some trust in each other"
+  - Deductions made from various security/key/PKI/OpenID related well-known ids (where some organizational reference is implicit somewhere)
 - [NumFOCUS Open Source Science project](https://numfocus.org/open-source-science-initiative-ossci) and the [MOSS Map](https://github.com/numfocus/MOSS).
 - Various ideas that could riff on existing [CHAOSS metrics](https://chaoss.community/) structures.
 - Several other OFA attendees who were coming up with ideas!

@@ -1,4 +1,5 @@
----
+free fre
+
 title: Practical Trademark AMA
 description: Practical Trademark AMA For FOSS Projects
 conference: Community Over Code - Halifax

@@ -5,6 +5,7 @@ conference: Community Over Code - Denver
 slides: "https://shaneslides.com/apachecon/TheASFWay-ComCode2024.html"
 video: 
 feature: true
+shirt: red Paradise Found
 ---
 
 <div class="lead bg-info well">

@@ -70,7 +70,7 @@ name: topics
 
 - Aspects of Sustainability
 - Modeling Foundation Sponsorships
-- Financial Data of Key Foundations
+- Financial Data of Key Foundations (US)
 
 ???
 Topics for today...
@@ -81,6 +81,7 @@ Topics for today...
 
 ???
 I hope to leave everyone with enough information and ideas, so that you can start asking better questions when you're working on sustainability.
+Note: this is US centric data; would love help collating non-US nonprofit data.
 
 ---
 template: fullheader
@@ -111,7 +112,7 @@ template: logorb
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-Listening to people talk about sustainability, I'm often struck by how siloed the conversations are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.
+Listening sustainability conversations, I'm struck by how siloed they are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.
 
 ---
 template: logorb
@@ -169,9 +170,9 @@ TODO: software companies that still have good OSPOs or FOSS Funds are doing grea
 template: fullheader
 # Aspects of Sustainability
 
-> How do we help translate between these groups?
+> How do we translate between these groups?
 
-> How do we link key concepts?
+.bottomnote[https://fosssustainability.com/aspects/]
 
 ---
 template: fullheader
@@ -199,8 +200,7 @@ template: logorb
 .bottomnote[https://fossfoundation.info/sponsorships]
 
 ???
-
-I'm focusing on quantifying how traditional foundation corporate sponsorships are modeled.  All data is drawn from publicly posted sponsorship programs in the past year.  This is not including event sponsorships, because those have a different typical structure, and aren't expected to be continuing.
+I'm focusing on quantifying how traditional foundation corporate sponsorships are modeled.  All data is drawn from publicly posted sponsorship programs in the past year or so.  This is not including event sponsorships, because those have a different typical structure, and aren't expected to be continuing.
 
 **IMPORTANT:** Numbers are approximate! A number of programs offer sliding scales by numbers of employees or revenue; we track the top end of each level's cost.  Also, we don't know the actual details of sponsorships; some may pay more or less depending on discounts or other factors.
 
@@ -420,14 +420,14 @@ template: logorb
 - Charitable Organization
 - Tax-deductible for donors
 - Restrictions on activities
-- Files IRS form 990 yearly
+- *Files IRS form 990 yearly*
 ]
 .right-column-equal[
 **501(c)(6)**
 - Business Leagues
 - Not tax-deductible
 - For "common business interest"
-- Files IRS form 990 yearly
+- *Files IRS form 990 yearly*
 ]
 
 .bottomnote[How do we map EU charities to this?]
@@ -536,7 +536,7 @@ Let's explore some 501(c)(3) finances!
 template: logorb
 # C3 - Revenues
 
-<img src="img/c3-revenue.png" style="width: 95%" />
+<img src="img/c3-revenue-2024.png" style="width: 95%" />
 
 ???
 Here are four comparable US c3 foundations that host multiple projects.
@@ -545,7 +545,7 @@ Here are four comparable US c3 foundations that host multiple projects.
 template: logorb
 # C3 - Net Assets
 
-<img src="img/c3-assets.png" style="width: 95%" />
+<img src="img/c3-assets-2024.png" style="width: 95%" />
 
 ???
 Now we're looking at the net assets at end of year for those four foundations.
@@ -554,19 +554,19 @@ Now we're looking at the net assets at end of year for those four foundations.
 template: logorb
 # C3 - Revenues - Outliers
 
-<img src="img/c3-revenue-outliers.png" style="width: 95%" />
+<img src="img/c3-revenue-outliers-2024.png" style="width: 95%" />
 
 ???
-Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia, Mozilla, EFF, and Signal.
+Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia and Mozilla.  Note that Signal Foundation and the EFF are both also highly endowed.
 
 ---
 template: logorb
 # C3 - Net Assets - Outliers
 
-<img src="img/c3-assets-outliers.png" style="width: 95%" />
+<img src="img/c3-assets-outliers-2024.png" style="width: 95%" />
 
 ???
-Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia, Mozilla, EFF, and Signal.
+Here are the same four foundations, plus the related-but-not-quite C3 foundations Wikimedia and Mozilla.  Note that Signal Foundation and the EFF are both also highly endowed.
 
 ---
 template: logorb
@@ -574,17 +574,17 @@ template: logorb
 
 .left-column-equal[
 **Average Revenues**
-- All 42 tracked c3 orgs: 
-  - 8.5M USD
-- Not including Mozilla, Wikimedia, EFF, Signal:
+- All 45 tracked c3 orgs: 
+  - 9M USD
+- **Not** including Mozilla, Wikimedia, EFF, Signal:
   - 2.6M USD
 ]
 .right-column-equal[
 **Average Net Assets**
-- All 42 tracked c3 orgs:
-  - 10.8M USD
-- Not including Mozilla, Wikimedia, EFF, Signal:
-  - 2.3M USD
+- All 45 tracked c3 orgs:
+  - 11M USD
+- **Not** including Mozilla, Wikimedia, EFF, Signal:
+  - 1.9M USD
 ]
 
 .bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/p990/foundations_990_common.csv]
@@ -602,7 +602,7 @@ Let's explore some 501(c)(6) finances!
 template: logorb
 # C6 - Revenues
 
-<img src="img/c6-revenue.png" style="width: 95%" />
+<img src="img/c6-revenue-2024.png" style="width: 95%" />
 
 ???
 Here are the majority of US C6 foundation revenues.
@@ -611,7 +611,7 @@ Here are the majority of US C6 foundation revenues.
 template: logorb
 # C6 - Net Assets
 
-<img src="img/c6-assets.png" style="width: 95%" />
+<img src="img/c6-assets-2024.png" style="width: 95%" />
 
 ???
 Here are the majority of US C6 foundation net assets.
@@ -620,7 +620,7 @@ Here are the majority of US C6 foundation net assets.
 template: logorb
 # C6 - Revenues - Oh, Wait
 
-<img src="img/c6-revenue-outliers.png" style="width: 95%" />
+<img src="img/c6-revenue-outliers-2024.png" style="width: 95%" />
 
 ???
 Oh, I apologize, I forgot to include the Linux Foundation!
@@ -629,7 +629,7 @@ Oh, I apologize, I forgot to include the Linux Foundation!
 template: logorb
 # C6 - Net Assets - Oh, Wait
 
-<img src="img/c6-assets-outliers.png" style="width: 95%" />
+<img src="img/c6-assets-outliers-2024.png" style="width: 95%" />
 
 ---
 template: fullheader
@@ -641,19 +641,19 @@ Let's compare c3s versus c6's!
 template: logorb
 # Foundation Net Asset Sums
 
-Total **Assets** of 38 c3 foundations
+Total **Assets** of 41 c3 foundations
   *(excluding Wikimedia, Mozilla, EFF, Signal)*
 
-## **94M USD**
+## **81M USD**
 
-Total Assets of the Linux Foundation in 2022:
+Total Assets of the Linux Foundation in 2023:
 
-## **113M USD**
+## **125M USD**
 
 .bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/p990/foundations_990_common.csv]
 
 ???
-Figures are rounded, from US 990 forms in 2022.
+Figures are rounded, from US 990 forms in 2023.
 
 ---
 template: thanks

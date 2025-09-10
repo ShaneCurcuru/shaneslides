@@ -73,7 +73,11 @@ name: topics
 - Financial Data (US)
 
 ???
-Topics for today...
+Topics:
+- Fiscal sustainability - all the different ways projects might get funded
+- Modeling sponsorship models of major foundations
+- Comparative US Foundation revenue and asset data
+
 **SPACEBAR**
 
 --
@@ -88,6 +92,9 @@ template: fullheader
 name: aspects
 # Aspects of Sustainability
 
+???
+Why is open source funding so hard?  Because there are so many different aspects or ways that different people, organizations, and ecosystems think about funding and sustainable work.
+
 ---
 template: logorb
 # Aspects of Sustainability
@@ -99,7 +106,7 @@ template: logorb
 - Contributors
 - Maintainers
 - PMC / TSC
-- Board
+- Foundation Boards
 ]
 .right-column-equal[
 **What**
@@ -126,7 +133,7 @@ template: logorb
 - Contributors
 - **[Maintainers](https://fosssustainability.com/aspects/maintainer?s=ss)**
 - PMC / TSC
-- Board
+- Foundation Boards
 ]
 .right-column-equal[
 **What**
@@ -154,7 +161,7 @@ template: logorb
 - **[Contributors](https://fosssustainability.com/aspects/contributor?s=ss)**
 - Maintainers
 - PMC / TSC
-- Board
+- Foundation Boards
 ]
 .right-column-equal[
 **What**
@@ -179,34 +186,34 @@ template: fullheader
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-Even with the best of intentions, many of the stories we tell don't have the right impacts on different groups.  Even as governmental policy makers are studying and planning for how to help the FOSS ecosystem, the needs of each group are often poorly understood, because they're not getting translated into policy speak, or classroom theory. 
+Even with the best of intentions, many of the stories we tell don't have the right impacts on different groups.  Even as governmental policy makers are studying and planning for how to help the FOSS ecosystem, the needs of each group are often poorly understood, because they're not getting translated into policy speak, or classroom theory.
+
+---
+template: fosdem
+
+???
+Never mind the different interest groups; let's just ask: how can you actually transfer funds?  There are many, many different ways, making this a complex topic (so: ask better questions!). 
+
+This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) last year.
 
 ---
 template: fullheader
 name: finance
 # Who Funds FOSS Foundations?
 
-> Corporate Sponsors
+# **Corporate Sponsors**
 
 ???
 The largest income source for common FOSS Foundations are corporate sponsorships.
 
----
-template: fosdem
-
-???
-Reminder: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) varies widely.
-
-This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) last year.
+But: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) varies widely.
 
 ---
 template: fullheader
 name: sponsorship
 # Sponsorship Program Modeling
 
-> Foundation sponsorship program definition
-
-> Modeling actual foundation programs
+> Modeling *actual* foundation programs
 
 ???
 In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, and how those sponsorship models were structured and marketed.  What kinds of benefits do sponsors get, and how much does it cost?

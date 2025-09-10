@@ -77,57 +77,43 @@ template: fullheader
 ]
 
 .right-column[
-### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
-### [Slides with Speaker Notes](https://shaneslides.com/2024/10/The-ASF-Way/) 
+### @ShaneCurcuru
+### [Slides and Speaker Notes](https://shaneslides.com/2025/09/The-ASF-Way/) 
 ]
 
 ---
 template: logorb
-# The Apache Way Introduction
+# What Is The Way?
 
-> The Apache Way are practices designed to promote:
-
-- **long-lived** projects
-- serving the **public good**, by focusing on
-- **community-led governance**, 
-- welcoming **new contributors**,
-- maintaining **vendor neutrality**
-
-> These behaviors are required of all Apache projects.
+> The Apache Way is a set of **collective behaviors**.
 
 .bottomnote[https://www.apache.org/theapacheway/]
 
 ???
-High level intro, mention concepts: community, openness, merit, consensus.
+High level intro: the Way is a set of general behaviors that focus on how communities of people can work together.
+
+These aren't hard and fast rules; there's no magic way to follow the way.  These are behaviors that the whole community needs to adapt and model over time to really see the benefits.
+
+---
+template: logorb
+# Why Follow The Apache Way?
+
+> The Apache Way is designed to promote:
+
+- **long-lived** projects
+- serving the **public good**
+- **community-led governance**
+- welcoming **new contributors**
+- maintaining **vendor neutrality**
+
+> These behaviors are expected in ASF projects.
+
+.bottomnote[https://www.apache.org/theapacheway/]
+
+???
+High level intro, mention concepts: community, openness, merit, consensus.  Purpose is for long-lived projects run collaboratively.
 
 These behaviors can serve any open community - but are required at Apache projects.
-
----
-template: logorb
-# Apache Way History
-
-- Creation of the ASF as a Foundation
-- PMC Organization and Growth
-- History of the Apache Way
-
-???
-The traditional Apache Way talk leads you through the journey of the
-ASF itself, how it was founded, the history of our communities,
-and a lot of other stuff from our past and how we built the Way over time.
-
----
-template: logorb
-# What we AREN'T Talking About
-
-- But I'm not going to do that
-- How much does history matter to newcomers?
-- You want actionable information on **What To Do!**
-
-???
-But how important is that today?  You want to learn the behaviors, right?
-Actionable information.  Let's get to the good stuff.  Along with "what to do",
-I'll provide some of the "Why we do it that way" too, since it's always important
-to understand the rationale behind the Way.
 
 ---
 template: menu
@@ -149,8 +135,9 @@ name: menu
 ???
 Community Over Code also means that You Need To Participate.
 
-Each of these is a set of topics about a kind of behaviors that
-Apache projects are expected to follow.  **What do you want to talk about?**
+Each of these is a set of topics about a group of collective behaviors that focus on specific techniques to help collaboration.
+
+**What do you want to talk about?**
 
 Note: there's an obvious first topic to cover!
 
@@ -191,8 +178,8 @@ devops, marketing, conferences... **and users**.
 
 ???
 We should focus on an entire project community - all of us working to
-create or improve this specific projects in some way, **and** all the end users
-who come by with questions or bugs or improvements.
+create or improve this specific projects in some way, **and** all the 
+end users who come by with questions or bugs or improvements.
 The important thing is that the **community** owns our project.  Not you,
 not me, not your company.  All of us, together.
 
@@ -200,46 +187,6 @@ Having a shared sense of communal ownership keeps our work and goals aligned.
 Being able to become a committer or PMC member with binding input in a
 project is a clear incentive.  Also: while contributors may be on other
 projects as well, many participants will only know you from a single project.
-
----
-template: logorb
-# No Jerks Allowed
-
-- "No jerks allowed" - a key early message
-  - Apache communities value group contributors, not lone wolves
-  - Diverse communities attract more **new contributors** over time
-  - BDFL not allowed in Apache PMCs
-
-.bottomnote[https://www.apache.org/foundation/policies/conduct]
-.topnote[new contributors]
-
-???
-There are many ways to say this - No Jerks Allowed, Avoid Poisonous
-People, be decent, follow the code of conduct, whatever.  When everyone volunteers
-and people do this as a side task or second effort, ensuring
-that everyone is welcome is the most important factor for a long-lived
-healthy project.  Our communities rely on many volunteers; ensuring
-it's a welcoming project for newcomers should be your goal.
-
----
-template: logorb
-
-<img src="img/beexcellent.jpg" style="width: 80%" />
-
-
-.bottomnote[https://www.apache.org/foundation/policies/conduct]
-
-???
-In the immortal words of Bill and Ted: Be Excellent To Each Other.
-
-This is important for any community, and doubly so for Apache projects,
-since we're all also part of the larger ASF community.  We have a code
-of conduct - not because we want to use it, but because we don't want
-to have to use it, since the great majority of our communities keep
-discussion polite to start with.
-
-**Plus**, when everyone is a volunteer, raising your concerns politely
-and concisely is more likely to get people to help **you**.
 
 ---
 template: logorb
@@ -342,9 +289,9 @@ template: logorb
 # What YOU Have Done
 
 The contributions **you** have brought to the specific project, as defined
-in the **context of that project** by its community.
+in the **context of that project** by that community.
 
-> "You gain merit by doing things that specific community values"
+> "You gain merit by doing things the community values"
 
 .bottomnote[https://theapacheway.com/merit/]
 .topnote[community-led governance]
@@ -398,9 +345,9 @@ template: logorb
 
 ## Leaders or managers?
 
-> "Merit gets you **privileges** - commit access, voting on committers"
+> "Merit grants **privileges** - commit, binding votes"
 
-> "Merit does not buy you **authority** - community must still agree"
+> "Merit is not **authority** - community makes decision"
 
 .topnote[community-led governance]
 
@@ -453,12 +400,11 @@ template: logorb
 # Time Shifting Communications
 
 - Asynchronous communication enables:
-  - ...a dispersed community
-  - ...dispersed in space
+  - Dispersed communities:
+  - ...dispersed in location / culture
   - ...dispersed in abilities / expertise
-  - ...dispersed in motivation
   - ...dispersed in **time**
-- Only know each other *through* the project
+- Our only connection: this project
 
 .topnote[new contributors]
 
@@ -479,12 +425,12 @@ template: logorb
 
 > If It Didn't Happen On-List It Didn't Happen
 
-- Archived and searchable history provides time for
+- Archived and searchable history enables:
   - feedback
   - critique
   - new ideas
   - others to show their work
-- Must be public list unless there's a reason for private list
+- Public archives (unless specific reason)
 
 .bottomnote[https://theapacheway.com/on-list/]
 .topnote[long-lived projects]
@@ -594,9 +540,9 @@ an opportunity for people to object; if no one does, go ahead.
 template: logorb
 # Votes When Needed
 
-> "Voting is a way to record an **official** consensus"
+> "Voting records an **official** consensus"
 
-> "Voting is a shortcut to move consensus forward quickly when required"
+> "Voting is a shortcut - when needed"
 
 .bottomnote[https://community.apache.org/committers/decisionMaking.html]
 .topnote[community-led governance]
@@ -620,8 +566,8 @@ have their input, the use of votes or full consensus is up to the project.
 template: logorb
 # Timeline For Decisions
 
-- **Minimum** time to make a decision: 72 hours
-- Allows time-shifted input from community
+- **Minimum** time for decision: 72 hours
+- Allows time-shifted community input
 
 .topnote[community-led governance]
 
@@ -707,7 +653,7 @@ template: logorb
 # Codes of Conduct
 
 Don't be a jerk; avoid the poisonous people...
-  and help the community do something about it.
+  and *help* the community do something about it.
 
 **ASF Code of Conduct**
 
@@ -779,6 +725,24 @@ users don't find any surprising restrictions in any of our products.
 While our pragmatic licensing focuses on the legal enablement of open source, so
 that everyone can contribute, many ASF committers also have some form of
 altruism guiding their work - enjoying building things for free to give away.
+
+---
+template: logorb
+# Apache License Goal
+
+- Maximum number of inbound contributors
+
+> https://www.apache.org/free/
+
+.bottomnote[https://theapacheway.com/charity/]
+.topnote[long-lived projects]
+
+???
+Our pragmatic and permissive license is designed with no surprises, and 
+provides maximum freedom for users and redistributors.  This also means 
+it allows the maximum number of contributors, because people or organizations 
+with any sort of business model or otherwise can contribute without 
+any impact to their goals outside the project.
 
 ---
 template: closing

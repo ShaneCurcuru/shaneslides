@@ -35,7 +35,7 @@ template: fullheader
 # *Coming up next*
 
 # Who Funds FOSS Foundations?
-# Shane Curcuru - 2025
+# Shane Curcuru 
 
 ---
 template: fullheader
@@ -43,19 +43,19 @@ name: start
 # Who Funds FOSS Foundations?
 ## Modeling Open Source Foundation Finances
 
-### [@ShaneCurcuru](https://twitter.com/shanecurcuru)
+### @ShaneCurcuru
 ### [FOSSSustainability.com/ComCode](https://fosssustainability.com/comcode)
 
 ---
 template: logorb
 # Resources
 
-All data and resources are in these open source projects!
+Resources and data are open source:
 
 ## [FOSSSustainability.com/ComCode](https://fosssustainability.com/comcode)
 ## [FOSSFoundation.info](https://fossfoundation.info/)
 
-*I expect to see PRs this week!*
+*Actively seeking submissions!*
 
 .bottomnote[license: Apache-2.0]
 
@@ -69,15 +69,15 @@ name: topics
 # Topics
 
 - Aspects of Sustainability
-- Modeling Foundation Sponsorships
-- Financial Data of Key Foundations (US)
+- Foundation Sponsorships
+- Financial Data (US)
 
 ???
 Topics for today...
 **SPACEBAR**
 
 --
-- *Finding better questions to ask*
+- *Finding better **questions** to ask*
 
 ???
 I hope to leave everyone with enough information and ideas, so that you can start asking better questions when you're working on sustainability.
@@ -99,6 +99,7 @@ template: logorb
 - Contributors
 - Maintainers
 - PMC / TSC
+- Board
 ]
 .right-column-equal[
 **What**
@@ -112,7 +113,7 @@ template: logorb
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-Listening sustainability conversations, I'm struck by how siloed they are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.
+Listening to financial sustainability conversations, I'm struck by how siloed they are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.  Note that we're focusing on financial sustainability in particular.
 
 ---
 template: logorb
@@ -125,6 +126,7 @@ template: logorb
 - Contributors
 - **[Maintainers](https://fosssustainability.com/aspects/maintainer?s=ss)**
 - PMC / TSC
+- Board
 ]
 .right-column-equal[
 **What**
@@ -138,7 +140,8 @@ template: logorb
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-TODO: story about policy bodies working on sustainability - but maintainers simply asking how do they get paid?
+STORY: Maintainers keep seeing companies with OSPOs or FOSS Funds talking about funding open source projects - but few see the actual money, and certainly not enough to make a living.
+How do we explain the vast value companies get from the entire dependency chain (not just their direct dependencies)?  How do we help maintainers look for funding?
 
 ---
 template: logorb
@@ -151,6 +154,7 @@ template: logorb
 - **[Contributors](https://fosssustainability.com/aspects/contributor?s=ss)**
 - Maintainers
 - PMC / TSC
+- Board
 ]
 .right-column-equal[
 **What**
@@ -164,7 +168,7 @@ template: logorb
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-TODO: software companies that still have good OSPOs or FOSS Funds are doing great! But a new contributor asks: how can I make a living off that if maintainers aren't doing it?  You're only funding your specific dependencies, not open source in general.
+Another example: while university curricula may cover technical mechanics of open source development, where are the classes helping new contributors understand how to seek funding or otherwise mnarket their project as a whole, not just as a codebase?
 
 ---
 template: fullheader
@@ -174,14 +178,35 @@ template: fullheader
 
 .bottomnote[https://fosssustainability.com/aspects/]
 
+???
+Even with the best of intentions, many of the stories we tell don't have the right impacts on different groups.  Even as governmental policy makers are studying and planning for how to help the FOSS ecosystem, the needs of each group are often poorly understood, because they're not getting translated into policy speak, or classroom theory. 
+
+---
+template: fullheader
+name: finance
+# Who Funds FOSS Foundations?
+
+> Corporate Sponsors
+
+???
+The largest income source for common FOSS Foundations are corporate sponsorships.
+
+---
+template: fosdem
+
+???
+Reminder: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) varies widely.
+
+This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) last year.
+
 ---
 template: fullheader
 name: sponsorship
 # Sponsorship Program Modeling
 
-> How do foundations define their sponsorship programs?
+> Foundation sponsorship program definition
 
-> How can we model these programs to gain insight?
+> Modeling actual foundation programs
 
 ???
 In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, and how those sponsorship models were structured and marketed.  What kinds of benefits do sponsors get, and how much does it cost?
@@ -210,13 +235,13 @@ Model schema explainer: https://fossfoundation.info/sponsorships#sponsorship-mod
 template: logorb
 # Sponsorship Program Schema
 
-- Map program levels to *first, second,..., community, etc.*
+- Program level map: *first, second,..., community, etc.*
 - Track funding **amount** per level
 - Model the **benefits** for levels
   - *Governance* /or/ *Advisory* roles
   - Services or Events discounts
   - Marketing partnerships
-- Scrape live CSS or landscape.yml
+- Scrape websites or landscape.yml
 
 .bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/sponsorships-schema.json]
 
@@ -399,35 +424,22 @@ The thing I find most surprising at looking at the LF's sponsorship list is that
 Also note that the total book value is an approximation: it's clear that there are sponsorship discounts when companies sponsor multiple LF subfoundations.  It's also clear that many software companies sponsor multiple LF subfoundations.
 
 ---
-template: fullheader
-name: finance
-# Foundation Finances
-
----
-template: fosdem
-
-???
-Reminder: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) varies widely.
-
-This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Sowles' excellent talk at FOSDEM](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/) this year.
-
----
 template: logorb
-# US Nonprofit Tax Law
+# Nonprofit Types (US focus)
 
 .left-column-equal[
 **501(c)(3)**
 - Charitable Organization
 - Tax-deductible for donors
 - Restrictions on activities
-- *Files IRS form 990 yearly*
+- *Files IRS form **990** yearly*
 ]
 .right-column-equal[
 **501(c)(6)**
-- Business Leagues
+- Business League
 - Not tax-deductible
 - For "common business interest"
-- *Files IRS form 990 yearly*
+- *Files IRS form **990** yearly*
 ]
 
 .bottomnote[How do we map EU charities to this?]
@@ -458,7 +470,7 @@ With apologies for the US focus here - I haven't had time to figure out how to g
 
 ---
 template: logorb
-# Foundation Dataset - 501(c)(3)
+# Foundation Finance Dataset - 501(c)(3)
 
 .left-column-equal-vsm[
 - **Electronic Frontier Foundation**
@@ -508,7 +520,7 @@ template: logorb
 
 ---
 template: logorb
-# Foundation Dataset - 501(c)(6)
+# Foundation Finance Dataset - 501(c)(6)
 
 .left-column-equal[
 - **Linux Foundation**
@@ -524,7 +536,7 @@ template: logorb
 ]
 
 ???
-Recall that the Linux Foundation is the parent to two or three hundred foundations, like the CNCF.
+Recall that the Linux Foundation is the parent to two or three hundred foundations, like the CNCF, in case you're thinking something's missing here.
 
 ---
 template: fullheader
@@ -539,7 +551,7 @@ template: logorb
 <img src="img/c3-revenue-2024.png" style="width: 95%" />
 
 ???
-Here are four comparable US c3 foundations that host multiple projects.
+Here are the total revenues for 4 comparable US c3 foundations that host multiple projects.
 
 ---
 template: logorb

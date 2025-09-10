@@ -457,14 +457,13 @@ Archiving things is just another way to enable long-term time-shifting.
 template: logorb
 # Make Transparent Decisions
 
-- Your motives aren't transparent to the community!
-  - Motivated by boss, by outside technical need, by just being a geek
-  - How does this decision benefit **the project**
-- A **better way** to work is:
+- Motives usually external to the community
+  - How does a decision benefit **the project**?
+- Engage community at all steps:
   - Telegraph your intent
   - Draft designs openly
   - Submit work in chunks
-  - Welcome feedback along the way
+  - Always seek feedback
 
 .bottomnote[https://theapacheway.com/open/]
 .topnote[new contributors]
@@ -516,10 +515,10 @@ name: decision
 template: logorb
 # Consensus Preferred
 
-- Consensus within each community
-- Choose best path forward
-  - Or even just some improvement
-  - Your perfection may be someone else's "meh"
+- Consensus within community
+- Choose **a** good path forward
+  - Improve something; don't regress
+  - Community values different things
 
 .bottomnote[https://theapacheway.com/consensus/]
 .topnote[community-led governance]
@@ -542,7 +541,7 @@ template: logorb
 
 > "Voting records an **official** consensus"
 
-> "Voting is a shortcut - when needed"
+> "Voting is a shortcut - when required"
 
 .bottomnote[https://community.apache.org/committers/decisionMaking.html]
 .topnote[community-led governance]
@@ -566,7 +565,7 @@ have their input, the use of votes or full consensus is up to the project.
 template: logorb
 # Timeline For Decisions
 
-- **Minimum** time for decision: 72 hours
+- **Minimum** time for decisions: 72 hours
 - Allows time-shifted community input
 
 .topnote[community-led governance]
@@ -586,8 +585,7 @@ be fixed as soon as possible, to help ensure our users aren't harmed.
 template: logorb
 # No External Deadlines
 
-- Because **we** don't have any - besides those **we** agree on together
-- Because our deadlines are *earliest date* something could happen
+Because **we** don't have any - unless **we** agree on them *together*
 
 .topnote[long-lived projects]
 
@@ -613,7 +611,7 @@ template: logorb
 
 **Be kind.**
 
-Everyone here is a human being, and a **volunteer**.
+Everyone is a **volunteer** here.
 
 .topnote[new contributors]
 
@@ -634,7 +632,7 @@ template: logorb
 
 **Ask smart questions**
 
-Remember: everyone else is a volunteer - make it easy for them to answer your question.
+Make it easy for communities to answer your question.
 
 .bottomnote[https://infra.apache.org/contributors]
 .topnote[new contributors]
@@ -655,7 +653,7 @@ template: logorb
 Don't be a jerk; avoid the poisonous people...
   and *help* the community do something about it.
 
-**ASF Code of Conduct**
+**ASF Code of Conduct** **UPDATE**
 
 https://www.apache.org/foundation/policies/conduct
 
@@ -663,7 +661,8 @@ https://www.apache.org/foundation/policies/conduct
 
 ???
 The ASF has a Foundation-wide code of conduct that is required
-behavior in all Apache project and foundation spaces.
+behavior in all Apache project and foundation spaces.  NOTE: The Board is 
+likely adopting a new, more detailed code of conduct this winter.
 
 The intent of the Code of Conduct is not to be a hammer; it's meant to
 be a framework we can use to help both individuals and whole communities
@@ -708,7 +707,7 @@ template: logorb
 
 - Free of cost forever
 - Free of restrictions
-- Apache license means no surprises
+- Licensing policy: *no surprises*
 
 > https://www.apache.org/free/
 
@@ -728,8 +727,9 @@ altruism guiding their work - enjoying building things for free to give away.
 
 ---
 template: logorb
-# Apache License Goal
+# Apache License
 
+- Minimal restrictions on uses
 - Maximum number of inbound contributors
 
 > https://www.apache.org/free/

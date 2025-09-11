@@ -83,7 +83,7 @@ template: fullheader
 
 ---
 template: logorb
-# What Is The Way?
+# What Is The Apache Way?
 
 > The Apache Way is a set of **collective behaviors**.
 
@@ -92,7 +92,7 @@ template: logorb
 ???
 High level intro: the Way is a set of general behaviors that focus on how communities of people can work together.
 
-These aren't hard and fast rules; there's no magic way to follow the way.  These are behaviors that the whole community needs to adapt and model over time to really see the benefits.
+These aren't hard and fast rules; there's no magic way to follow the way.  These are behaviors that the whole community should adapt and model over time to really see the benefits.
 
 ---
 template: logorb
@@ -113,7 +113,7 @@ template: logorb
 ???
 High level intro, mention concepts: community, openness, merit, consensus.  Purpose is for long-lived projects run collaboratively.
 
-These behaviors can serve any open community - but are required at Apache projects.
+These behaviors *can* serve any open community interested in longevity.  They are not necessarily optimized for speed of development or any particular technical strategy; rather they are optimized for building and maintaining dispersed communities of collaboration.
 
 ---
 template: menu
@@ -183,10 +183,11 @@ end users who come by with questions or bugs or improvements.
 The important thing is that the **community** owns our project.  Not you,
 not me, not your company.  All of us, together.
 
-Having a shared sense of communal ownership keeps our work and goals aligned.
-Being able to become a committer or PMC member with binding input in a
-project is a clear incentive.  Also: while contributors may be on other
-projects as well, many participants will only know you from a single project.
+Having a shared sense of communal ownership keeps the work aligned in ways
+that make it clear users with fixes or new ideas will be accepted, and 
+they might become a committer or PMC member with binding input in a
+project someday.  Also: while contributors may be on other
+projects as well, many participants will only know you from one project.
 
 ---
 template: logorb
@@ -194,6 +195,7 @@ template: logorb
 
 - You are an individual here - not an employee
 - All participation is by individuals - not companies
+
 - **Individuals** get recognition
   - Side effect for corporate teams: each employee participates separately
   - Side effect for **you**: your merit stays with **you** across jobs
@@ -222,8 +224,8 @@ template: logorb
 # Check Job Titles At The Door
 
 - Job titles don't apply in projects
-- Not talking about hierarchy
-- Because we don't have one
+- No hierarchy in community
+- Projects don't have hierarchy
   - Each project is separate
   - Each PMC member gets one vote
   
@@ -328,22 +330,23 @@ The more you do, the more power *you may be granted* to take actions:
 
 ???
 Each step is defined by the merit you are recognized for by that
-specific community. Each step means you can get a vote on new tasks.
+specific community. Each step means you can get a vote on new tasks, 
+in the context of that community.
 
 The key steps are being a committer - changing code yourself - and being
-a PMC member - voting on releases or new committers on that project.  
+a PMC member - voting on releases or new committers on **that** project.  
 Most of the other levels are about visibility and having a say, but not
 necessarily having a deciding vote.
 
 In particular, Project VPs / Chairs of their PMC don't have any extra votes;
-their duties are really ensuring accurate reports get to the board, and 
-any board questions get addressed by the PMC as a whole.
+their duties are really about communicating issues to the board.  At the 
+Membership level, you have a say in the *Foundation*, but not the projects.
 
 ---
 template: logorb
 # Merit is Not Authority
 
-## Leaders or managers?
+## *Leaders* versus Managers
 
 > "Merit grants **privileges** - commit, binding votes"
 
@@ -367,12 +370,12 @@ not because you have authority in the project.
 
 ---
 template: logorb
-# Caution: Umbrella projects
+# Anti-pattern: Umbrella projects
 
-Apache Jakarta *was* an umbrella project - with many different sub-projects and
-components and communities - each *slightly different*.
+Apache Jakarta *was* an umbrella project: many different sub-projects and
+communities, with different technologies.
 
-PMCs must be coherent communities to equitably recognize merit.
+PMCs should be coherent communities to equitably recognize merit.
 
 ???
 A cautionary tale: in the past, we have had successful projects that grew
@@ -380,13 +383,13 @@ in scope - both technical and social - until they were too big to
 govern themselves effectively.
 
 When a project grows such that different groups of committers running
-modules can't evaluate each other's work - or vote on releases - it's
-probably too big.
+sub-projects can't evaluate each other's work or use different governance 
+processes to manage sub-projects, then it's probably too big.
 
-The board is here to backstop communities.  Each community needs to be
-coherent and work as a single unit - when you're bigger than that, you
-should consider splitting up into separate projects, if they are 
-each under active development.
+Everyone doesn't need to directly work on each sub-project, or be an expert 
+there - but you do need to have enough broad community members paying 
+attention, so that the PMC could reliably detect issues (or make security 
+releases) if something happens in any sub-project.
 
 ---
 template: palmsbottom
@@ -397,7 +400,7 @@ name: open
 
 ---
 template: logorb
-# Time Shifting Communications
+# Time Shifted Communications
 
 - Asynchronous communication enables:
   - Dispersed communities:
@@ -430,22 +433,25 @@ template: logorb
   - critique
   - new ideas
   - others to show their work
-- Public archives (unless specific reason)
+- Public archives are the default
 
 .bottomnote[https://theapacheway.com/on-list/]
 .topnote[long-lived projects]
 
 ???
-Note: while the ASF currently relies on mailing lists, this is changing: 
-what we really mean is: if it didn't happen in an official 
-archived and searchable place, then it didn't happen.
+Note: while the ASF currently relies on mailing lists, we are actively 
+adapting this lesson to other technologies like slack, discord, wechat.
+
+What this means is: if it didn't happen in a space managed by the 
+project, that is archived in a well-known place, and easily searchable, 
+then it didn't happen.
 
 Archiving **everything** means that newcomers can get up to speed with
 all the information of the project available for them in an easy to
-share and search way.  Even if your
-documentation doesn't lead new users through this, having it available
-both for people to find, and especially for people to reference when
-questions come up is the most important thing.
+share and search way - this helps newcomers understand where the project 
+is going, and see how the community interacts with each other.  Archives are 
+also valuable for long-term cohesion, because when repeat questions come 
+up, we can see our past decision - and the discussion that led to it.
 
 You should default to using a public list - like dev@ or user@ - for
 almost everything.  There are only a few things, like security bugs
@@ -479,10 +485,10 @@ and time to read it - is required of Apache projects.'s required.
 
 ---
 template: logorb
-# Apache The Pragmatic License
+# Long-term Stewardship
 
 - Apache License v2.0
-- Maximum user freedom
+  - Maximum user freedom
 - Trust in ASF as organization
   - To maintain open development
   - To continue to provide source code
@@ -653,7 +659,8 @@ template: logorb
 Don't be a jerk; avoid the poisonous people...
   and *help* the community do something about it.
 
-**ASF Code of Conduct** **UPDATE**
+**ASF Code of Conduct**
+**Updates coming soon 2025**
 
 https://www.apache.org/foundation/policies/conduct
 
@@ -675,7 +682,7 @@ https://www.youtube.com/watch?v=-F-3E8pyjFo
 template: logorb
 # Language
 
-> "The core **development** activity must be in English."
+> "Core **development** activity must be in English."
 
 - Translation software isn't social
 - The whole community must be able to evaluate your work

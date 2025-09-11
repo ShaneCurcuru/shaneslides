@@ -313,20 +313,20 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
-- First: **8** *Platinum*
-- Second: **11** *Gold*
-- Third: **7** *Silver*
-- Fourth: **12** *Bronze*
+- First: **11** *Platinum*
+- Second: **10** *Gold*
+- Third: **5** *Silver*
+- Fourth: **9** *Bronze*
 ]
 .right-column-equal[
 **In-Kind Sponsors**
-- First: **13**
+- First: **11**
 - Second: **5**
-- Third: **2**
+- Third: **3**
 - Fourth: **10**
 ]
 
-.bottomnote[book values (USD): Cash ~1.8M, In-Kind: 2M]
+.bottomnote[book values (USD): Cash ~2M, In-Kind: 1.8M]
 
 ???
 These calculations are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus.
@@ -341,11 +341,14 @@ template: logorb
 **First Level Cash Sponsors**
 - Apple
 - Amazon + *In-Kind*
-- Facebook
+- Geico
 - Google
 - Huawei
+- Meta
 - Microsoft + *In-Kind*
 - Pineapple Fund
+- Snowflake
+- Visa
 - Yahoo + *In-Kind*
 ]
 .right-column-equal-sm[
@@ -353,19 +356,14 @@ template: logorb
 - Cloudbees
 - DLAPiper
 - Gradle
-- Leaseweb
-- jFrog
-- OSUOSL
 - Sonatype
 - JetBrains
 - Fastly
 - GitHub
-- Yahoo!
 - JFrog
 ]
 
 ???
-
 Here's **who** sponsors the ASF at the highest level.  I have data files on who sponsors all the foundations tracked in the model online at FOSSFoundation.info, showing which companies like sponsoring only at the top level, for example.
 
 ---
@@ -396,21 +394,22 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
-- First: **18** *Platinum*
-- Second: **27** *Gold*
-- Third: **590** *Silver*
+- First: **15** *Platinum*
+- Second: **25** *Gold*
+- Third: **607** *Silver*
 ]
 .right-column-equal[
 **Other Sponsors**
-- Academic: **5**
-- Community: **20**
-- End User: **92**
+- Academic: **4**
+- Community: **24**
+- End User: **86**
 ]
 
-.bottomnote[book value? (USD) 39M]
+.bottomnote[book value (USD) 39M]
 
 ???
 CNCF, which is a division of the Linux Foundation shows a couple of interesting differences.  First, the sheer number of organizations listed as sponsoring: over 700 total.  Plus, the presumed book value of those sponsorships: 39M (down from 42M just about a year ago).  Note that various funding sponsors may well have different agreements, and also that other sponsors here likely have very little financial expectations vs. corporate sponsors.
+Also: over 2023-2025, there is a slight trend downwards in sponsor levels: at this scale of data, we can see companies are trending slightly downward to lower level sponsorships recently.
 
 ---
 template: logorb
@@ -418,13 +417,13 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
-- First: **13** *Platinum*
-- Second: **11** *Gold*
-- Third: **1303** *Silver*
-- Fourth: **469** *Associate*
+- First: **12** *Platinum*
+- Second: **13** *Gold*
+- Third: **1392** *Silver*
+- Fourth: **553** *Associate*
 ]
 
-.bottomnote[book value? (USD) 33M]
+.bottomnote[book value (USD) 35M]
 
 ???
 The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.  Overall LF sponsor numbers and funding numbers have gone roughly up in the past year.
@@ -477,7 +476,7 @@ With apologies for the US focus here - I haven't had time to figure out how to g
 
 ---
 template: logorb
-# Foundation Finance Dataset - 501(c)(3)
+# Finance Data - 501(c)(3)
 
 .left-column-equal-vsm[
 - **Electronic Frontier Foundation**
@@ -527,7 +526,7 @@ template: logorb
 
 ---
 template: logorb
-# Foundation Finance Dataset - 501(c)(6)
+# Finance Data - 501(c)(6)
 
 .left-column-equal[
 - **Linux Foundation**
@@ -609,7 +608,7 @@ template: logorb
 .bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/p990/foundations_990_common.csv]
 
 ???
-More work to be done for sure, but comparing the impacts vs. funding is something to explore.
+More work to be done for sure, but comparing impacts vs. funding is something to explore.
 
 ---
 template: fullheader
@@ -707,7 +706,7 @@ template: thanks
 template: logorb
 # Other topics to investigate
 
-- [Open Source Endowment](https://endowment.dev/) - NEW 2025
+- [Open Source Endowment](https://endowment.dev/) - *NEW 2025*
 - Open Source Sustainability
   - [Aspects of sustainability](https://fosssustainability.com/aspects/)
   - [FOSS Sustainability Zotero library](https://www.zotero.org/groups/5030713/foss-sustainability/library)

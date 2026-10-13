@@ -34,16 +34,16 @@ background-size: 10%
 template: fullheader
 # *Coming up next*
 
-# FOSS Funding: How Much?
-# Shane Curcuru 
+# Foundation Funding: How Much?
+# Shane Curcuru
 
 ---
 template: fullheader
 name: start
-# FOSS Funding: How Much?
-## Who funds FOSS foundations, and where the money goes
+# Foundation Funding: How Much?
+## Who funds FOSS foundations, and 10 years of history
 
-### @ShaneCurcuru [FOSSSustainability.com/ComCode](https://fosssustainability.com/comcode)
+### @ShaneCurcuru
 
 ---
 template: logorb
@@ -52,8 +52,8 @@ template: logorb
 Resources and data are open source:
 
 ## [FOSSSustainability.com/ComCode](https://fosssustainability.com/comcode)
-## [FOSSFoundation.info](https://fossfoundation.info/)
-## [FOSS IRS 990 parser](https://github.com/Punderthings/foss990parser) *NEW*
+## [Foundation Sponsorship Modeling](https://fossfoundation.info/sponsorships)
+## [US Foundation 990 tax form data](https://fossfoundation.info/taxes)
 
 *Actively seeking submissions!*
 
@@ -69,17 +69,16 @@ name: topics
 # Topics
 
 - Aspects of Sustainability
-- Foundation Sponsorships
-- Financial Data (US)
-- **NEW:** Sponsors over time
-- **NEW:** Where the money goes
+- Foundation Sponsorship Modeling
+- Financial Data (US 990s)
+- **NEW:** Historical data & trends
 
 ???
 Topics:
 - Fiscal sustainability - all the different ways projects might get funded
 - Modeling sponsorship models of major foundations
 - Comparative US Foundation revenue and asset data
-- NEW this year: IRS e-file data down to expenses, staff, contractors, and grants - through fiscal year 2025
+- NEW this year: IRS e-file data expanded and historical trends
 
 **SPACEBAR**
 
@@ -116,14 +115,15 @@ template: logorb
 - Software Companies
 - Non-Software Companies
 - Educational Institutions
-- Governments
+- Governments / Regulators
 - Standards Bodies
+- NGOs
 ]
 
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-Listening to financial sustainability conversations, I'm struck by how siloed they are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.  Note that we're focusing on financial sustainability in particular.
+Listening to financial sustainability conversations, I'm struck by how siloed they are.  Each participant is coming in with their own needs and their own vocabulary, and it's often hard to find efficient ways to translate one aspect's needs to the vocabulary or taxonomy some other aspect needs.  Note that we're focusing on financial sustainability in particular, but the same concept applies to most other areas, like communities, education, or energy.
 
 ---
 template: logorb
@@ -151,7 +151,7 @@ template: logorb
 
 ???
 STORY: Maintainers keep seeing companies with OSPOs or FOSS Funds talking about funding open source projects - but few see the actual money, and certainly not enough to make a living.
-How do we explain the vast value companies get from the entire dependency chain (not just their direct dependencies)?  How do we help maintainers look for funding?
+How do we explain the vast value companies get from the entire dependency chain (not just their direct dependencies)?  How do we help maintainers look for funding?  And which maintainers *need* the funding?  Many maintainers work for big software companies already.
 
 ---
 template: logorb
@@ -178,7 +178,7 @@ template: logorb
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-Another example: while university curricula may cover technical mechanics of open source development, where are the classes helping new contributors understand how to seek funding or otherwise market their project as a whole, not just as a codebase?
+Another example: while university curricula may cover technical mechanics of open source development, where are the classes helping new contributors understand how to seek funding or otherwise market their project as a whole, not just as a codebase?  How do we expand the basic "community based open source" ethos in the US/Europe to the rest of the world?
 
 ---
 template: logorb
@@ -205,7 +205,9 @@ template: logorb
 .bottomnote[https://fosssustainability.com/aspects/]
 
 ???
-And currently, with the CRA and PLD coming in Europe, it's likely that any major open source project will likely face new legal hurdles in Europe.  How do we connect the Foundations that manage and provide support to many of these major projects with the Standards Bodies making up the new rules?  Or the Governments, that are forcing complexity on FOSS projects who don't have the resources to handle that complexity?
+And currently, with the CRA and PLD here in Europe, it's likely that any major open source project will likely face new legal hurdles in Europe.  How do we connect the Foundations that manage and provide support to many of these major projects with the Standards Bodies making up the new rules?  Or the Governments, that are forcing complexity on FOSS projects who don't have the resources to handle that complexity?
+
+See also: Gregor Bransky talk, Vlad Miricioiu keynote, Dirk's work at CRA
 
 ---
 template: fullheader
@@ -219,20 +221,20 @@ template: fullheader
 Even with the best of intentions, many of the stories we tell don't have the right impacts on different groups.  Even as governmental policy makers are studying and planning for how to help the FOSS ecosystem, the needs of each group are often poorly understood, because they're not getting translated into policy speak, or classroom theory.
 
 ---
-template: fosdem
-
-???
-Never mind the different interest groups; let's just ask: how can you actually transfer funds?  There are many, many different ways, making this a complex topic (so: ask better questions!). 
-
-This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Deloss' excellent talk at FOSDEM 2024](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/).
-
----
 template: fullheader
 name: finance
 # Who Funds FOSS Foundations?
 
 ???
 OK, Shane, you've shown us all the complexity, how about answering the question?
+
+---
+template: fosdem
+
+???
+Just to give you an overview of the complexity of just the "how do we get money there" let's just ask: how can you *actually* transfer funds?  There are many, many different ways, making this a complex topic (so: ask better questions!). 
+
+This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Deloss' excellent talk at FOSDEM 2024](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/).
 
 ---
 template: fullheader
@@ -244,7 +246,7 @@ name: finance
 ???
 The largest income source for common FOSS Foundations are corporate sponsorships.
 
-But: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) varies widely.
+But really: sponsorships are only part of the equation.  Depending on the type of foundation and the ecosystem they're in, the amount of sponsorships vs. individual donations vs. "program income" (event tickets, services fees, etc.) or event tickets varies widely.
 
 ---
 template: fullheader
@@ -254,13 +256,13 @@ name: sponsorship
 > Modeling *actual* foundation programs
 
 ???
-In researching how foundations are funded, I wanted to see how much income was directly from official sponsorship models, and how those sponsorship models were structured and marketed.  What kinds of benefits do sponsors get, and how much does it cost?
+So - let's analyze actual foundation sponsorship programs and quantify them.  What levels are offered, what benefits (if any) do you get, and how much likely income does sponsorhips bring to actual foundations?
 
-So I built a model and analyzed 30+ foundations or sub-foundations to see the data.  More to come!
+So I built a model and analyzed 30+ foundations or sub-foundations to see the data - and new this year, we have historical data going back ~10 years for a select group of foundations (mainly: ones that make it easy to find this data).
 
 ---
 template: logorb
-# Sponsorship Program Criteria
+# Sponsorship Modeling Criteria
 
 - Only publicly posted programs
 - Not tracking event sponsorships
@@ -279,7 +281,7 @@ Model schema explainer: https://fossfoundation.info/sponsorships#sponsorship-mod
 
 ---
 template: logorb
-# Sponsorship Program Schema
+# Sponsorship Model Schema
 
 - Program level map: *first, second,..., community, etc.*
 - Track funding **amount** per level
@@ -292,7 +294,7 @@ template: logorb
 .bottomnote[https://github.com/Punderthings/fossfoundation/blob/main/_data/sponsorships-schema.json]
 
 ???
-Most organizations include scraping definitions to automatically parse listings of sponsorship pages; some are manually drawn maps as of a specific date.  Future ideas include using the wayback machine to see historical sponsorship trends, both of foundations, and of sponsors.
+Most organizations include scraping definitions to automatically parse listings of sponsorship pages; some are manually drawn maps as of a specific date.  We now have historical data for a select set of foundations; help wanted expanding our historical parsing of more foundations.
 
 Model schema explainer: https://fossfoundation.info/sponsorships#sponsorship-model-structure
 
@@ -344,30 +346,11 @@ template: logorb
 .bottomnote[https://fossfoundation.info/sponsorships]
 
 ???
-**IMPORTANT:** this is only a subset of foundations, mostly depending on which foundations fit the criteria and were easiest to write scrapers for - or had a small enough sponsor list I could manually hardcode it.  This does not represent the whole ecosystem.
+**IMPORTANT:** this is only a subset of foundations, mostly depending on which foundations fit the criteria and were easiest to write scrapers for - or had a small enough sponsor list I could manually hardcode it.  This does not represent the whole ecosystem!
 
 ---
 template: logorb
-name: howweknow
-# How We Know: Sponsor History
-
-- **1,120** dated sponsor lists for 38 sponsor programs
-  - **610** from landscape git histories (LF, CNCF, OpenSSF...)
-  - **414** from Internet Archive captures (Apache since Jan 2016)
-  - **72** OpenStreetMap wiki revisions; **11** FSFE yearly pages
-- Every list keeps a link to its source capture or commit
-- Each sponsor becomes a span: *level, first seen, last seen*
-
-.bottomnote[NEW: history/sponsorships/ at github.com/Punderthings/fossfoundation]
-
-???
-This is the big data change since last year: instead of a single snapshot, fossfoundation.info now records when each sponsor appeared, changed level, and left.
-26 programs have 9 or more recorded lists; the rest have one or two so far. Short gaps of a month or less are bridged.
-Caveats: Internet Archive captures can miss short-lived changes; some sponsor pages were restructured (OWASP reset its list in Nov 2023, OpenStack and Eclipse changed page scope), and I exclude those from the trend numbers.
-PRs welcome: more historical sources, especially for European foundations.
----
-template: logorb
-# Sponsorships - Apache
+# Sponsorships - Apache Numbers
 
 .left-column-equal[
 **Funding Sponsors**
@@ -387,15 +370,17 @@ template: logorb
 .bottomnote[book values (USD): Cash ~1.6M, In-Kind: ~1.75M · Oct 2026]
 
 ???
-These calculations are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus.
 
-We can see a good mix of sponsor levels; in-kind (targeted) sponsorship is nearly as large as cash.
+
+We can see a good mix of sponsor levels; in-kind (targeted) sponsorship is nearly as large as cash.  These calculations of "book values" are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus; they are only approximations.
+
+
 Data note: counts are from the Oct 1 2026 Internet Archive capture of apache.org/foundation/sponsors. A year ago (Sept 2025) it was 10/9/5/9 cash: the drop at Platinum and Gold is mostly companies moving down a level (Yahoo to Silver, IBM to Silver) plus Geico leaving.
 Book value at list prices: 8x125K + 6x50K + 8x25K + 11x6K = ~1.57M cash; in-kind ~1.75M. Cash is now below in-kind.
 
 ---
 template: logorb
-# Sponsorships - Apache
+# Sponsorships - Apache Who's Who
 
 .left-column-equal-sm[
 **First Level Cash Sponsors**
@@ -422,8 +407,27 @@ template: logorb
 ]
 
 ???
-Changes since last year: Snowflake joined at Platinum (Jul 2025); Geico left (Feb 2026); Yahoo moved from Platinum to Silver cash (Apr 2026) but stays a Platinum in-kind sponsor. Amazon and Microsoft are also in the in-kind first level (not repeated in the right column).
 Here's **who** sponsors the ASF at the highest level.  I have data files on who sponsors all the foundations tracked in the model online at FOSSFoundation.info, showing which companies like sponsoring only at the top level, for example.
+
+---
+template: logorb
+name: howweknow
+# NEW!  Sponsor Model History
+
+- **1,120** dated sponsor lists for 38 sponsor programs
+  - **610** from landscape git histories (LF, CNCF, OpenSSF...)
+  - **414** from Internet Archive captures (Apache since Jan 2016)
+  - **72** OpenStreetMap wiki revisions; **11** FSFE yearly pages
+- Every list keeps a link to its source capture or commit
+- Each sponsor becomes a span: *level, first seen, last seen*
+
+.bottomnote[NEW: history/sponsorships/ at github.com/Punderthings/fossfoundation]
+
+???
+This is the big data change since last year: instead of a single snapshot, fossfoundation.info now records when each sponsor appeared, changed level, and left.
+26 programs have 9 or more recorded lists; the rest have one or two so far. Short gaps of a month or less are bridged.
+Caveats: Internet Archive captures can miss short-lived changes; some sponsor pages were restructured (OWASP reset its list in Nov 2023, OpenStack and Eclipse changed page scope), and I exclude those from the trend numbers.
+PRs welcome: more historical sources, especially for European foundations.
 
 ---
 template: logorb
@@ -439,14 +443,14 @@ Every bar is the sponsor list on apache.org on July 1 of that year, from Interne
 Between July 2023 and July 2024, 22 sponsors left. Estimated sponsorship income (cash + in-kind, at list prices): 4.03M (2023) to 3.34M (2026).
 The cash drop is real money: the ASF 990 shows contributions falling from 2.38M (FY2024) to 2.08M (FY2025).
 NOTE TO SELF, do not show without checking first: 17 Bronze sponsors dropped off in 2023-24, and 14 of them vanished in one step between the Feb 6 and Mar 26 2024 captures (Bronze went from 27 to 13), which looks like a page cleanup or policy change rather than 14 separate decisions. Check with ASF Fundraising before mentioning; don't name companies on screen.
-Dropped Feb-Mar 2024: aboutpaf.com, bestecasinobonussen.nl, cafe24.com, craftercms.org, goread.io, hotwaxsystems.com, leovegas.com, miro-kredit.ch, openlogic.com, praca.pl, purevpn.com, tii.ae, twitter.com, writersperhour.com. Later in 2024: dimealley.com, dollarhand.com (Sep), cerner.com (Dec).
+**NOTE** Dropped Feb-Mar 2024: aboutpaf.com, bestecasinobonussen.nl, cafe24.com, craftercms.org, goread.io, hotwaxsystems.com, leovegas.com, miro-kredit.ch, openlogic.com, praca.pl, purevpn.com, tii.ae, twitter.com, writersperhour.com. Later in 2024: dimealley.com, dollarhand.com (Sep), cerner.com (Dec), this is likely a recording error, not necessarily sponsors choosing to drop the ASF.
 
 ---
 template: logorb
 name: loyalcore
-# The Loyal Core
+# Apache's Longest Sponsors
 
-**21** Apache sponsors listed since 2018 or earlier are still here
+**21** Apache sponsors listed since 2018 or earlier are *still* here
 
 .left-column-equal[
 **Cash**
@@ -468,9 +472,10 @@ name: loyalcore
 A thank-you slide, and the tenure point: most sponsors that leave do so within two years, but there is a core that has stayed for 8+ years.
 "Since 2018 or earlier" because in-kind tiers were first listed separately in 2018; cash sponsors are tracked from January 2016.
 Full in-kind list: DLA Piper, Microsoft, Sonatype (first level); Atlassian, Datadog, phoenixNAP (second); Google, Hopsie, No-IP, PagerDuty, PCCC, Sonic, SURF, Virtru (fourth).
+
 ---
 template: logorb
-# Does the Model Match Reality?
+# Validating Sponsorship Models
 
 - Estimate: Sponsor list × model level price
 - Accounting: IRS 990 contributions + program revenue
@@ -488,14 +493,14 @@ template: logorb
 ???
 For a sponsor-funded charity like the ASF, simply multiplying listed sponsors by the prospectus price predicts the real 990 number within 1%.
 Where the ratio is far below 1, most money comes from somewhere else: fiscally sponsored project donations (NumFOCUS), PyCon (PSF), or events and training (LF).
-Above 1: list prices above actual, or timing differences between sponsor list dates and fiscal years.
+Reminder: these rounded figures have various caveats, but are indicative of the levels seen.
 
 ---
 template: logorb
 # Who Sponsors Everyone?
 
 .left-column-equal[
-**Foundations sponsored**
+**Foundations sponsored (out of 39)**
 - Google: **18**
 - Microsoft: **16**
 - Red Hat: **14**
@@ -514,10 +519,32 @@ template: logorb
 .bottomnote[37 foundations, ~2,900 sponsor companies; 181 sponsor 3+ foundations]
 
 ???
-This is the "surprise" I promised in earlier versions of this talk: a small set of companies show up as sponsors across a large share of the foundations we track.
+Note: only a  small set of companies show up as sponsors of multiple foundations we track.
 Counts are by sponsor company domain, with subdomains merged (aws.amazon.com counts as amazon.com, cloud.google.com as google.com) plus the fossfoundation.info host_aliases.json table (opensource.google, techatbloomberg.com). GitHub (9 more) is counted separately from Microsoft.
-Sponsor lists are from the Sept 2025 scrape of each foundation's sponsor page.
-The roster moves: since 2023 Microsoft left 5 sponsor programs and joined 5 others, so these counts are a moving snapshot.
+Sponsor lists are from the Sept 2025 scrape of each foundation's sponsor page; and there are some obvious foundations we are not tracking in these numbers.
+
+---
+template: logorb
+name: short
+# Sponsorships Are Short
+
+Top three cash levels only, 10 US c3s + 9 LF programs, 10 year span:
+
+- **347** top-tier sponsors left; median stay **1.4 years**
+- **62%** left within 2 years
+- Current top-tier sponsors: **2.7 years** so far
+- Apache: **24** left, median stay **2.4 years**
+- Only **8** of 347 stepped down a level; the rest left entirely
+
+> Renewals matter as much as new logos
+
+.bottomnote[First, second and third cash levels; excludes in-kind, community and lower tiers]
+
+???
+US c3s plus Debian: 89 top-tier sponsors left, median 1.8 years. LF programs: 258 left, median 1.4 years (there, "third" is usually the broad general-membership tier).
+
+Sponsors already present when tracking began are left out of these medians, because we don't know when they started.
+Comparison from general US fundraising (Fundraising Effectiveness Project 2023 data): donors giving under $100 renew at about 31%; major donors at about 66-68%. FOSS corporate sponsors renew at higher rates than that most years, but the ones who leave go quickly.
 
 ---
 template: logorb
@@ -536,81 +563,11 @@ Departures since 2023, across the foundations we track:
 .bottomnote[Sponsor spans 2023-2026, fossfoundation.info history/sponsorships]
 
 ???
-The flip side of "Who Sponsors Everyone?": when one company changes strategy, several foundations lose a sponsor in the same year.
+Example: when one company changes strategy, several foundations can lose a sponsor at the same time.  Sponsor income is highly variable number, and can affect the ecosystem, not just individual foundations.
 Intel: CNCF, FINOS, FreeBSD, FSFE, LF AI & Data, LLVM, OpenSSF, OpenStack (Intel also newly joined FINOS and FreeBSD after 2023 before leaving).
 VMware: Apache, CNCF, LF, LF AI & Data, OpenSSF - Apache's Platinum listing ended Feb 2024, shortly after Broadcom's acquisition of VMware closed (Nov 2023).
 Twitter: Apache, CNCF, GraphQL, LF. Didi: Apache, CNCF, LF, LF AI & Data.
 Counts are by company web domain, so subsidiaries are counted separately; these are lower bounds.
----
-template: logorb
-# Sponsorships - NumFOCUS
-
-.left-column-equal[
-**Funding Sponsors**
-- First: **3** *Principal*
-- Second: **7** *Sustaining*
-- Third: **3** *Contributing*
-]
-.right-column-equal[
-**Other Sponsors**
-- Community: **8**
-- *Grants:* **3**
-]
-
-.bottomnote[book values (USD): Cash ~0.7M (Sept 2026); grants ?]
-
-???
-NumFOCUS has a smaller set of projects and a different focus, but otherwise is a c3 like the ASF that provides various project services.  Here we see a notably smaller number of sponsoring organizations.  Book value at list prices: 3x100K + 7x50K + 3x10K + 8x1K community = ~0.69M, from the Sept 10 2026 capture of numfocus.org/sponsors. A year earlier (Sept 2025) it was 5/8/3 and ~0.94M; the drop is two fewer Principal sponsors. The value is likely low overall, because their grant programs aren't assigned specific values.  Anyone know if they publicly disclose those levels of finances?
-
----
-template: logorb
-# Sponsorships - CNCF
-
-.left-column-equal[
-**Funding Sponsors**
-- First: **15** *Platinum*
-- Second: **25** *Gold*
-- Third: **607** *Silver*
-]
-.right-column-equal[
-**Other Sponsors**
-- Academic: **4**
-- Community: **24**
-- End User: **86**
-]
-
-.bottomnote[book value (USD) 39M]
-
-???
-CNCF, which is a division of the Linux Foundation shows a couple of interesting differences.  First, the sheer number of organizations listed as sponsoring: over 700 total.  Plus, the presumed book value of those sponsorships: 39M (down from 42M just about a year ago).  Note that various funding sponsors may well have different agreements, and also that other sponsors here likely have very little financial expectations vs. corporate sponsors.
-Level changes across all tracked foundations (same sponsor, same foundation, moving between paid levels): downgrades outnumbered upgrades in 2023 (20 down vs 12 up), 2025 (30 vs 22) and 2026 so far (24 vs 20); upgrades led every year 2019-2022. At CNCF itself it is roughly even: 37 downgrades vs 35 upgrades over the whole history.
-
----
-template: logorb
-# Sponsorships - Linux Foundation
-
-.left-column-equal[
-**Funding Sponsors**
-- First: **13** *Platinum*
-- Second: **11** *Gold*
-- Third: **1,686** *Silver*
-- Fourth: **717** *Associate*
-]
-
-.bottomnote[book value (USD) ~41M · Oct 2026]
-
-???
-The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.  Overall LF sponsor numbers and funding numbers have gone up in the past year: Sept 2025 was 12/13/1,392/553 (book value ~35M); Oct 7 2026 is 13/11/1,686/717.
-Book value at list prices: 13x500K + 11x100K + 1,686x20K = ~41.3M. Silver is a sliding scale by company size (20K is the top), so this overstates Silver; Associate members pay nothing.
-See the appendix slide for the history since 2020: the top tiers shrank while Silver and Associate grew.
-Also note that the total book value is an approximation: it's clear that there are sponsorship discounts when companies sponsor multiple LF subfoundations.  It's also clear that many software companies sponsor multiple LF subfoundations.
-
----
-template: fullheader
-name: comeandgo
-# Sponsors Come and Go
-
-NEW: what changed over time
 
 ---
 template: logorb
@@ -623,59 +580,43 @@ name: squeeze
 
 ???
 Retention = of the sponsors listed on July 1 last year, what share is still listed at the same foundation this July 1.
+Disclaimer: this is a small random subset of foundations, but does show a trend.
+
 Left: Apache, Debian (via SPI), FreeBSD, Gentoo, Haskell, LLVM, NumFOCUS, OSGeo, Python SF, Software Freedom Conservancy. Right: ASWF, CD Foundation, FINOS, GraphQL, Hyperledger, LF AI & Data, LF Energy, Open Mainframe, OpenSSF.
 US c3s: 90% (2023) to 66% (2024) and 69% (2025), recovering to 78% so far in 2026. Python SF's list is volatile; without it the c3 dip is still 90% to 75%.
 LF programs: 82-89% every year. CNCF alone fell to 73% in 2024, so this is not entirely "LF is immune".
 Excluded: non-US foundations, CNCF and the LF umbrella list (they mix members and landscape entries), OpenStack and Eclipse (page scope changes), OWASP (list reset in Nov 2023).
-Question for the audience: why would the same companies cut standalone charities first?
+Question for the audience: why would the same companies cut standalone charities first?  Also: help needed to beef up this data and look for more trends.
+
+---
+template: fullheader
+name: taxoverview
+# Tracking REAL Money
+
+Analyzing Foundation tax returns (US 990s)
+
+???
+Let's change direction
 
 ---
 template: logorb
-name: short
-# Sponsorships Are Short
+# Foundation Finances 990s
 
-Top three cash levels only, 10 US c3s + 9 LF programs:
+US IRS 990 tax forms capture:
 
-- **347** top-tier sponsors left; median stay **1.4 years**
-- **62%** left within 2 years
-- Current top-tier sponsors: **2.7 years** so far
-- Apache: **24** left, median stay **2.4 years**
-- Only **8** of 347 stepped down a level; the rest left entirely
+- Revenue: contributions, dues, program services
+- Expenses: *program* vs *management* vs *fundraising*
+- Net assets, cash, deferred revenue
+- Employees, volunteers, board
+- Officer pay; top contractors
+- Grants given; related organizations
 
-> Renewals matter as much as new logos
-
-.bottomnote[First, second and third cash levels; excludes in-kind, community and lower tiers]
 
 ???
-US c3s plus Debian: 89 top-tier sponsors left, median 1.8 years. LF programs: 258 left, median 1.4 years (there, "third" is usually the broad general-membership tier).
-Sponsors already present when tracking began are left out of these medians, because we don't know when they started.
-Comparison from general US fundraising (Fundraising Effectiveness Project 2023 data): donors giving under $100 renew at about 31%; major donors at about 66-68%. FOSS corporate sponsors renew at higher rates than that most years, but the ones who leave go quickly.
+With apologies for the US focus here - getting EU finance/tax data at scale takes a lot more effort.  In the US, with many thanks to the [Nonprofit Explorer by ProPublica](https://projects.propublica.org/nonprofits/api).
+NEW this year: ProPublica lags 1-2 years and only extracts ~70 summary fields. FOSS990Parser reads the IRS's own e-file XML directly (GivingTuesday data lake + IRS monthly zips): 398 filings for 65 foundations, 94 of them not yet in ProPublica, including fiscal year 2025.
+CAUTION: FY2025 data is partial. Calendar-year foundations file their 2025 990s from May to November 2026 (with extensions), so most FY2025 numbers in this talk come from early filers and non-calendar fiscal years like the ASF (April) and Conservancy (February). Trends use FY2024 as the last complete year.
 
----
-template: logorb
-name: umbrella
-# Umbrella vs Standalone
-
-Sponsors listed, July 2023 to June 2026:
-
-.left-column-equal[
-**Umbrella**
-- Linux Foundation: **1,580 to 2,112**
-- LF programs retention: **82-89%** a year
-]
-.right-column-equal[
-**Standalone c3s**
-- Apache: **78 to 55**
-- Python SF: **79 to 71**
-- NumFOCUS: **28 to 19**
-]
-
-> Is corporate money consolidating into umbrella foundations?
-
-???
-The LF list counts members (many companies join the LF at Silver to join a sub-foundation), so it is not directly comparable to a c3 sponsor list - but the direction is clear.
-Possible reasons to discuss: membership in a c6 trade association reads as a business expense with governance seats; c3 sponsorship reads as charity and gets cut first in a budget squeeze.
-Research tie-in: Izquierdo and Cabot (2018) describe foundations as different kinds of legal and organizational shells; this is one place the difference shows up in money.
 ---
 template: logorb
 # Nonprofit Types (US focus)
@@ -683,6 +624,7 @@ template: logorb
 .left-column-equal[
 **501(c)(3)**
 - Charitable Organization
+- *Public Benefit Organization*
 - Tax-deductible for donors
 - Restrictions on activities
 - *Files IRS form **990** yearly*
@@ -698,30 +640,10 @@ template: logorb
 .bottomnote[How do we map EU charities to this?]
 
 ???
+So let's change focus to real money, and track tax data of foundations.
 
 - [IRS 501(c)(3) definition](https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations): Charitable organizations
 - [IRS 501(c)(6) definition](https://www.irs.gov/charities-non-profits/other-non-profits/requirements-for-exemption-business-league): Business leagues
-
----
-template: logorb
-# Foundation Finances 990s
-
-US IRS 990 tax forms capture:
-
-- Revenue: contributions, dues, program services
-- Expenses: *program* vs *management* vs *fundraising*
-- Net assets, cash, deferred revenue
-- Employees, volunteers, board
-- Officer pay; top contractors
-- Grants given; related organizations
-
-.bottomnote[NEW: IRS e-file XML through FY2025 via github.com/Punderthings/foss990parser]
-
-???
-
-With apologies for the US focus here - I haven't had time to figure out how to get EU finance data at scale.  In the US, with many thanks to the [Nonprofit Explorer by ProPublica](https://projects.propublica.org/nonprofits/api).
-NEW this year: ProPublica lags 1-2 years and only extracts ~70 summary fields. FOSS990Parser reads the IRS's own e-file XML directly (GivingTuesday data lake + IRS monthly zips): 398 filings for 65 foundations, 94 of them not yet in ProPublica, including fiscal year 2025.
-CAUTION: FY2025 data is partial. Calendar-year foundations file their 2025 990s from May to November 2026 (with extensions), so most FY2025 numbers in this talk come from early filers and non-calendar fiscal years like the ASF (April) and Conservancy (February). Trends use FY2024 as the last complete year.
 
 ---
 template: logorb
@@ -798,13 +720,14 @@ template: logorb
 
 ???
 Recall that the Linux Foundation is the parent to two or three hundred foundations, like the CNCF, in case you're thinking something's missing here.  They are directed funds inside the LF's single 990, so they have no separate tax filings.
-Note: OSGeo and OpenJS file as 501(c)(4) organizations.
+Note: OSGeo and OpenJS file as 501(c)(4) organizations, which are slightly different than 501(c)(6)s.
 
 ---
 template: fullheader
 # Foundation Finances
 
 Let's explore some 501(c)(3) finances!
+*Public Benefit Organizations*
 
 ---
 template: logorb
@@ -866,11 +789,10 @@ template: logorb
 
 ???
 Fiscal year 2024 (the latest year nearly all foundations have filed). Last year's deck showed FY2023: 2.6M average revenue and 1.9M average net assets for the smaller c3s.
-Revenue is up a little, but net assets are down - next slide.
 
 ---
 template: logorb
-# Spending More Than They Raise
+# Spending More Since 2023
 
 <img src="img/c3-panel-rev-exp-2026.png" style="width: 95%" />
 
@@ -956,32 +878,6 @@ New this year: the full IRS e-file data lets us look past top-line revenue - int
 
 ---
 template: logorb
-# Contributions, per the IRS
-
-.left-column-equal[
-**Linux Foundation, 2024**
-- Total revenue: **221M**
-- "Contributions": **6.6M**
-- Project & event fees: **149M**
-- Training: **29M**
-- Membership dues: **20M**
-]
-.right-column-equal[
-**Other c6 examples**
-- OpenInfra: dues **4.2M** booked as *contributions*
-- Open Compute: conferences **14M** of 19M
-- Rust Foundation: dues **2.1M** of 5.3M
-]
-
-.bottomnote[IRS 990 Part VIII line 2: program service revenue by type]
-
-???
-"Contributions" on a 990 means what IRS tax law says it means (Part VIII line 1: gifts, grants, membership dues treated as gifts), not the everyday sense of "all the money people give us". Program service revenue (line 2) is money earned by doing the mission: https://www.irs.gov/instructions/i990#en_US_2025_publink11283jd0e10859
-c6 trade associations book most corporate money as "program service revenue", not contributions - and they don't all book it the same way.
-So comparing "contributions" across c3s and c6s is apples to oranges. The detail lines in the e-file data fix that.
-
----
-template: logorb
 # How Foundations Spend
 
 | Foundation | Expenses | Program | Staff | Volunteers |
@@ -996,6 +892,8 @@ template: logorb
 .bottomnote[IRS 990 Part IX functional expenses; Part I staff and volunteer counts as reported]
 
 ???
+IMPORTANT: These are high level accounting definitions from IRS 990 forms - so be sure to understand what's being reported.
+
 Program percentage = program services share of total functional expenses (vs management and fundraising).
 IRS definition of the program services column (Form 990 Part IX, column B): https://www.irs.gov/instructions/i990#en_US_2025_publink11283jd0e12386 (2025 instructions; the anchor changes with each year's edition).
 501(c)(6)s like the LF and Rust aren't required to split expenses this way, so they're not shown.
@@ -1028,6 +926,7 @@ template: logorb
 The ASF reports 4 employees but no salary expense: staff work is paid through contractors (990 Part VII-B), and every officer and board member is unpaid.
 Deferred revenue of 1.2M is mostly sponsorship paid in advance.
 A small operating deficit this year, against healthy reserves of about 1.8 years of expenses.
+IMPORTANT: Note that the ASF's has a large in-kind infrastructure donation budget, which is not reflected here (i.e. cloud credits, hosting, CDNs that are provided directly)
 
 ---
 template: logorb
@@ -1054,24 +953,7 @@ template: logorb
 
 ???
 A rough resilience measure; years = NET assets / expenses, while the small italic figure is TOTAL assets (before liabilities). CAUTION: mixes FY2024 and FY2025 filings, depending on what each foundation has filed so far; FY2025 is partial. Note that net assets include restricted funds - for fiscal sponsors like NumFOCUS and Conservancy, much of that money belongs to specific projects.
-
----
-template: logorb
-# Who Pays Maintainers?
-
-- **60%** of maintainers are unpaid *(Tidelift 2024)*
-- Of paid maintainers, only **3%** are paid by foundations
-- **25,885** GitHub projects ask for donations, but no clear evidence donations raise project activity *(Overney et al., ICSE 2020)*
-- Schedule I grants by FOSS foundations are small:
-  - Python SF: **0.38M** (2024); Rust: **0.16M** (2025)
-  - Big grantmakers: Wikimedia, Mozilla, LF Charities
-
-> Foundations mostly fund the *platform*, not the *people*
-
-???
-Overney, Meinicke, Kästner, Vasilescu: "How to Not Get Rich: An Empirical Study of Donations in Open Source", ICSE 2020. Donations are often requested for engineering work, but are used in many different ways.
-Fiscal sponsors (NumFOCUS, Conservancy, SPI) spend on behalf of their projects as program expenses, which is different from grants.
-Top contractor lists show where foundation money does reach individual engineers and sysadmins.
+IMPORTANT: Note again, this does not include ASF's in-kind infrastructure services donations, which are a separate critical support need for us.
 
 ---
 template: logorb
@@ -1090,6 +972,7 @@ name: renew
 ???
 Call to action built on the squeeze and the short tenure numbers: most sponsors who leave do so within two years, and few step down a level - they just stop.
 If you are inside a sponsoring company, the most useful thing may be making sure the renewal happens.
+
 ---
 template: thanks
 name: closingslide
@@ -1161,6 +1044,29 @@ https://medium.com/@stephenrwalli/there-is-still-no-open-source-business-model-8
 
 ---
 template: logorb
+name: publicmoney
+# *Some* Public Money is Out There
+
+| Funder | Amount | Reach |
+|---|---|---|
+| EU Next Generation Internet | **€140M** (2019-2024) | 1,200+ projects |
+| Sovereign Tech Fund (DE) | **€23.5M** since 2022 | ~€19M/yr agency budget |
+| Prototype Fund (DE) | **€12.3M** | 293 projects |
+| STF: Log4j | €596K (2023) | one project |
+| STF: PHP Foundation | €205K (2023-24) | one foundation |
+
+.bottomnote[Osborne et al. 2024, arXiv 2411.06027]
+
+???
+Osborne, Sharratt, Foster & Boehm, "A Toolkit for Measuring the Impacts of Public Funding on Open Source Software Development", arXiv 2411.06027, 2024.
+Public funding is now real money, but mostly goes directly to projects and maintainers, not to foundations; the PHP Foundation grant is the notable exception.
+Prototype Fund: over half of funded projects struggled to secure follow-up funding afterwards - the same "what happens after the grant" problem foundations face.
+NGI uses cascade funding: 20% to intermediaries, 80% to third parties; an additional €32M is allocated for 2024-2027.
+Compare scale: the ~$66M total net assets of 40 US c3 FOSS foundations (slide on net asset sums).
+TODO: validate and clarify messages on this slide.
+
+---
+template: logorb
 name: appendix-lf-members
 # Linux Foundation Member Changes
 
@@ -1174,3 +1080,165 @@ Counts are members listed on July 1 each year (2026 = June 1), from 80 versions 
 Platinum: 16 (2020) to 12 (2026). Gold peaked at 19 in 2022 and is now 11. Silver more than doubled (619 to 1,463) and Associate grew eightfold (77 to 626).
 Many companies join the LF at Silver because a sub-foundation membership requires it, so Silver growth tracks the growth of LF projects as much as interest in the LF itself.
 Latest (Oct 7 2026): 13 Platinum, 11 Gold, 1,686 Silver, 717 Associate.
+TODO: validate and clarify messages on this slide.
+
+---
+template: logorb
+# Sponsorships - NumFOCUS
+
+.left-column-equal[
+**Funding Sponsors**
+- First: **3** *Principal*
+- Second: **7** *Sustaining*
+- Third: **3** *Contributing*
+]
+.right-column-equal[
+**Other Sponsors**
+- Community: **8**
+- *Grants:* **3**
+]
+
+.bottomnote[book values (USD): Cash ~0.7M (Sept 2026); grants ?]
+
+???
+NumFOCUS has a smaller set of projects and a different focus, but otherwise is a c3 like the ASF that provides various project services.  Here we see a notably smaller number of sponsoring organizations.  Book value at list prices: 3x100K + 7x50K + 3x10K + 8x1K community = ~0.69M, from the Sept 10 2026 capture of numfocus.org/sponsors. A year earlier (Sept 2025) it was 5/8/3 and ~0.94M; the drop is two fewer Principal sponsors. The value is likely low overall, because their grant programs aren't assigned specific values.  Anyone know if they publicly disclose those levels of finances?
+
+---
+template: logorb
+# Sponsorships - CNCF
+
+.left-column-equal[
+**Funding Sponsors**
+- First: **15** *Platinum*
+- Second: **25** *Gold*
+- Third: **607** *Silver*
+]
+.right-column-equal[
+**Other Sponsors**
+- Academic: **4**
+- Community: **24**
+- End User: **86**
+]
+
+.bottomnote[book value (USD) 39M]
+
+???
+CNCF, which is a division of the Linux Foundation shows a couple of interesting differences.  First, the sheer number of organizations listed as sponsoring: over 700 total.  Plus, the presumed book value of those sponsorships: 39M (down from 42M just about a year ago).  Note that various funding sponsors may well have different agreements, and also that other sponsors here likely have very little financial expectations vs. corporate sponsors.
+Level changes across all tracked foundations (same sponsor, same foundation, moving between paid levels): downgrades outnumbered upgrades in 2023 (20 down vs 12 up), 2025 (30 vs 22) and 2026 so far (24 vs 20); upgrades led every year 2019-2022. At CNCF itself it is roughly even: 37 downgrades vs 35 upgrades over the whole history.
+
+---
+template: logorb
+# Sponsorships - Linux Foundation
+
+.left-column-equal[
+**Funding Sponsors**
+- First: **13** *Platinum*
+- Second: **11** *Gold*
+- Third: **1,686** *Silver*
+- Fourth: **717** *Associate*
+]
+
+.bottomnote[book value (USD) ~41M · Oct 2026]
+
+???
+The thing I find most surprising at looking at the LF's sponsorship list is that number on the third silver level - well over one thousand companies sponsor the LF at the silver level.  This is partly because many of the LF's sub foundations each require an LF silver membership.  Overall LF sponsor numbers and funding numbers have gone up in the past year: Sept 2025 was 12/13/1,392/553 (book value ~35M); Oct 7 2026 is 13/11/1,686/717.
+Book value at list prices: 13x500K + 11x100K + 1,686x20K = ~41.3M. Silver is a sliding scale by company size (20K is the top), so this overstates Silver; Associate members pay nothing.
+See the appendix slide for the history since 2020: the top tiers shrank while Silver and Associate grew.
+Also note that the total book value is an approximation: it's clear that there are sponsorship discounts when companies sponsor multiple LF subfoundations.  It's also clear that many software companies sponsor multiple LF subfoundations.
+
+---
+template: logorb
+name: umbrella
+# Umbrella vs Standalone
+
+Sponsors listed, July 2023 to June 2026:
+
+.left-column-equal[
+**Linux Foundation**
+- Overall LF Sponsors: **1,580 to 2,112**
+- LF programs retention: **82-89%** a year
+]
+.right-column-equal[
+**Standalone c3s**
+- Total sponsors listed:
+- Apache: **78 to 55**
+- Python SF: **79 to 71**
+- NumFOCUS: **28 to 19**
+]
+
+> Is corporate money consolidating into umbrella foundations?
+
+???
+The LF list counts members (many companies join the LF at Silver to join a sub-foundation), so it is not directly comparable to a c3 sponsor list - but the direction is clear.
+Possible reasons to discuss: membership in a c6 trade association reads as a business expense with governance seats; c3 sponsorship reads as charity and gets cut first in a budget squeeze.
+Research tie-in: Izquierdo and Cabot (2018) describe foundations as different kinds of legal and organizational shells; this is one place the difference shows up in money.
+TODO: validate and review the importance of this question, given timing.
+
+---
+template: logorb
+# Contributions, per the IRS
+
+.left-column-equal[
+**Linux Foundation, 2024**
+- Total revenue: **221M**
+- "Contributions": **6.6M**
+- Project & event fees: **149M**
+- Training: **29M**
+- Membership dues: **20M**
+]
+.right-column-equal[
+**Other c6 examples**
+- OpenInfra: dues **4.2M** booked as *contributions*
+- Open Compute: conferences **14M** of 19M
+- Rust Foundation: dues **2.1M** of 5.3M
+]
+
+.bottomnote[IRS 990 Part VIII line 2: program service revenue by type]
+
+???
+"Contributions" on a 990 means what IRS tax law says it means (Part VIII line 1: gifts, grants, membership dues treated as gifts), not the everyday sense of "all the money people give us". Program service revenue (line 2) is money earned by doing the mission: https://www.irs.gov/instructions/i990#en_US_2025_publink11283jd0e10859
+c6 trade associations book most corporate money as "program service revenue", not contributions - and they don't all book it the same way.
+So comparing "contributions" across c3s and c6s is apples to oranges. The detail lines in the e-file data fix that.
+TODO: This is a deep dive slide for future use.
+
+---
+template: logorb
+# Who Pays Maintainers?
+
+- **60%** of maintainers are unpaid *(Tidelift 2024)*
+- Of paid maintainers, only **3%** are paid by foundations
+- **25,885** GitHub projects ask for donations, but no clear evidence donations raise project activity *(Overney et al., ICSE 2020)*
+- Schedule I grants by FOSS foundations are small:
+  - Python SF: **0.38M** (2024); Rust: **0.16M** (2025)
+  - Big grantmakers: Wikimedia, Mozilla, LF Charities
+
+> Foundations mostly fund the *platform*, not the *people*
+
+???
+Overney, Meinicke, Kästner, Vasilescu: "How to Not Get Rich: An Empirical Study of Donations in Open Source", ICSE 2020. Donations are often requested for engineering work, but are used in many different ways.
+Fiscal sponsors (NumFOCUS, Conservancy, SPI) spend on behalf of their projects as program expenses, which is different from grants.
+Top contractor lists show where foundation money does reach individual engineers and sysadmins.
+TODO: This is more about individual funding, not foundations.
+
+---
+template: logorb
+name: doesmoneyhelp
+# Does Money Help?
+
+- **Public money:** Sovereign Tech Fund contracts raised activity in 4 funded projects (PyPI, curl, Fortran, RubyGems)
+  - **+144%** commits, **+176%** merged changes
+  - but **no** growth in the number of contributors
+- **GitHub Sponsors:** being listed raises review and maintenance work, not new code
+  - only **half** of listed developers actually got sponsored
+  - **5.5** sponsors for every sponsored developer
+
+> Money buys more work from the people already there
+
+.bottomnote[Domenech Burin 2026 · Medappa et al. · Hiltz & Ghaleb 2026]
+
+???
+Domenech Burin, "Measuring the Invisible: Evaluating the Impact of Public Funding on Open Source Software", arXiv 2607.05413, 2026 (Sovereign Tech Agency). Difference-in-differences on 12 funded repositories vs 62 controls. Significant effects on commits, merged and new change requests, and new issues (+249%); no significant effect on contributors, releases or closed issues. The author reads this as funding mobilizing existing contributors rather than growing the community.
+Medappa, Tunc & Li, "Sponsorship Funding in Open-Source Software: Incentivize or Crowd-Out Motivations to Create, Maintain and Share?", SSRN 4484403. Being listed for GitHub Sponsors increases pull-request reviews (maintenance) but not pull requests (new code), and slightly reduces Stack Overflow activity; only half of listed contributors were actually sponsored.
+Hiltz & Ghaleb, "Mapping GitHub Sponsorships: A Longitudinal Observatory for Open-Source Sustainability", FSE Companion 2026: 49,148 sponsorable users as of March 2026; 40,549 sponsor others but only 7,343 receive sponsorship.
+Tie back to foundations: foundation money mostly pays for the platform (infra, events, legal), which is exactly the part these direct-funding studies don't touch.
+TODO: this is more about individual funding and the effect of funding; future research needed too.

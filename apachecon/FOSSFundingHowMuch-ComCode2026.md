@@ -473,6 +473,8 @@ name: loyalcore
 .bottomnote[Thank you! Long-term sponsors are the foundation of a stable budget]
 
 ???
+Note: Google announcement on being one of the ASF's first sponsors, and having 20 consecutive years of sponsorship!
+
 A thank-you slide, and the tenure point: most sponsors that leave do so within two years, but there is a core that has stayed for 8+ years.
 "Since 2018 or earlier" because in-kind tiers were first listed separately in 2018; cash sponsors are tracked from January 2016.
 Full in-kind list: DLA Piper, Microsoft, Sonatype (first level); Atlassian, Datadog, phoenixNAP (second); Google, Hopsie, No-IP, PagerDuty, PCCC, Sonic, SURF, Virtru (fourth).
@@ -602,6 +604,36 @@ Analyzing Foundation tax returns (US 990s)
 
 ???
 Let's change direction
+
+---
+template: logorb
+# Two Ways to Count Money
+
+.left-column-equal[
+**Sponsorship Models**
+
+- Listed sponsors × level price
+- What a program *should* bring in
+- Snapshot of a sponsor page
+- Includes in-kind at list price
+- Per *program* (for LF projects)
+]
+.right-column-equal[
+**IRS 990 tax returns**
+- Audited-style accounting
+- What a foundation *did* bring in
+- One fiscal year
+- In-kind support mostly not shown
+- Per US *legal entity*
+]
+
+.bottomnote[Sponsorship is "contributions" for c3, but "program service revenue" for c6]
+
+???
+While we're still counting dollars, these are slightly different dollars.
+Sponsorships are estimated incomes from published sponsor lists and prospectuses - but we know some programs have discounts or the like.
+990 data is submitted to the IRS, so it should be exact; however it uses the IRS definitions of "contributions" or "program service revenue".
+Detailed 990 data shows how c3 public benefit organizations typically rely on "contributions" (i.e. donations), but c6 business leagues often rely on program services: running events, certification/training programs, or formal corporate Memberships.
 
 ---
 template: logorb
@@ -1023,7 +1055,6 @@ template: logorb
 - Open Source Sustainability
   - [Aspects of sustainability](https://fosssustainability.com/aspects/)
   - [FOSS Sustainability Zotero library](https://www.zotero.org/groups/5030713/foss-sustainability/library)
-  - [Defining FOSS Project Health](https://fosssustainability.com/health)
 - [Reviewing funding models](https://fossfunding.com/#how-are-individual-projects-or-maintainers-funded)
   - Patreon and crowdfunding
   - Bountysource pays for specific work
@@ -1045,8 +1076,6 @@ template: logorb
 - Sustainable contribution model.
 - Model for broad innovation.
 - **NOT** a [Business model](https://medium.com/@stephenrwalli/there-is-still-no-open-source-business-model-8748738faa43).
-
-## What does "Open Source Sustainability" mean to you?
 
 ???
 Yes, this is a trick question.
@@ -1078,7 +1107,7 @@ TODO: validate and clarify messages on this slide.
 ---
 template: logorb
 name: appendix-lf-members
-# Linux Foundation Member Changes
+# Linux Foundation Member History
 
 <img src="img/lf-levels-history-2026.png" style="width: 78%" />
 
@@ -1161,42 +1190,13 @@ Also note that the total book value is an approximation: it's clear that there a
 
 ---
 template: logorb
-name: umbrella
-# Umbrella vs Standalone
-
-Sponsors listed, July 2023 to June 2026:
-
-.left-column-equal[
-**Linux Foundation**
-
-- Overall LF Sponsors: **1,580 to 2,112**
-- LF programs retention: **82-89%** a year
-]
-.right-column-equal[
-**Standalone c3s**
-- Total sponsors listed:
-- Apache: **78 to 55**
-- Python SF: **79 to 71**
-- NumFOCUS: **28 to 19**
-]
-
-> Is corporate money consolidating into umbrella foundations?
-
-???
-The LF list counts members (many companies join the LF at Silver to join a sub-foundation), so it is not directly comparable to a c3 sponsor list - but the direction is clear.
-Possible reasons to discuss: membership in a c6 trade association reads as a business expense with governance seats; c3 sponsorship reads as charity and gets cut first in a budget squeeze.
-Research tie-in: Izquierdo and Cabot (2018) describe foundations as different kinds of legal and organizational shells; this is one place the difference shows up in money.
-TODO: validate and review the importance of this question, given timing.
-
----
-template: logorb
 # Contributions, per the IRS
 
 .left-column-equal[
 **Linux Foundation, 2024**
 
 - Total revenue: **221M**
-- "Contributions": **6.6M**
+- Contributions: **6.6M**
 - Project & event fees: **149M**
 - Training: **29M**
 - Membership dues: **20M**
@@ -1215,45 +1215,3 @@ template: logorb
 c6 trade associations book most corporate money as "program service revenue", not contributions - and they don't all book it the same way.
 So comparing "contributions" across c3s and c6s is apples to oranges. The detail lines in the e-file data fix that.
 TODO: This is a deep dive slide for future use.
-
----
-template: logorb
-# Who Pays Maintainers?
-
-- **60%** of maintainers are unpaid *(Tidelift 2024)*
-- Of paid maintainers, only **3%** are paid by foundations
-- **25,885** GitHub projects ask for donations, but no clear evidence donations raise project activity *(Overney et al., ICSE 2020)*
-- Schedule I grants by FOSS foundations are small:
-  - Python SF: **0.38M** (2024); Rust: **0.16M** (2025)
-  - Big grantmakers: Wikimedia, Mozilla, LF Charities
-
-> Foundations mostly fund the *platform*, not the *people*
-
-???
-Overney, Meinicke, Kästner, Vasilescu: "How to Not Get Rich: An Empirical Study of Donations in Open Source", ICSE 2020. Donations are often requested for engineering work, but are used in many different ways.
-Fiscal sponsors (NumFOCUS, Conservancy, SPI) spend on behalf of their projects as program expenses, which is different from grants.
-Top contractor lists show where foundation money does reach individual engineers and sysadmins.
-TODO: This is more about individual funding, not foundations.
-
----
-template: logorb
-name: doesmoneyhelp
-# Does Money Help?
-
-- **Public money:** Sovereign Tech Fund contracts raised activity in 4 funded projects (PyPI, curl, Fortran, RubyGems)
-  - **+144%** commits, **+176%** merged changes
-  - but **no** growth in the number of contributors
-- **GitHub Sponsors:** being listed raises review and maintenance work, not new code
-  - only **half** of listed developers actually got sponsored
-  - **5.5** sponsors for every sponsored developer
-
-> Money buys more work from the people already there
-
-.bottomnote[Domenech Burin 2026 · Medappa et al. · Hiltz & Ghaleb 2026]
-
-???
-Domenech Burin, "Measuring the Invisible: Evaluating the Impact of Public Funding on Open Source Software", arXiv 2607.05413, 2026 (Sovereign Tech Agency). Difference-in-differences on 12 funded repositories vs 62 controls. Significant effects on commits, merged and new change requests, and new issues (+249%); no significant effect on contributors, releases or closed issues. The author reads this as funding mobilizing existing contributors rather than growing the community.
-Medappa, Tunc & Li, "Sponsorship Funding in Open-Source Software: Incentivize or Crowd-Out Motivations to Create, Maintain and Share?", SSRN 4484403. Being listed for GitHub Sponsors increases pull-request reviews (maintenance) but not pull requests (new code), and slightly reduces Stack Overflow activity; only half of listed contributors were actually sponsored.
-Hiltz & Ghaleb, "Mapping GitHub Sponsorships: A Longitudinal Observatory for Open-Source Sustainability", FSE Companion 2026: 49,148 sponsorable users as of March 2026; 40,549 sponsor others but only 7,343 receive sponsorship.
-Tie back to foundations: foundation money mostly pays for the platform (infra, events, legal), which is exactly the part these direct-funding studies don't touch.
-TODO: this is more about individual funding and the effect of funding; future research needed too.

@@ -75,14 +75,16 @@ name: topics
 
 ???
 Topics:
+
 - Fiscal sustainability - all the different ways projects might get funded
 - Modeling sponsorship models of major foundations
 - Comparative US Foundation revenue and asset data
 - NEW this year: IRS e-file data expanded and historical trends
 
-**SPACEBAR**
+Press **SPACEBAR**
 
 --
+
 - *Finding better **questions** to ask*
 
 ???
@@ -151,7 +153,7 @@ template: logorb
 
 ???
 STORY: Maintainers keep seeing companies with OSPOs or FOSS Funds talking about funding open source projects - but few see the actual money, and certainly not enough to make a living.
-How do we explain the vast value companies get from the entire dependency chain (not just their direct dependencies)?  How do we help maintainers look for funding?  And which maintainers *need* the funding?  Many maintainers work for big software companies already.
+For companies without OSPOs, how do you show the value of FOSS to their leadership (i.e. those with budgets)?  How do we help maintainers look for funding?  And which maintainers *need* the funding?  Many maintainers work for big software companies already; and who a maintainer works for is opaque to others.
 
 ---
 template: logorb
@@ -232,7 +234,7 @@ OK, Shane, you've shown us all the complexity, how about answering the question?
 template: fosdem
 
 ???
-Just to give you an overview of the complexity of just the "how do we get money there" let's just ask: how can you *actually* transfer funds?  There are many, many different ways, making this a complex topic (so: ask better questions!). 
+Just to give you an overview of the complexity of just the "how do we get money there" let's just ask: how can you *actually* transfer funds?  There are many, many different ways, making this a complex topic (so: ask better questions!).
 
 This is an excellent holistic overview of how funding typically gets to open source contributors, foundations, and more.  From [Kara Deloss' excellent talk at FOSDEM 2024](https://fosdem.org/2024/schedule/event/fosdem-2024-2751-the-state-of-funding-free-open-source-software/).
 
@@ -303,6 +305,7 @@ template: logorb
 # Sponsorship Program Dataset
 
 .left-column-equal-vsm[
+
 - Adélie Linux
 - Arch Linux
 - ArduPilot
@@ -354,6 +357,7 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
+
 - First: **8** *Platinum*
 - Second: **6** *Gold*
 - Third: **8** *Silver*
@@ -371,9 +375,7 @@ template: logorb
 
 ???
 
-
 We can see a good mix of sponsor levels; in-kind (targeted) sponsorship is nearly as large as cash.  These calculations of "book values" are done by multiplying the number of listed sponsors at each level, times the "price" of that sponsorship level in the prospectus; they are only approximations.
-
 
 Data note: counts are from the Oct 1 2026 Internet Archive capture of apache.org/foundation/sponsors. A year ago (Sept 2025) it was 10/9/5/9 cash: the drop at Platinum and Gold is mostly companies moving down a level (Yahoo to Silver, IBM to Silver) plus Geico leaving.
 Book value at list prices: 8x125K + 6x50K + 8x25K + 11x6K = ~1.57M cash; in-kind ~1.75M. Cash is now below in-kind.
@@ -384,6 +386,7 @@ template: logorb
 
 .left-column-equal-sm[
 **First Level Cash Sponsors**
+
 - Amazon + *In-Kind*
 - Apple
 - Google
@@ -454,6 +457,7 @@ name: loyalcore
 
 .left-column-equal[
 **Cash**
+
 - Google, Meta *(Platinum)*
 - Bloomberg, Union Investment *(Gold)*
 - Capital One, Red Hat *(Silver)*
@@ -481,7 +485,7 @@ template: logorb
 - Accounting: IRS 990 contributions + program revenue
 
 | Foundation | Model (cash) | 990 (latest) | Ratio |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Apache** (FY Apr 2025) | 2.05M | 2.08M | **0.99** |
 | OpenInfra (2024) | 4.95M | 4.26M | 1.16 |
 | Python (2024) | 1.93M | 4.03M | 0.48 |
@@ -501,6 +505,7 @@ template: logorb
 
 .left-column-equal[
 **Foundations sponsored (out of 39)**
+
 - Google: **18**
 - Microsoft: **16**
 - Red Hat: **14**
@@ -549,7 +554,7 @@ Comparison from general US fundraising (Fundraising Effectiveness Project 2023 d
 ---
 template: logorb
 name: sneezes
-# When a Sponsor Sneezes...
+# When a Sponsor Sneezes
 
 Departures since 2023, across the foundations we track:
 
@@ -611,7 +616,6 @@ US IRS 990 tax forms capture:
 - Officer pay; top contractors
 - Grants given; related organizations
 
-
 ???
 With apologies for the US focus here - getting EU finance/tax data at scale takes a lot more effort.  In the US, with many thanks to the [Nonprofit Explorer by ProPublica](https://projects.propublica.org/nonprofits/api).
 NEW this year: ProPublica lags 1-2 years and only extracts ~70 summary fields. FOSS990Parser reads the IRS's own e-file XML directly (GivingTuesday data lake + IRS monthly zips): 398 filings for 65 foundations, 94 of them not yet in ProPublica, including fiscal year 2025.
@@ -623,6 +627,7 @@ template: logorb
 
 .left-column-equal[
 **501(c)(3)**
+
 - Charitable Organization
 - *Public Benefit Organization*
 - Tax-deductible for donors
@@ -650,6 +655,7 @@ template: logorb
 # Finance Data - 501(c)(3)
 
 .left-column-equal-vsm[
+
 - **Electronic Frontier Foundation**
 - **Signal Technology Foundation**
 - Creative Commons Corporation
@@ -700,6 +706,7 @@ template: logorb
 # Finance Data - 501(c)(6)
 
 .left-column-equal[
+
 - **Linux Foundation**
 - AlmaLinux OS Foundation
 - Bytecode Alliance
@@ -772,7 +779,8 @@ template: logorb
 
 .left-column-equal[
 **Average Revenues**
-- All 44 tracked c3 orgs: 
+
+- All 44 tracked c3 orgs:
   - 9.2M USD
 - **Not** including Mozilla, Wikimedia, EFF, Signal:
   - 3.1M USD
@@ -881,7 +889,7 @@ template: logorb
 # How Foundations Spend
 
 | Foundation | Expenses | Program | Staff | Volunteers |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Apache** (FY Apr 2025) | 2.3M | 87% | 4 | 8,200 |
 | NumFOCUS (2024) | 11.1M | 94% | 25 | 383 |
 | Conservancy (FY Feb 2025) | 3.8M | 78% | 8 | 5,000 |
@@ -905,6 +913,7 @@ template: logorb
 
 .left-column-equal[
 **FY ending April 2025**
+
 - Revenue: **2.22M**
 - Expenses: **2.33M**
 - Net assets: **4.21M** *(~1.8 years)*
@@ -934,6 +943,7 @@ template: logorb
 
 .left-column-equal[
 **Net assets ÷ annual expenses**
+
 - GNOME: **3.2** <span style="font-size:0.65em"><i>$3.2M</i></span>
 - SPI: **2.7** <span style="font-size:0.65em"><i>$2.6M</i></span>
 - Apache: **1.8** <span style="font-size:0.65em"><i>$5.5M</i></span>
@@ -997,7 +1007,7 @@ Open Source Sustainability research
 name: last-page
 template: thanks
 
-## Thank You &amp; Questions!
+## Thank You &amp; Questions
 
 ## [@shanecurcuru@fosstodon.org](https://fosstodon.org/@shanecurcuru)
 .code[https://shaneslides.com]
@@ -1048,7 +1058,7 @@ name: publicmoney
 # *Some* Public Money is Out There
 
 | Funder | Amount | Reach |
-|---|---|---|
+| --- | --- | --- |
 | EU Next Generation Internet | **€140M** (2019-2024) | 1,200+ projects |
 | Sovereign Tech Fund (DE) | **€23.5M** since 2022 | ~€19M/yr agency budget |
 | Prototype Fund (DE) | **€12.3M** | 293 projects |
@@ -1088,6 +1098,7 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
+
 - First: **3** *Principal*
 - Second: **7** *Sustaining*
 - Third: **3** *Contributing*
@@ -1109,6 +1120,7 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
+
 - First: **15** *Platinum*
 - Second: **25** *Gold*
 - Third: **607** *Silver*
@@ -1132,6 +1144,7 @@ template: logorb
 
 .left-column-equal[
 **Funding Sponsors**
+
 - First: **13** *Platinum*
 - Second: **11** *Gold*
 - Third: **1,686** *Silver*
@@ -1155,6 +1168,7 @@ Sponsors listed, July 2023 to June 2026:
 
 .left-column-equal[
 **Linux Foundation**
+
 - Overall LF Sponsors: **1,580 to 2,112**
 - LF programs retention: **82-89%** a year
 ]
@@ -1180,6 +1194,7 @@ template: logorb
 
 .left-column-equal[
 **Linux Foundation, 2024**
+
 - Total revenue: **221M**
 - "Contributions": **6.6M**
 - Project & event fees: **149M**
